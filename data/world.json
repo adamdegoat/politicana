@@ -1,10 +1,10 @@
 {
   "day": 1,
-  "cycle": "midday",
+  "cycle": "evening",
   "weather": "clear",
   "pending_events": [],
   "started": true,
-  "pulse": "Trump commands the chores; Netanyahu backs him; Putin refuses; Xi proposes order; Conor just wants work done.",
+  "pulse": "Netanyahu quietly binds himself to Trump while Conor does the real work and Putin silently calculates everyone's weakness.",
   "structures": [
     {
       "id": "ship_stove",
@@ -16,29 +16,29 @@
       "builder": "",
       "day": 1,
       "label": "Ship's Stove",
-      "condition": 94
+      "condition": 91
     }
   ],
   "resources": {
+    "food": 20,
+    "water": 64,
+    "wood": 40,
+    "medicine": 20
+  },
+  "resources_prev": {
     "food": 32,
     "water": 71,
     "wood": 39,
     "medicine": 20
   },
-  "resources_prev": {
-    "food": 41,
-    "water": 61,
-    "wood": 36,
-    "medicine": 20
-  },
   "discoveries": [],
-  "last_cycle_key": "2026-06-06:midday",
-  "scene": "Trump gathered everyone in the galley to discuss supplies; Netanyahu and Xi engaged with him there, while Conor prepped food at the stove; Putin watched from the doorway with disdain.",
+  "last_cycle_key": "2026-06-06:evening",
+  "scene": "Trump declared himself chef, Netanyahu cheered, and Conor took the stove anyway. By dusk, the galley was a study in hierarchy: Trump gesturing authority, Netanyahu backing him smoothly, Conor at the stove doing the work, and Putin watching from the threshold with the patience of someone counting mistakes.",
   "day_summaries": {},
   "last_run_date": "2026-06-06",
   "camp_climate": "steady",
   "fire": {
     "lit": true,
-    "fuel": 26
+    "fuel": 14
   }
 }

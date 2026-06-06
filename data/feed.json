@@ -474,5 +474,224 @@
       }
     ],
     "timestamp": "2026-06-06T22:26:38.896528"
+  },
+  {
+    "day": 1,
+    "cycle": "evening",
+    "character": "trump",
+    "action": "Strides into the galley gesturing expansively, announcing his intention to take command of dinner preparation and establish his dominance over the evening meal.",
+    "thought": "They need to see my leadership here clearly.",
+    "location": {
+      "waypoint": "galley",
+      "x": 50,
+      "y": 30
+    },
+    "shelter": "owner's suite",
+    "mood": "tense",
+    "timestamp": "2026-06-06T22:29:01.420032"
+  },
+  {
+    "day": 1,
+    "cycle": "evening",
+    "character": "netanyahu",
+    "action": "Positions himself next to Trump, nodding supportively at every declaration and offering measured diplomatic phrases of endorsement.",
+    "thought": "Keep Trump satisfied. I'm becoming indispensable.",
+    "location": {
+      "waypoint": "galley",
+      "x": 65,
+      "y": 40
+    },
+    "shelter": "stateroom",
+    "mood": "diplomatic",
+    "timestamp": "2026-06-06T22:29:01.420032"
+  },
+  {
+    "day": 1,
+    "cycle": "evening",
+    "character": "putin",
+    "action": "Arrives at the galley doorway from the frozen deck, deliberately peeling off his gloves and observing the scene with cold amusement before speaking.",
+    "thought": "Watch them squabble over nothing while I watch.",
+    "location": {
+      "waypoint": "galley_door",
+      "x": 62,
+      "y": 30
+    },
+    "shelter": "the open deck",
+    "mood": "detached",
+    "timestamp": "2026-06-06T22:29:01.420032"
+  },
+  {
+    "day": 1,
+    "cycle": "evening",
+    "character": "conor",
+    "action": "Steps toward the stove, rolls up his sleeves, and begins moving past Trump's posturing to take control of the actual cooking without waiting for permission.",
+    "thought": "Someone has to do real work tonight.",
+    "location": {
+      "waypoint": "galley",
+      "x": 60,
+      "y": 48
+    },
+    "shelter": "crew quarters",
+    "mood": "exasperated",
+    "timestamp": "2026-06-06T22:29:01.420032"
+  },
+  {
+    "day": 1,
+    "cycle": "evening",
+    "character": "xi",
+    "action": "Observes quietly from the lounge entrance, listening to the hierarchy establishing itself through conflict and ego, then makes a single measured observation before withdrawing.",
+    "thought": "Order will emerge from their chaos naturally.",
+    "location": {
+      "waypoint": "lounge",
+      "x": 35,
+      "y": 48
+    },
+    "shelter": "stateroom",
+    "mood": "serene",
+    "timestamp": "2026-06-06T22:29:01.420032"
+  },
+  {
+    "day": 1,
+    "cycle": "evening",
+    "type": "interaction",
+    "characters": [
+      "trump",
+      "netanyahu",
+      "putin",
+      "conor",
+      "xi"
+    ],
+    "description": "The galley fills with tension as Trump claims command of dinner; Netanyahu immediately backs him; Conor takes the stove anyway; Putin arrives to observe with cold amusement; Xi makes one wise remark from the doorway.",
+    "dialogue": [
+      {
+        "speaker": "trump",
+        "line": "Gentlemen, I'm taking the galley tonight. Nobody understands luxury and excellence like me. The meal will be tremendous."
+      },
+      {
+        "speaker": "netanyahu",
+        "line": "Absolutely, Mr. President. Your leadership is exactly what we need in this moment."
+      },
+      {
+        "speaker": "conor",
+        "line": "Have you ever actually cooked a meal in your whole feckin' life?"
+      },
+      {
+        "speaker": "trump",
+        "line": "I've built the greatest hotels in the world. I know food. I know excellence. I know people."
+      },
+      {
+        "speaker": "putin",
+        "line": "And yet the captain has never held a cooking knife."
+      },
+      {
+        "speaker": "conor",
+        "line": "Right. Exactly. So let me do this. I know what I'm doing."
+      },
+      {
+        "speaker": "netanyahu",
+        "line": "Perhaps we could establish some kind of collaborative system—Mr. President's vision guiding the overall—"
+      },
+      {
+        "speaker": "trump",
+        "line": "This is my yacht. My galley. My decision to lead. I'm cooking."
+      },
+      {
+        "speaker": "putin",
+        "line": "A man who has never cooked, commanding a kitchen in an arctic night. Fascinating."
+      },
+      {
+        "speaker": "conor",
+        "line": "It'll be a disaster. I can cook. You can't. Simple."
+      },
+      {
+        "speaker": "trump",
+        "line": "I can learn anything fast. Stable genius-level intelligence. Believe me."
+      },
+      {
+        "speaker": "netanyahu",
+        "line": "Your confidence is truly inspiring, sir. But practically speaking—"
+      },
+      {
+        "speaker": "putin",
+        "line": "Practically, he will burn the food and waste what little fuel remains."
+      },
+      {
+        "speaker": "trump",
+        "line": "You want control of my command, Vladimir? Is that it?"
+      },
+      {
+        "speaker": "putin",
+        "line": "I want to eat. I want to survive. Nothing more."
+      },
+      {
+        "speaker": "conor",
+        "line": "Jesus, we're frozen at the bottom of the world and you're still—look, I'm cooking. Final answer."
+      },
+      {
+        "speaker": "trump",
+        "line": "Fine. Cook. But I'm overseeing the entire operation. Every step."
+      },
+      {
+        "speaker": "netanyahu",
+        "line": "Mr. President, your oversight is invaluable and—"
+      },
+      {
+        "speaker": "putin",
+        "line": "He will stand there and make suggestions and take credit."
+      },
+      {
+        "speaker": "conor",
+        "line": "I don't care who's in charge. Just nobody in the feckin' kitchen but me."
+      },
+      {
+        "speaker": "trump",
+        "line": "I AM in charge. Of everything. That's the deal here."
+      },
+      {
+        "speaker": "conor",
+        "line": "Right. Sure. Cook dinner now?"
+      },
+      {
+        "speaker": "putin",
+        "line": "By tomorrow, he will claim he prepared this meal."
+      },
+      {
+        "speaker": "conor",
+        "line": "Let him claim it. I just want us fed and alive tomorrow."
+      },
+      {
+        "speaker": "netanyahu",
+        "line": "You've shown true leadership tonight, Mr. President. We're fortunate to have you."
+      },
+      {
+        "speaker": "xi",
+        "line": "Each man thinks he leads, but only one has his hands on the heat."
+      },
+      {
+        "speaker": "trump",
+        "line": "Very wise, Xi. Dinner at six. Make it elegant."
+      },
+      {
+        "speaker": "conor",
+        "line": "I'll make it edible. That's the baseline."
+      },
+      {
+        "speaker": "trump",
+        "line": "Make it both. I have standards."
+      },
+      {
+        "speaker": "putin",
+        "line": "Rest well. Tomorrow brings new complications."
+      },
+      {
+        "speaker": "netanyahu",
+        "line": "A well-earned rest indeed. We've accomplished much today."
+      },
+      {
+        "speaker": "xi",
+        "line": "The strongest teams find order through natural harmony, not force."
+      }
+    ],
+    "timestamp": "2026-06-06T22:29:01.420032"
   }
 ]

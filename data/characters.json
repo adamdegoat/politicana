@@ -5,17 +5,17 @@
     "archetype": "the self-declared captain",
     "color": "#f59e0b",
     "scores": {
-      "trust": 29,
+      "trust": 28,
       "openness": 71,
-      "ambition": 97,
-      "loneliness": 26,
-      "resilience": 71,
+      "ambition": 99,
+      "loneliness": 23,
+      "resilience": 72,
       "hunger": 53,
-      "thirst": 48,
-      "energy": 50,
+      "thirst": 53,
+      "energy": 44,
       "health": 100
     },
-    "mood": "bombastic",
+    "mood": "tense",
     "location": {
       "waypoint": "galley",
       "x": 50,
@@ -26,7 +26,7 @@
     "relationships": {
       "putin": {
         "closeness": 42,
-        "tension": 34,
+        "tension": 36,
         "attraction": 0
       },
       "xi": {
@@ -35,22 +35,28 @@
         "attraction": 0
       },
       "netanyahu": {
-        "closeness": 56,
-        "tension": 15,
+        "closeness": 58,
+        "tension": 14,
         "attraction": 0
       },
       "conor": {
         "closeness": 46,
-        "tension": 23,
+        "tension": 25,
         "attraction": 0
       }
     },
     "bio": "Declared himself captain within ninety seconds of running aground. Wants to rename the yacht and bill the ocean for the damage. Everything is the best or the worst, never in between.",
     "interaction": {
       "with": "netanyahu",
-      "state": "talking"
+      "state": "sitting_together"
     },
-    "memories": []
+    "memories": [
+      {
+        "day": 1,
+        "text": "Netanyahu backed my judgment perfectly tonight. I'm clearly the captain.",
+        "weight": 1
+      }
+    ]
   },
   "putin": {
     "name": "Vladimir Putin",
@@ -58,17 +64,17 @@
     "archetype": "the cold operator",
     "color": "#94a3b8",
     "scores": {
-      "trust": 9,
+      "trust": 8,
       "openness": 15,
-      "ambition": 91,
-      "loneliness": 41,
-      "resilience": 97,
+      "ambition": 92,
+      "loneliness": 39,
+      "resilience": 98,
       "hunger": 53,
-      "thirst": 48,
-      "energy": 52,
+      "thirst": 53,
+      "energy": 46,
       "health": 100
     },
-    "mood": "impassive",
+    "mood": "detached",
     "location": {
       "waypoint": "galley_door",
       "x": 62,
@@ -79,7 +85,7 @@
     "relationships": {
       "trump": {
         "closeness": 42,
-        "tension": 34,
+        "tension": 36,
         "attraction": 0
       },
       "xi": {
@@ -93,7 +99,7 @@
         "attraction": 0
       },
       "conor": {
-        "closeness": 36,
+        "closeness": 37,
         "tension": 25,
         "attraction": 0
       }
@@ -101,9 +107,15 @@
     "bio": "Unbothered by the cold — strips to the waist on the frozen deck to prove a point. Says little, trusts no one, and is quietly relocating the last of the fuel.",
     "interaction": {
       "with": "trump",
-      "state": "back_to_back"
+      "state": "talking"
     },
-    "memories": []
+    "memories": [
+      {
+        "day": 1,
+        "text": "McGregor and I quietly aligned against Trump's incompetence tonight.",
+        "weight": 2
+      }
+    ]
   },
   "xi": {
     "name": "Xi Jinping",
@@ -114,16 +126,16 @@
       "trust": 25,
       "openness": 20,
       "ambition": 89,
-      "loneliness": 31,
-      "resilience": 91,
+      "loneliness": 29,
+      "resilience": 92,
       "hunger": 53,
-      "thirst": 48,
-      "energy": 52,
+      "thirst": 53,
+      "energy": 46,
       "health": 100
     },
-    "mood": "inscrutable",
+    "mood": "serene",
     "location": {
-      "waypoint": "galley",
+      "waypoint": "lounge",
       "x": 35,
       "y": 48
     },
@@ -152,11 +164,14 @@
       }
     },
     "bio": "Calm, measured, speaks in proverbs. Drew up a five-year plan for the lifeboat by lunch on day one. Says least, maneuvers most.",
-    "interaction": {
-      "with": "trump",
-      "state": "talking"
-    },
-    "memories": []
+    "interaction": null,
+    "memories": [
+      {
+        "day": 1,
+        "text": "Order emerges from chaos. Watch them organize by natural hierarchy.",
+        "weight": 1
+      }
+    ]
   },
   "netanyahu": {
     "name": "Benjamin Netanyahu",
@@ -164,17 +179,17 @@
     "archetype": "the survivor",
     "color": "#3b82f6",
     "scores": {
-      "trust": 30,
+      "trust": 31,
       "openness": 52,
-      "ambition": 85,
-      "loneliness": 30,
-      "resilience": 89,
+      "ambition": 86,
+      "loneliness": 27,
+      "resilience": 90,
       "hunger": 53,
-      "thirst": 48,
-      "energy": 50,
+      "thirst": 53,
+      "energy": 44,
       "health": 100
     },
-    "mood": "calculating",
+    "mood": "diplomatic",
     "location": {
       "waypoint": "galley",
       "x": 65,
@@ -184,8 +199,8 @@
     "condition": "healthy",
     "relationships": {
       "trump": {
-        "closeness": 56,
-        "tension": 15,
+        "closeness": 58,
+        "tension": 14,
         "attraction": 0
       },
       "putin": {
@@ -207,9 +222,15 @@
     "bio": "The ultimate political survivor — smooth, speechy, security-obsessed. Wants to fortify the deck and gives press conferences to the circling seagulls.",
     "interaction": {
       "with": "trump",
-      "state": "talking"
+      "state": "sitting_together"
     },
-    "memories": []
+    "memories": [
+      {
+        "day": 1,
+        "text": "Trump trusted my support instantly. I'm positioning myself as absolutely essential.",
+        "weight": 2
+      }
+    ]
   },
   "conor": {
     "name": "Conor McGregor",
@@ -218,16 +239,16 @@
     "color": "#22c55e",
     "scores": {
       "trust": 46,
-      "openness": 80,
-      "ambition": 75,
-      "loneliness": 21,
-      "resilience": 87,
+      "openness": 82,
+      "ambition": 74,
+      "loneliness": 19,
+      "resilience": 88,
       "hunger": 53,
-      "thirst": 48,
-      "energy": 54,
+      "thirst": 53,
+      "energy": 48,
       "health": 100
     },
-    "mood": "cocky",
+    "mood": "exasperated",
     "location": {
       "waypoint": "galley",
       "x": 60,
@@ -238,11 +259,11 @@
     "relationships": {
       "trump": {
         "closeness": 46,
-        "tension": 23,
+        "tension": 25,
         "attraction": 0
       },
       "putin": {
-        "closeness": 36,
+        "closeness": 37,
         "tension": 25,
         "attraction": 0
       },
@@ -260,8 +281,14 @@
     "bio": "The only one who'll actually fish, haul, or fight the cold. Zero respect for 'the suits', mocks them all, stirs trouble — and somehow keeps the camp alive.",
     "interaction": {
       "with": "trump",
-      "state": "talking"
+      "state": "back_to_back"
     },
-    "memories": []
+    "memories": [
+      {
+        "day": 1,
+        "text": "I took the stove work; Trump needed to save face. Smart.",
+        "weight": 2
+      }
+    ]
   }
 }
