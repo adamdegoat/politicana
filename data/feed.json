@@ -245,5 +245,230 @@
       }
     ],
     "timestamp": "2026-06-06T23:09:17.835565"
+  },
+  {
+    "day": 1,
+    "cycle": "midday",
+    "character": "trump",
+    "action": "Descends from the bridge with his written schedule, determined to establish meal protocols in the galley.",
+    "thought": "I'm in control here. They'll see it.",
+    "location": {
+      "waypoint": "galley",
+      "x": 50,
+      "y": 30
+    },
+    "shelter": "owner's suite",
+    "mood": "imperious",
+    "timestamp": "2026-06-06T23:12:14.161124"
+  },
+  {
+    "day": 1,
+    "cycle": "midday",
+    "character": "putin",
+    "action": "Strips his heavy coat on the frozen deck, hauling split wood from the railings with methodical efficiency.",
+    "thought": "I'll let him talk. The ice waits.",
+    "location": {
+      "waypoint": "deck_rail",
+      "x": 80,
+      "y": 40
+    },
+    "shelter": "the open deck",
+    "mood": "impassive",
+    "timestamp": "2026-06-06T23:12:14.161124"
+  },
+  {
+    "day": 1,
+    "cycle": "midday",
+    "character": "xi",
+    "action": "Sits quietly in the lounge reviewing the ship's manifest, noting who works and who merely talks.",
+    "thought": "I observe. The cold will teach them.",
+    "location": {
+      "waypoint": "lounge_couch",
+      "x": 35,
+      "y": 48
+    },
+    "shelter": "stateroom",
+    "mood": "inscrutable",
+    "timestamp": "2026-06-06T23:12:14.161124"
+  },
+  {
+    "day": 1,
+    "cycle": "midday",
+    "character": "netanyahu",
+    "action": "Stands by the stove managing rations, balancing McGregor's exhaustion against Donald's protocols with practiced ease.",
+    "thought": "If I keep them fed, maybe they'll listen.",
+    "location": {
+      "waypoint": "galley",
+      "x": 65,
+      "y": 40
+    },
+    "shelter": "stateroom",
+    "mood": "calculating",
+    "timestamp": "2026-06-06T23:12:14.161124"
+  },
+  {
+    "day": 1,
+    "cycle": "midday",
+    "character": "conor",
+    "action": "Stumbles back to the yacht soaking wet and shaking, heading straight for the stove and hot food.",
+    "thought": "I work. They talk. That's all that matters.",
+    "location": {
+      "waypoint": "galley",
+      "x": 20,
+      "y": 62
+    },
+    "shelter": "crew quarters",
+    "mood": "frustrated",
+    "timestamp": "2026-06-06T23:12:14.161124"
+  },
+  {
+    "day": 1,
+    "cycle": "midday",
+    "type": "interaction",
+    "characters": [
+      "trump",
+      "netanyahu",
+      "conor"
+    ],
+    "description": "Midday in the galley: McGregor returns soaked from the ice demanding food while Donald insists on his schedule, and Bibi mediates with chowder and practicality.",
+    "dialogue": [
+      {
+        "speaker": "trump",
+        "line": "Everyone needs to hear the revised daily schedule. I've planned—"
+      },
+      {
+        "speaker": "netanyahu",
+        "line": "In a moment. McGregor's just come back. He's been working since dawn."
+      },
+      {
+        "speaker": "conor",
+        "line": "Working and freezing. Is there food, or are we rationing hope?"
+      },
+      {
+        "speaker": "trump",
+        "line": "Of course there's food! I'm establishing a system for designated meals—"
+      },
+      {
+        "speaker": "conor",
+        "line": "Designated times? There's no time out there, just ice and nothing biting."
+      },
+      {
+        "speaker": "netanyahu",
+        "line": "He's right, Donald. Let him eat something warm. Then we'll talk schedules."
+      },
+      {
+        "speaker": "trump",
+        "line": "I'm not trying to starve him! I'm creating order! Without structure, chaos wins!"
+      },
+      {
+        "speaker": "conor",
+        "line": "We're already in chaos. You're just adding talking to it."
+      },
+      {
+        "speaker": "netanyahu",
+        "line": "Sit by the stove. I'll bring you something warm."
+      },
+      {
+        "speaker": "trump",
+        "line": "Yes! But everyone sits in their assigned seats! I've numbered the stools—"
+      },
+      {
+        "speaker": "conor",
+        "line": "Jesus."
+      },
+      {
+        "speaker": "netanyahu",
+        "line": "Donald, does it matter where we sit?"
+      },
+      {
+        "speaker": "trump",
+        "line": "It matters for dignity! For respect! For—"
+      },
+      {
+        "speaker": "conor",
+        "line": "Putin's probably gathering fuel instead of listening to this mess."
+      },
+      {
+        "speaker": "trump",
+        "line": "Exactly! He's supposed to FOLLOW my orders—wait, how do you know he's gathering fuel?"
+      },
+      {
+        "speaker": "conor",
+        "line": "Saw him on deck pulling wood off railings. Didn't ask permission from anyone."
+      },
+      {
+        "speaker": "trump",
+        "line": "He NEEDS to ask permission! He's undermining—"
+      },
+      {
+        "speaker": "netanyahu",
+        "line": "He's helping us survive. We need that wood."
+      },
+      {
+        "speaker": "trump",
+        "line": "I know we need wood! I DELEGATED the gathering to—"
+      },
+      {
+        "speaker": "conor",
+        "line": "What is he in charge of, exactly?"
+      },
+      {
+        "speaker": "netanyahu",
+        "line": "Right now? Lunch."
+      },
+      {
+        "speaker": "trump",
+        "line": "I'm not 'in charge of lunch.' I'm establishing procurement protocols—"
+      },
+      {
+        "speaker": "conor",
+        "line": "Boss, I'm hungry. Can protocol wait until I'm warm?"
+      },
+      {
+        "speaker": "trump",
+        "line": "Fine. Yes. Eat."
+      },
+      {
+        "speaker": "netanyahu",
+        "line": "Here. Fish chowder."
+      },
+      {
+        "speaker": "conor",
+        "line": "Where'd you get fish? I didn't catch anything."
+      },
+      {
+        "speaker": "netanyahu",
+        "line": "Stores. There's more in the hold."
+      },
+      {
+        "speaker": "trump",
+        "line": "See! System working! Food storage equals survival! Obviously planned—"
+      },
+      {
+        "speaker": "conor",
+        "line": "This is actually good."
+      },
+      {
+        "speaker": "trump",
+        "line": "It is? I mean, yes. It's excellent. Who made it?"
+      },
+      {
+        "speaker": "netanyahu",
+        "line": "You did. Three hours ago, before you went to bridge."
+      },
+      {
+        "speaker": "trump",
+        "line": "I did? Well, obviously. Tremendous. Truly tremendous."
+      },
+      {
+        "speaker": "conor",
+        "line": "Can he hear himself?"
+      },
+      {
+        "speaker": "netanyahu",
+        "line": "No. It helps."
+      }
+    ],
+    "timestamp": "2026-06-06T23:12:14.161124"
   }
 ]

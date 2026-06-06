@@ -1,10 +1,10 @@
 {
   "day": 1,
-  "cycle": "morning",
+  "cycle": "midday",
   "weather": "clear",
   "pending_events": [],
   "started": true,
-  "pulse": "Donald crowned himself captain at breakfast. Vladimir quietly refused. Bibi offered rotation. By mid-morning, five men and one stove began their cold arithmetic.",
+  "pulse": "Donald tries to be captain; McGregor proves work matters more than titles; Bibi feeds both; Vladimir collects power in silence.",
   "structures": [
     {
       "id": "ship_stove",
@@ -16,29 +16,29 @@
       "builder": "",
       "day": 1,
       "label": "Ship's Stove",
-      "condition": 97
+      "condition": 94
     }
   ],
   "resources": {
+    "food": 34,
+    "water": 65,
+    "wood": 41,
+    "medicine": 20
+  },
+  "resources_prev": {
     "food": 45,
     "water": 56,
     "wood": 39,
     "medicine": 20
   },
-  "resources_prev": {
-    "food": 40,
-    "water": 45,
-    "wood": 35,
-    "medicine": 20
-  },
   "discoveries": [],
-  "last_cycle_key": "2026-06-06:morning",
-  "scene": "In the galley at dawn, Donald declared himself captain; Vladimir answered that the cold, not Donald, was the only authority aboard. By mid-morning, all five scattered: McGregor to the ice to fish alone, Vladimir back to the frozen deck, Jinping to his lounge, and Bibi scribbling the rules nobody yet agreed to.",
+  "last_cycle_key": "2026-06-06:midday",
+  "scene": "In the galley at midday, Donald's schedule clashed with McGregor's hunger and Bibi's practicality. By afternoon Donald was brooding on the bridge, Vladimir gathering fuel on the frozen deck, Jinping quietly observing in the lounge, McGregor warming by the stove.",
   "day_summaries": {},
   "last_run_date": "2026-06-06",
   "camp_climate": "steady",
   "fire": {
     "lit": true,
-    "fuel": 38
+    "fuel": 26
   }
 }

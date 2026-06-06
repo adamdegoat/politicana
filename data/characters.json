@@ -5,19 +5,19 @@
     "archetype": "the self-declared captain",
     "color": "#f59e0b",
     "scores": {
-      "trust": 29,
+      "trust": 28,
       "openness": 72,
       "ambition": 96,
-      "loneliness": 28,
+      "loneliness": 27,
       "resilience": 70,
-      "hunger": 54,
-      "thirst": 56,
-      "energy": 64,
+      "hunger": 53,
+      "thirst": 48,
+      "energy": 58,
       "health": 100
     },
-    "mood": "bombastic",
+    "mood": "imperious",
     "location": {
-      "waypoint": "captains_chair",
+      "waypoint": "galley",
       "x": 50,
       "y": 30
     },
@@ -26,7 +26,7 @@
     "relationships": {
       "putin": {
         "closeness": 42,
-        "tension": 35,
+        "tension": 36,
         "attraction": 0
       },
       "xi": {
@@ -36,21 +36,29 @@
       },
       "netanyahu": {
         "closeness": 56,
-        "tension": 15,
+        "tension": 16,
         "attraction": 0
       },
       "conor": {
-        "closeness": 45,
-        "tension": 23,
+        "closeness": 44,
+        "tension": 25,
         "attraction": 0
       }
     },
     "bio": "Declared himself captain within ninety seconds of running aground. Wants to rename the yacht and bill the ocean for the damage. Everything is the best or the worst, never in between.",
-    "interaction": null,
+    "interaction": {
+      "with": "netanyahu",
+      "state": "talking"
+    },
     "memories": [
       {
         "day": 1,
         "text": "Vladimir refuses to acknowledge my authority. He won't accept it.",
+        "weight": 2
+      },
+      {
+        "day": 1,
+        "text": "McGregor laughed at my orders. Vladimir doesn't acknowledge me.",
         "weight": 2
       }
     ],
@@ -65,11 +73,11 @@
       "trust": 10,
       "openness": 15,
       "ambition": 90,
-      "loneliness": 38,
+      "loneliness": 41,
       "resilience": 97,
-      "hunger": 54,
-      "thirst": 56,
-      "energy": 64,
+      "hunger": 53,
+      "thirst": 48,
+      "energy": 58,
       "health": 100
     },
     "mood": "impassive",
@@ -83,11 +91,11 @@
     "relationships": {
       "trump": {
         "closeness": 42,
-        "tension": 35,
+        "tension": 36,
         "attraction": 0
       },
       "xi": {
-        "closeness": 50,
+        "closeness": 51,
         "tension": 25,
         "attraction": 0
       },
@@ -97,7 +105,7 @@
         "attraction": 0
       },
       "conor": {
-        "closeness": 36,
+        "closeness": 38,
         "tension": 25,
         "attraction": 0
       }
@@ -122,11 +130,11 @@
       "trust": 25,
       "openness": 20,
       "ambition": 88,
-      "loneliness": 28,
+      "loneliness": 31,
       "resilience": 90,
-      "hunger": 54,
-      "thirst": 56,
-      "energy": 64,
+      "hunger": 53,
+      "thirst": 48,
+      "energy": 58,
       "health": 100
     },
     "mood": "inscrutable",
@@ -144,7 +152,7 @@
         "attraction": 0
       },
       "putin": {
-        "closeness": 50,
+        "closeness": 51,
         "tension": 25,
         "attraction": 0
       },
@@ -176,14 +184,14 @@
     "archetype": "the survivor",
     "color": "#3b82f6",
     "scores": {
-      "trust": 30,
-      "openness": 51,
+      "trust": 29,
+      "openness": 52,
       "ambition": 85,
-      "loneliness": 33,
+      "loneliness": 31,
       "resilience": 88,
-      "hunger": 54,
-      "thirst": 56,
-      "energy": 64,
+      "hunger": 53,
+      "thirst": 48,
+      "energy": 58,
       "health": 100
     },
     "mood": "calculating",
@@ -197,7 +205,7 @@
     "relationships": {
       "trump": {
         "closeness": 56,
-        "tension": 15,
+        "tension": 16,
         "attraction": 0
       },
       "putin": {
@@ -211,17 +219,25 @@
         "attraction": 0
       },
       "conor": {
-        "closeness": 25,
+        "closeness": 26,
         "tension": 25,
         "attraction": 0
       }
     },
     "bio": "The ultimate political survivor — smooth, speechy, security-obsessed. Wants to fortify the deck and gives press conferences to the circling seagulls.",
-    "interaction": null,
+    "interaction": {
+      "with": "conor",
+      "state": "helping"
+    },
     "memories": [
       {
         "day": 1,
         "text": "Donald and Vladimir clashing already. I'll have to mediate.",
+        "weight": 2
+      },
+      {
+        "day": 1,
+        "text": "Fed them when they fought. That's all the power I have.",
         "weight": 2
       }
     ],
@@ -235,17 +251,17 @@
     "scores": {
       "trust": 45,
       "openness": 80,
-      "ambition": 75,
-      "loneliness": 23,
-      "resilience": 87,
-      "hunger": 54,
-      "thirst": 56,
-      "energy": 64,
+      "ambition": 76,
+      "loneliness": 21,
+      "resilience": 88,
+      "hunger": 53,
+      "thirst": 48,
+      "energy": 58,
       "health": 100
     },
-    "mood": "cocky",
+    "mood": "frustrated",
     "location": {
-      "waypoint": "fishing_hole",
+      "waypoint": "galley",
       "x": 20,
       "y": 62
     },
@@ -253,12 +269,12 @@
     "condition": "healthy",
     "relationships": {
       "trump": {
-        "closeness": 45,
-        "tension": 23,
+        "closeness": 44,
+        "tension": 25,
         "attraction": 0
       },
       "putin": {
-        "closeness": 36,
+        "closeness": 38,
         "tension": 25,
         "attraction": 0
       },
@@ -268,17 +284,25 @@
         "attraction": 0
       },
       "netanyahu": {
-        "closeness": 25,
+        "closeness": 26,
         "tension": 25,
         "attraction": 0
       }
     },
     "bio": "The only one who'll actually fish, haul, or fight the cold. Zero respect for 'the suits', mocks them all, stirs trouble — and somehow keeps the camp alive.",
-    "interaction": null,
+    "interaction": {
+      "with": "netanyahu",
+      "state": "talking"
+    },
     "memories": [
       {
         "day": 1,
         "text": "None of them know what they're doing. Thank fuck for that.",
+        "weight": 2
+      },
+      {
+        "day": 1,
+        "text": "I froze. They debated rules. I'm the only one who works.",
         "weight": 2
       }
     ],
