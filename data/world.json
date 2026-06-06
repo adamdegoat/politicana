@@ -1,10 +1,10 @@
 {
-  "day": 1,
-  "cycle": "night",
+  "day": 2,
+  "cycle": "morning",
   "weather": "clear",
   "pending_events": [],
   "started": true,
-  "pulse": "Vladimir and McGregor secretly aligned on survival; Donald's captain act crumbled, Bibi's mediation failed, Jinping watched the power shift.",
+  "pulse": "Donald enforces breakfast at eight to solidify captaincy, but Vladimir and McGregor's practical alliance quietly suggests protocol matters less than fuel and fish.",
   "structures": [
     {
       "id": "ship_stove",
@@ -16,31 +16,31 @@
       "builder": "",
       "day": 1,
       "label": "Ship's Stove",
-      "condition": 88
+      "condition": 85
     }
   ],
   "resources": {
+    "food": 1,
+    "water": 62,
+    "wood": 44,
+    "medicine": 20
+  },
+  "resources_prev": {
     "food": 8,
     "water": 71,
     "wood": 43,
     "medicine": 20
   },
-  "resources_prev": {
-    "food": 18,
-    "water": 60,
-    "wood": 43,
-    "medicine": 20
-  },
   "discoveries": [],
-  "last_cycle_key": "2026-06-06:night",
-  "scene": "In the galley, Vladimir and McGregor agreed to run the ship together on survival terms. Donald slept in his suite convinced his authority held; Bibi lay awake sensing his mediation failing; Jinping rested quietly, observing.",
+  "last_cycle_key": "2026-06-07:morning",
+  "scene": "Over breakfast protocol, Donald squared off against Vladimir and McGregor in the galley—ceremony versus survival. Bibi brokered a truce at eight o'clock. Jinping watched from afar, his prediction about the cold coming true already.",
   "day_summaries": {
     "1": "Day 1: Donald appointed himself captain and imposed a six o'clock dinner protocol. Bibi kept the peace with chowder, McGregor did all the real work, Vladimir watched coldly from the deck unimpressed. By nightfall, Vladimir and McGregor had forged a practical alliance, and Donald's authority was already hollow."
   },
-  "last_run_date": "2026-06-06",
-  "camp_climate": "steady",
+  "last_run_date": "2026-06-07",
+  "camp_climate": "content",
   "fire": {
     "lit": true,
-    "fuel": 2
+    "fuel": 8
   }
 }

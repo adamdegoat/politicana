@@ -8,16 +8,16 @@
       "trust": 28,
       "openness": 72,
       "ambition": 100,
-      "loneliness": 28,
+      "loneliness": 26,
       "resilience": 71,
       "hunger": 53,
-      "thirst": 45,
-      "energy": 88,
+      "thirst": 53,
+      "energy": 82,
       "health": 100
     },
     "mood": "triumphant",
     "location": {
-      "waypoint": "captains_chair",
+      "waypoint": "galley",
       "x": 50,
       "y": 30
     },
@@ -25,22 +25,22 @@
     "condition": "healthy",
     "relationships": {
       "putin": {
-        "closeness": 42,
+        "closeness": 43,
         "tension": 37,
         "attraction": 0
       },
       "xi": {
-        "closeness": 20,
-        "tension": 50,
+        "closeness": 22,
+        "tension": 49,
         "attraction": 0
       },
       "netanyahu": {
-        "closeness": 58,
-        "tension": 15,
+        "closeness": 61,
+        "tension": 14,
         "attraction": 0
       },
       "conor": {
-        "closeness": 45,
+        "closeness": 46,
         "tension": 24,
         "attraction": 0
       }
@@ -75,11 +75,11 @@
       "trust": 11,
       "openness": 15,
       "ambition": 91,
-      "loneliness": 42,
+      "loneliness": 40,
       "resilience": 97,
       "hunger": 53,
-      "thirst": 45,
-      "energy": 88,
+      "thirst": 53,
+      "energy": 82,
       "health": 100
     },
     "mood": "impassive",
@@ -92,31 +92,28 @@
     "condition": "healthy",
     "relationships": {
       "trump": {
-        "closeness": 42,
+        "closeness": 43,
         "tension": 37,
         "attraction": 0
       },
       "xi": {
-        "closeness": 51,
-        "tension": 25,
+        "closeness": 53,
+        "tension": 24,
         "attraction": 0
       },
       "netanyahu": {
-        "closeness": 26,
-        "tension": 41,
+        "closeness": 28,
+        "tension": 40,
         "attraction": 0
       },
       "conor": {
-        "closeness": 40,
-        "tension": 24,
+        "closeness": 44,
+        "tension": 23,
         "attraction": 0
       }
     },
     "bio": "Unbothered by the cold — strips to the waist on the frozen deck to prove a point. Says little, trusts no one, and is quietly relocating the last of the fuel.",
-    "interaction": {
-      "with": "conor",
-      "state": "talking"
-    },
+    "interaction": null,
     "memories": [
       {
         "day": 1,
@@ -126,6 +123,11 @@
       {
         "day": 1,
         "text": "McGregor is the only one who truly works. We have aligned.",
+        "weight": 2
+      },
+      {
+        "day": 2,
+        "text": "McGregor defies him openly. Donald's authority is fragile underneath the bravado.",
         "weight": 2
       }
     ],
@@ -140,16 +142,16 @@
       "trust": 25,
       "openness": 20,
       "ambition": 89,
-      "loneliness": 36,
+      "loneliness": 39,
       "resilience": 91,
       "hunger": 53,
-      "thirst": 45,
-      "energy": 88,
+      "thirst": 53,
+      "energy": 82,
       "health": 100
     },
     "mood": "contemplative",
     "location": {
-      "waypoint": "lounge_couch",
+      "waypoint": "stateroom",
       "x": 35,
       "y": 48
     },
@@ -157,23 +159,23 @@
     "condition": "healthy",
     "relationships": {
       "trump": {
-        "closeness": 20,
-        "tension": 50,
+        "closeness": 22,
+        "tension": 49,
         "attraction": 0
       },
       "putin": {
-        "closeness": 51,
-        "tension": 25,
+        "closeness": 53,
+        "tension": 24,
         "attraction": 0
       },
       "netanyahu": {
-        "closeness": 21,
-        "tension": 35,
+        "closeness": 23,
+        "tension": 34,
         "attraction": 0
       },
       "conor": {
-        "closeness": 20,
-        "tension": 30,
+        "closeness": 22,
+        "tension": 29,
         "attraction": 0
       }
     },
@@ -199,19 +201,19 @@
     "archetype": "the survivor",
     "color": "#3b82f6",
     "scores": {
-      "trust": 31,
-      "openness": 52,
+      "trust": 30,
+      "openness": 51,
       "ambition": 84,
-      "loneliness": 32,
+      "loneliness": 30,
       "resilience": 88,
       "hunger": 53,
-      "thirst": 45,
-      "energy": 88,
+      "thirst": 53,
+      "energy": 82,
       "health": 100
     },
     "mood": "anxious",
     "location": {
-      "waypoint": "lounge",
+      "waypoint": "galley",
       "x": 65,
       "y": 40
     },
@@ -219,23 +221,23 @@
     "condition": "healthy",
     "relationships": {
       "trump": {
-        "closeness": 58,
-        "tension": 15,
+        "closeness": 61,
+        "tension": 14,
         "attraction": 0
       },
       "putin": {
-        "closeness": 26,
-        "tension": 41,
+        "closeness": 28,
+        "tension": 40,
         "attraction": 0
       },
       "xi": {
-        "closeness": 21,
-        "tension": 35,
+        "closeness": 23,
+        "tension": 34,
         "attraction": 0
       },
       "conor": {
-        "closeness": 26,
-        "tension": 24,
+        "closeness": 28,
+        "tension": 23,
         "attraction": 0
       }
     },
@@ -261,6 +263,11 @@
         "day": 1,
         "text": "Fed them but their alliance is breaking apart beyond me.",
         "weight": 2
+      },
+      {
+        "day": 2,
+        "text": "The peace held for breakfast. But I feel it cracking. How long?",
+        "weight": 2
       }
     ],
     "callname": "Bibi"
@@ -273,15 +280,15 @@
     "scores": {
       "trust": 48,
       "openness": 81,
-      "ambition": 74,
-      "loneliness": 14,
+      "ambition": 75,
+      "loneliness": 12,
       "resilience": 89,
       "hunger": 53,
-      "thirst": 45,
-      "energy": 88,
+      "thirst": 53,
+      "energy": 82,
       "health": 100
     },
-    "mood": "satisfied",
+    "mood": "focused",
     "location": {
       "waypoint": "galley",
       "x": 20,
@@ -291,31 +298,28 @@
     "condition": "healthy",
     "relationships": {
       "trump": {
-        "closeness": 45,
+        "closeness": 46,
         "tension": 24,
         "attraction": 0
       },
       "putin": {
-        "closeness": 40,
-        "tension": 24,
+        "closeness": 44,
+        "tension": 23,
         "attraction": 0
       },
       "xi": {
-        "closeness": 20,
-        "tension": 30,
+        "closeness": 22,
+        "tension": 29,
         "attraction": 0
       },
       "netanyahu": {
-        "closeness": 26,
-        "tension": 24,
+        "closeness": 28,
+        "tension": 23,
         "attraction": 0
       }
     },
     "bio": "The only one who'll actually fish, haul, or fight the cold. Zero respect for 'the suits', mocks them all, stirs trouble — and somehow keeps the camp alive.",
-    "interaction": {
-      "with": "putin",
-      "state": "talking"
-    },
+    "interaction": null,
     "memories": [
       {
         "day": 1,
@@ -335,6 +339,11 @@
       {
         "day": 1,
         "text": "Vladimir sees what needs doing. No bullshit, just survival.",
+        "weight": 2
+      },
+      {
+        "day": 2,
+        "text": "Vladimir understands what matters—work, fuel, staying alive. He's the real leader.",
         "weight": 2
       }
     ],

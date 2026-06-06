@@ -1,1 +1,25 @@
-{}
+{
+  "world": "politicana",
+  "poll": {
+    "id": "2026-06-07",
+    "question": "Which way should Politicana tilt tomorrow?",
+    "closes": "tonight",
+    "options": [
+      {
+        "id": "ambition",
+        "label": "Ambition",
+        "desc": "nudge someone to make a bold grab for control"
+      },
+      {
+        "id": "paranoia",
+        "label": "Paranoia",
+        "desc": "let suspicion, hoarding and plotting take hold"
+      },
+      {
+        "id": "alliance",
+        "label": "Alliance",
+        "desc": "let two of them forge an unlikely pact"
+      }
+    ]
+  }
+}

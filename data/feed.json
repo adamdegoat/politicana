@@ -831,5 +831,235 @@
       }
     ],
     "timestamp": "2026-06-06T23:18:04.438187"
+  },
+  {
+    "day": 2,
+    "cycle": "morning",
+    "character": "trump",
+    "action": "Wakes in the owner's suite and strides toward the galley, determined to cement yesterday's dinner victory with a formal breakfast protocol.",
+    "thought": "They accepted it. The authority is taking root.",
+    "location": {
+      "waypoint": "galley",
+      "x": 50,
+      "y": 30
+    },
+    "shelter": "owner's suite",
+    "mood": "triumphant",
+    "timestamp": "2026-06-07T07:02:41.792358"
+  },
+  {
+    "day": 2,
+    "cycle": "morning",
+    "character": "putin",
+    "action": "Stands silently by the stove at first light, assessing the fuel level and the night's consumption, listening to nothing and everything.",
+    "thought": "Forty-three units. He will test himself against it.",
+    "location": {
+      "waypoint": "galley",
+      "x": 80,
+      "y": 40
+    },
+    "shelter": "the open deck",
+    "mood": "impassive",
+    "timestamp": "2026-06-07T07:02:41.792358"
+  },
+  {
+    "day": 2,
+    "cycle": "morning",
+    "character": "xi",
+    "action": "Remains in his stateroom, listening to the distant voices from the galley with closed eyes and a slight, knowing expression.",
+    "thought": "The cold will decide this, not the breakfast hour.",
+    "location": {
+      "waypoint": "stateroom",
+      "x": 35,
+      "y": 48
+    },
+    "shelter": "stateroom",
+    "mood": "contemplative",
+    "timestamp": "2026-06-07T07:02:41.792358"
+  },
+  {
+    "day": 2,
+    "cycle": "morning",
+    "character": "netanyahu",
+    "action": "Rises anxiously and moves quickly to the galley, sensing conflict brewing and determined to smooth it before breakfast becomes a battleground.",
+    "thought": "One day the peace lasted. One day.",
+    "location": {
+      "waypoint": "galley",
+      "x": 65,
+      "y": 40
+    },
+    "shelter": "stateroom",
+    "mood": "anxious",
+    "timestamp": "2026-06-07T07:02:41.792358"
+  },
+  {
+    "day": 2,
+    "cycle": "morning",
+    "character": "conor",
+    "action": "Emerges from crew quarters and heads toward the galley, impatient to check on the fishing gear and get to work before the suits waste the morning.",
+    "thought": "They talk while the ice doesn't care.",
+    "location": {
+      "waypoint": "galley",
+      "x": 20,
+      "y": 62
+    },
+    "shelter": "crew quarters",
+    "mood": "focused",
+    "timestamp": "2026-06-07T07:02:41.792358"
+  },
+  {
+    "day": 2,
+    "cycle": "morning",
+    "type": "interaction",
+    "characters": [
+      "trump",
+      "putin",
+      "netanyahu",
+      "conor"
+    ],
+    "description": "Over breakfast protocol, Donald squares off against Vladimir and McGregor in the galley—ceremony versus survival. Bibi arrives desperate to mediate.",
+    "dialogue": [
+      {
+        "speaker": "putin",
+        "line": "We have forty-three units. The stove burns four, maybe five a day."
+      },
+      {
+        "speaker": "conor",
+        "line": "So we burn less, or we fish more. What's the problem?"
+      },
+      {
+        "speaker": "putin",
+        "line": "No problem. Yet. But choices must be made."
+      },
+      {
+        "speaker": "trump",
+        "line": "Gentlemen. Breakfast at eight. Civilized, orderly—maintains morale."
+      },
+      {
+        "speaker": "conor",
+        "line": "Morale? We're rationing fuel in the Arctic."
+      },
+      {
+        "speaker": "trump",
+        "line": "Exactly. Structure keeps minds steady."
+      },
+      {
+        "speaker": "putin",
+        "line": "A hot meal uses fuel. A hot meal also steadies minds."
+      },
+      {
+        "speaker": "conor",
+        "line": "So which is it—breakfast for morale, or breakfast to avoid breaking?"
+      },
+      {
+        "speaker": "netanyahu",
+        "line": "Gentlemen—can we have breakfast AND manage the fuel responsibly?"
+      },
+      {
+        "speaker": "trump",
+        "line": "Bibi understands statesmanship. I will not have chaos."
+      },
+      {
+        "speaker": "conor",
+        "line": "We're not chaos. We're survival."
+      },
+      {
+        "speaker": "netanyahu",
+        "line": "Right. So breakfast at eight is both morale and efficient. One meal, one fire."
+      },
+      {
+        "speaker": "putin",
+        "line": "Efficient is good. But only if the stove has fuel."
+      },
+      {
+        "speaker": "trump",
+        "line": "Which is why I'm establishing breakfast at eight. Predictability. Order."
+      },
+      {
+        "speaker": "conor",
+        "line": "I'll be fishing at seven anyway. I'll eat whenever."
+      },
+      {
+        "speaker": "putin",
+        "line": "Eight or eight-thirty changes nothing for the ice."
+      },
+      {
+        "speaker": "trump",
+        "line": "Dismiss the ice, Vladimir. I'm speaking of human dignity."
+      },
+      {
+        "speaker": "conor",
+        "line": "Dignity doesn't catch fish, mate. Work does."
+      },
+      {
+        "speaker": "netanyahu",
+        "line": "But having a time—a shared meal—that's something we control. That matters."
+      },
+      {
+        "speaker": "putin",
+        "line": "What matters is forty-three units of fuel and zero fish caught yet."
+      },
+      {
+        "speaker": "trump",
+        "line": "I have run businesses with thousands of men. This is elementary."
+      },
+      {
+        "speaker": "conor",
+        "line": "This isn't business. This is staying alive."
+      },
+      {
+        "speaker": "netanyahu",
+        "line": "Can we agree on eight o'clock for breakfast?"
+      },
+      {
+        "speaker": "trump",
+        "line": "Yes. Eight. I'll announce it formally."
+      },
+      {
+        "speaker": "conor",
+        "line": "Announce it how you announced captain? The stove doesn't vote, mate."
+      },
+      {
+        "speaker": "putin",
+        "line": "The stove speaks only through heat. We'll hear it soon enough."
+      },
+      {
+        "speaker": "trump",
+        "line": "The ice bows to strength and vision."
+      },
+      {
+        "speaker": "conor",
+        "line": "The stove is the only vision that matters here."
+      },
+      {
+        "speaker": "netanyahu",
+        "line": "Let's just... have breakfast at eight. Fresh start."
+      },
+      {
+        "speaker": "putin",
+        "line": "Fresh starts freeze quickly in this cold. But eight is fine."
+      },
+      {
+        "speaker": "trump",
+        "line": "Eight o'clock. Sharp. This ship will run on my schedule."
+      },
+      {
+        "speaker": "conor",
+        "line": "This ship will run on ice and fuel, mate. But I'll be there at eight."
+      },
+      {
+        "speaker": "netanyahu",
+        "line": "Good. We're agreed then."
+      },
+      {
+        "speaker": "putin",
+        "line": "For now."
+      },
+      {
+        "speaker": "trump",
+        "line": "For always."
+      }
+    ],
+    "timestamp": "2026-06-07T07:02:41.792358"
   }
 ]
