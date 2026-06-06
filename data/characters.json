@@ -56,7 +56,8 @@
         "text": "Netanyahu backed my judgment perfectly tonight. I'm clearly the captain.",
         "weight": 1
       }
-    ]
+    ],
+    "callname": "Donald"
   },
   "putin": {
     "name": "Vladimir Putin",
@@ -115,7 +116,8 @@
         "text": "McGregor and I quietly aligned against Trump's incompetence tonight.",
         "weight": 2
       }
-    ]
+    ],
+    "callname": "Vladimir"
   },
   "xi": {
     "name": "Xi Jinping",
@@ -171,7 +173,8 @@
         "text": "Order emerges from chaos. Watch them organize by natural hierarchy.",
         "weight": 1
       }
-    ]
+    ],
+    "callname": "Jinping"
   },
   "netanyahu": {
     "name": "Benjamin Netanyahu",
@@ -230,7 +233,8 @@
         "text": "Trump trusted my support instantly. I'm positioning myself as absolutely essential.",
         "weight": 2
       }
-    ]
+    ],
+    "callname": "Bibi"
   },
   "conor": {
     "name": "Conor McGregor",
@@ -289,6 +293,7 @@
         "text": "I took the stove work; Trump needed to save face. Smart.",
         "weight": 2
       }
-    ]
+    ],
+    "callname": "McGregor"
   }
 }

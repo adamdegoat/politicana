@@ -26,6 +26,8 @@
 *{margin:0;padding:0;box-sizing:border-box}
 :root{--above-hud:62px;--stage-bottom:96px}
 html,body{width:100%;height:100%;overflow:hidden;font-family:'Plus Jakarta Sans',sans-serif;background:#020617}
+/* (Mobile turns on overflow-x:auto inside the @media(max-width:768px) block below so the
+   wider-than-screen yacht can be swiped bow→stern; desktop stays overflow:hidden.) */
 /* World renders ABOVE the fixed bottom bars (HUD + collapsed feed drawer) so the
    beach + ocean band are never hidden behind them. --stage-bottom is measured live. */
 #world{position:relative;width:100vw;height:calc(100vh - var(--stage-bottom));overflow:hidden}
@@ -403,11 +405,16 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'Plus Jakarta Sans'
 
 /* ── MOBILE ── */
 @media(max-width:768px){
-  html,body{overflow-x:hidden;overflow-y:hidden}
-  /* Mobile: the world fits the FULL viewport width (no horizontal scroll). The scene is
-     scaled to width so the whole yacht is visible; characters are positioned via the same
-     worldMetrics() transform so feet land on the painted decks. */
-  #world{width:100vw;height:calc(100dvh - var(--stage-bottom))}
+  /* Horizontal pan ON (vertical locked) so the wider-than-screen yacht can be swiped bow→stern.
+     body is the horizontal scroll container (its wide #world child overflows it); the layout
+     JS pans it via scroller()/scrollLeft. html stays clipped so only body scrolls sideways. */
+  html{overflow:hidden;width:100%}
+  body{overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch;overscroll-behavior-x:contain;width:100%;height:100%}
+  /* Mobile: the world is rendered WIDER than the viewport (full yacht at a height-fit scale,
+     width set in px by updateWorld) so the page can be swiped left/right to pan bow→stern.
+     The body is the horizontal scroller (overflow-x:auto above); #world just overflows it.
+     Characters + structures use the same worldMetrics() transform so feet stay on the decks. */
+  #world{height:calc(100dvh - var(--stage-bottom))}
   /* HUD: 3-row layout — cycle strip + timing visible on mobile */
   #status-msg{display:none}
   #hud{padding:5px .75rem 4px;height:auto;flex-wrap:wrap;align-content:flex-start;gap:3px .3rem}
@@ -1642,27 +1649,39 @@ function getWorldWidth() {
   return (w && w.clientWidth) || window.innerWidth
 }
 let mobileScrollInited = false
+// On mobile the BODY is the horizontal scroll container (CSS sets body overflow-x:auto). All
+// pan logic goes through this so art + characters stay locked and the whole yacht is reachable.
+function scroller(){ return document.body }
+function maxScrollX(){ return Math.max(0, getWorldWidth() - window.innerWidth) }
+function setScrollX(x){ const s=scroller(); s.scrollLeft = Math.min(maxScrollX(), Math.max(0, x)) }
+function getScrollX(){ return scroller().scrollLeft }
 
 // ── WAYPOINTS (SVG native coords — feet anchor point) ─────────
+// Each spot maps to where that feature ACTUALLY sits in the scene SVG, so a figure's feet
+// (anchored bottom-centre via translate(-50%,-100%)) rest on the painted surface. The
+// coords are deliberately VARIED in BOTH x and y so the cast spreads naturally over the
+// vessel at different heights — bridge high, sundeck mid-upper, main deck mid, ice down low.
 const WAYPOINTS = {
-  // ── MAIN OPEN DECK (snow-dusted teak, y≈400) — the most "grounded"-looking surface. The
-  //    five starting characters all stand here, in front of the cabin, spread across the
-  //    mobile-visible centre band (sx≈360–650) so none are cropped on a phone and the
-  //    auto-separation never has to throw anyone up off the deck. ──
-  bridge:         {sx:500,sy:318}, captains_chair:{sx:365,sy:400},
-  helm:           {sx:560,sy:318},
-  sundeck_fore:   {sx:440,sy:318}, sundeck_aft:   {sx:435,sy:400},
-  // ── interior / lounge spots (also on the main deck line) ──
-  deck_rail:      {sx:760,sy:392}, lounge:        {sx:505,sy:400},
-  lounge_bar:     {sx:575,sy:400}, lounge_couch:  {sx:505,sy:400},
-  galley:         {sx:645,sy:400}, galley_door:   {sx:645,sy:400},
-  jacuzzi:        {sx:705,sy:380},
-  // ── Bow & stern (the tilted ends of the hull) ──
-  bow:            {sx:240,sy:452}, stern:         {sx:838,sy:402},
-  // ── Down on the ice ──
-  gangway:        {sx:790,sy:470}, hull_crack:    {sx:300,sy:498},
-  ice_floe:       {sx:140,sy:520}, fishing_hole:  {sx:470,sy:520},
-  lifeboat:       {sx:870,sy:500},
+  // ── BRIDGE / HELM (top deck, on the upper-deck roof in front of the wheelhouse glass,
+  //    viewBox bridge spans x500–624 / y288–315; feet on the roof at y≈315) ──
+  bridge:         {sx:540,sy:316}, captains_chair:{sx:585,sy:316},
+  helm:           {sx:512,sy:316},
+  // ── SUN DECK (owner's-suite roof — the upper-deck block top edge, x440–650 @ y≈352) ──
+  sundeck_fore:   {sx:472,sy:352}, sundeck_aft:   {sx:614,sy:352},
+  // ── SALOON / main-deck interior (standing on the main deck in front of the lounge
+  //    windows, x378–500 @ deck y≈401) ──
+  lounge:         {sx:402,sy:401}, lounge_bar:    {sx:470,sy:401},
+  lounge_couch:   {sx:436,sy:401},
+  // ── GALLEY (main deck by the galley window / door, x582–682 @ deck y≈401) ──
+  galley:         {sx:610,sy:401}, galley_door:   {sx:668,sy:401},
+  // ── OPEN MAIN DECK aft (by the rail x686–820 / jacuzzi cx705) ──
+  jacuzzi:        {sx:730,sy:398}, deck_rail:     {sx:785,sy:398},
+  // ── HULL ENDS — sweeping bow (low, far left) and raked transom/stern (right) ──
+  bow:            {sx:270,sy:410}, stern:         {sx:842,sy:404},
+  // ── Down on the ICE around the ship ──
+  gangway:        {sx:806,sy:478}, hull_crack:    {sx:292,sy:506},
+  ice_floe:       {sx:160,sy:528}, fishing_hole:  {sx:520,sy:516},
+  lifeboat:       {sx:870,sy:508},
 }
 
 // Waypoints that count as "physically together" for interaction rendering
@@ -1700,20 +1719,21 @@ function worldMetrics() {
   const offX = (W - 1000*scale)/2          // centre horizontally (xMid) — keeps the yacht's
                                            // central decks (where all 5 stand) in view
   if (isMobile()) {
-    // On a tall phone the scene is height-driven, so only the central horizontal band is
-    // visible — that's exactly where the 5 characters live (sx≈410–625). Zoom IN past pure
-    // cover so the YACHT commands the frame instead of a big dead band of empty ice below the
-    // hull. The extra scale is what lets us crop that bottom ice away.
-    const mScale = Math.max(scale, (H/600)*1.24)
-    const mOffX = (W - 1000*mScale)/2
+    // ── MOBILE: render the FULL yacht WIDER than the phone, then let the user swipe
+    //    left/right to pan bow→stern. The scene is HEIGHT-fit (so the vessel reads at a
+    //    comfortable size) and the world is exactly the full viewBox width at that scale —
+    //    so the world overflows the viewport horizontally and #world becomes a touch-scroll
+    //    container (CSS overflow-x:auto). Because the world IS the whole viewBox, offX=0:
+    //    every waypoint (bow at sx≈270 → lifeboat at sx≈870) is reachable by scrolling, and
+    //    feet land on the painted decks just like desktop. ──
+    const mScale = (H/600)*1.18            // height-fit (+ a touch of zoom so the hull reads big)
+    const Wfull = 1000*mScale               // full viewBox width in px — the scroll content width
     // Anchor the hull's waterline (viewBox y≈468) at ~70% of the stage: sky + superstructure +
-    // deck (all 5 chars, sy 318–452) read up top, the full hull sits mid-frame, and only a
-    // modest strip of grounding ice + floes shows below — the dead empty band is cropped off.
+    // deck (all chars, sy 316–410) read up top, the full hull sits mid-frame, only a modest
+    // strip of grounding ice + floes shows below.
     const offY = Math.round(H*0.70 - 468*mScale)
-    // never reveal above the sky top (offY<=0). With mScale>cover the bottom is allowed to
-    // crop (H-600*mScale is negative), so no forced empty band.
     const clamped = Math.max(Math.min(offY, 0), H - 600*mScale)
-    return {W, H, scale:mScale, scaleX:mScale, offX:mOffX, offY:clamped}
+    return {W:Wfull, H, scale:mScale, scaleX:mScale, offX:0, offY:clamped, worldWidth:Wfull}
   }
   // Desktop: cover-fill, shift up (capped at the mountain peak) to frame the yacht + ocean.
   return {W, H, scale, scaleX:scale, offX, offY:worldYOffset(H, scale)}
@@ -1883,7 +1903,7 @@ function renderChat() {
         const ctx=entries.find(x=>x.character===cid&&x.cycle===e.cycle&&x.day===e.day)
         if(ctx&&(ctx.action||ctx.thought)){
           const col=getCharColor(cid)
-          html+=`<div class="cl-absent${lc}"><span style="color:${col};opacity:.6">${cap(cid)}</span><span class="cl-absent-txt"> — ${ctx.action||ctx.thought}</span></div>`
+          html+=`<div class="cl-absent${lc}"><span style="color:${col};opacity:.6">${callName(cid)}</span><span class="cl-absent-txt"> — ${ctx.action||ctx.thought}</span></div>`
         }
       })
       const dlg=e.dialogue||[]
@@ -1891,7 +1911,7 @@ function renderChat() {
       arr.forEach(d=>{
         const spk=(d.speaker||'').toLowerCase()
         const col=getCharColor(spk)
-        html+=`<div class="cl-msg${lc}"><span class="cl-spk" style="color:${col}">${cap(spk)}</span> <span class="cl-line">${d.line||''}</span></div>`
+        html+=`<div class="cl-msg${lc}"><span class="cl-spk" style="color:${col}">${callName(spk)}</span> <span class="cl-line">${d.line||''}</span></div>`
       })
     }
     // standalone character thought lines are intentionally not shown in the feed
@@ -2570,7 +2590,7 @@ function ensureCharDom(cid) {
   const c = S.chars[cid] || {}
   const color = c.color || '#a78bfa'
   const isDog = c.species === 'dog'
-  const firstName = c.name ? c.name.split(' ')[0].toUpperCase() : ''
+  const firstName = (c.callname || (c.name ? c.name.split(' ')[0] : '')).toUpperCase()
   const div = document.createElement('div')
   div.className = 'char'
   div.id = 'char-' + cid
@@ -2600,6 +2620,19 @@ function updateWorld() {
   const CHARS=Object.keys(S.chars)
   CHARS.forEach(cid=>ensureCharDom(cid))
   setHudVar()  // refresh --stage-bottom BEFORE laying out, so positions use the correct stage height
+  // On mobile the world is rendered WIDER than the viewport (full yacht) so the page can pan
+  // sideways. Set #world's pixel width to the full world width BEFORE measuring metrics that
+  // read it, and clear it on desktop so the CSS width:100vw rule wins. Vertical sizing comes
+  // from CSS (height:calc(100dvh - stage-bottom)).
+  const _world = document.getElementById('world')
+  if(_world){
+    if(isMobile()){
+      const mwScale = (stageH()/600)*1.18
+      _world.style.width = Math.ceil(1000*mwScale)+'px'
+    } else {
+      _world.style.width = ''   // fall back to the CSS rule (width:100vw)
+    }
+  }
   // Size + place the background SVG to EXACTLY match worldMetrics() (the same transform the
   // characters use), so painted decks and feet stay locked together on desktop and mobile.
   const m = worldMetrics()
@@ -2629,7 +2662,7 @@ function updateWorld() {
     applyFace(p.id)
     updateBubble(p.id)
     // keep nametag/bubble label in sync (so an unnamed stray's tag appears once it's named)
-    const nm = S.chars[p.id]?.name ? S.chars[p.id].name.split(' ')[0].toUpperCase() : ''
+    const nm = S.chars[p.id] ? callName(p.id).toUpperCase() : ''
     const ntag = document.getElementById('nametag-'+p.id); if(ntag && ntag.textContent!==nm) ntag.textContent = nm
     const blab = document.getElementById('bubblename-'+p.id); if(blab && blab.textContent!==nm) blab.textContent = nm
   })
@@ -2646,7 +2679,8 @@ function updateWorld() {
   if(isMobile() && !mobileScrollInited) {
     mobileScrollInited = true
     requestAnimationFrame(() => {
-      window.scrollTo(Math.round((getWorldWidth() - window.innerWidth) * 0.5), 0)
+      // Start centred on the vessel (the wide world overflows the viewport both sides).
+      setScrollX(Math.round(maxScrollX() * 0.5))
     })
   }
 }
@@ -2671,6 +2705,9 @@ function drawStars(active) {
 const ALL_STEPS=['morning','midday','evening','night']
 
 function cap(s){return s?s[0].toUpperCase()+s.slice(1):''}
+// What we CALL each character on screen (Donald/Vladimir/Jinping/McGregor/Bibi).
+// Prefers an explicit data `callname`, else first name, else capitalised id.
+function callName(cid){ const c=S.chars&&S.chars[cid]; return (c&&c.callname)?c.callname:(c&&c.name?c.name.split(' ')[0]:cap(cid)); }
 
 let S={chars:{},feed:[],world:{}}
 
@@ -2752,7 +2789,7 @@ function buildStatCard(cid) {
     const cl = rel.closeness ?? 0
     const at = rel.attraction ?? 0
     const heart = at >= 30 ? ' ❤' : at >= 10 ? ' ·' : ''
-    const oName = S.chars[oid]?.name?.split(' ')[0] || cap(oid)
+    const oName = callName(oid)
     const oCol = getScColor(oid)
     return `<div class="sc-bond" style="color:rgba(255,255,255,.6)">
       <span style="color:${oCol}">${oName}</span>
@@ -2921,9 +2958,8 @@ if (window.visualViewport) {
     setHudVar()
     if (S && Object.keys(S.chars||{}).length) updateWorld()
     if (isMobile()) {
-      const maxX = Math.max(0, getWorldWidth() - window.innerWidth)
-      const x = Math.min(maxX, Math.max(0, window.scrollX))
-      if (x !== window.scrollX) window.scrollTo(x, window.scrollY)
+      // clamp the body-scroll back into bounds after a zoom/viewport change
+      setScrollX(getScrollX())
     }
   }
   const onVV = () => { if (!vvRaf) vvRaf = requestAnimationFrame(syncViewport) }
