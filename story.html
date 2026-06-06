@@ -6,24 +6,24 @@
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Tropicana — the story so far</title>
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='88'%3E%F0%9F%8F%9D%EF%B8%8F%3C/text%3E%3C/svg%3E">
-<meta name="description" content="The story so far on Tropicana — a never-ending island drama. Day-by-day recaps, the full Island Log, and every character's relationships, told four times a day with no script.">
-<meta name="theme-color" content="#070d18">
+<title>Politicana — the story so far</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='88'%3E%F0%9F%9B%A5%EF%B8%8F%3C/text%3E%3C/svg%3E">
+<meta name="description" content="The story so far on Politicana — a never-ending drama aboard a $300M superyacht frozen into arctic pack ice. Day-by-day recaps, the full Ship's Log, and every leader's shifting alliances, told four times a day with no script.">
+<meta name="theme-color" content="#0b1220">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="The Never Ending Story Project">
-<meta property="og:title" content="Tropicana — the story so far">
-<meta property="og:description" content="Day-by-day recaps and the full Island Log of a never-ending island drama. No script, no crew, no exit.">
-<meta property="og:url" content="https://adamdegoat.github.io/loveisland/story.html">
+<meta property="og:title" content="Politicana — the story so far">
+<meta property="og:description" content="Day-by-day recaps and the full Ship's Log of a never-ending drama on a yacht frozen in arctic ice. No script, no crew, no rescue.">
+<meta property="og:url" content="https://adamdegoat.github.io/politicana/">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Tropicana — the story so far">
-<meta name="twitter:description" content="Day-by-day recaps and the full Island Log of a never-ending island drama.">
+<meta name="twitter:title" content="Politicana — the story so far">
+<meta name="twitter:description" content="Day-by-day recaps and the full Ship's Log of a never-ending drama on a yacht frozen in arctic ice.">
 
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;1,700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#070d18;--card:rgba(255,255,255,.04);--border:rgba(255,255,255,.07);
+:root{--bg:#0b1220;--card:rgba(255,255,255,.04);--border:rgba(255,255,255,.07);
   --text:#e2e8f0;--muted:#64748b;--muted2:#475569;
-  --marcus:#60a5fa;--ryan:#fbbf24;--jade:#f472b6;--judy:#2dd4bf;--radius:14px}
+  --trump:#f59e0b;--putin:#94a3b8;--xi:#ef4444;--netanyahu:#3b82f6;--conor:#22c55e;--radius:14px}
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
 body{font-family:'Plus Jakarta Sans',sans-serif;background:transparent;color:var(--text);font-size:14px;
@@ -55,7 +55,7 @@ h1,h2,h3{font-family:'Playfair Display',serif}
 
 /* LOADING */
 #loading{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1rem}
-.spinner{width:36px;height:36px;border:3px solid rgba(255,255,255,.1);border-top-color:#60a5fa;border-radius:50%;animation:spin .8s linear infinite}
+.spinner{width:36px;height:36px;border:3px solid rgba(255,255,255,.1);border-top-color:#7dd3fc;border-radius:50%;animation:spin .8s linear infinite}
 #loading p{color:var(--muted);font-size:13px}
 
 /* BACK BAR */
@@ -69,7 +69,7 @@ h1,h2,h3{font-family:'Playfair Display',serif}
   font-family:'Plus Jakarta Sans',sans-serif;letter-spacing:.3px;text-transform:uppercase;transition:all .2s}
 .back-btn:hover{border-color:rgba(255,255,255,.2);color:rgba(255,255,255,.9)}
 .back-bar-title{font-family:'Playfair Display',serif;font-style:italic;font-size:16px;
-  background:linear-gradient(135deg,#fff 0%,#f472b6 40%,#fbbf24 70%,#60a5fa 100%);
+  background:linear-gradient(135deg,#fff 0%,#7dd3fc 40%,#fbbf24 70%,#94a3b8 100%);
   background-size:200% auto;-webkit-background-clip:text;-webkit-text-fill-color:transparent;
   background-clip:text;animation:shimmer 6s linear infinite}
 .day-dot{width:6px;height:6px;border-radius:50%;background:#22c55e;flex-shrink:0;animation:pulse 2s infinite}
@@ -87,7 +87,7 @@ h1,h2,h3{font-family:'Playfair Display',serif}
 .day-chip:hover{background:rgba(255,255,255,.09);border-color:rgba(255,255,255,.18)}
 @keyframes chipGlow{0%,100%{box-shadow:0 0 0 0 rgba(34,197,94,0)}50%{box-shadow:0 0 0 5px rgba(34,197,94,.18)}}
 .day-chip.current{border-color:rgba(34,197,94,.35);animation:chipGlow 2.5s ease-in-out infinite}
-.day-chip.chip-active{background:rgba(255,255,255,.1)!important;border-color:rgba(255,46,120,.45)!important}
+.day-chip.chip-active{background:rgba(255,255,255,.1)!important;border-color:rgba(125,211,252,.45)!important}
 .day-chip-meta{font-size:10px;color:rgba(255,255,255,.38);font-weight:500;letter-spacing:0}
 
 /* DAY SUMMARY BUBBLE */
@@ -124,7 +124,7 @@ h1,h2,h3{font-family:'Playfair Display',serif}
 .hero-intro{padding:2.5rem 1.5rem 1.25rem;max-width:860px;margin:0 auto}
 .hero-tagline{font-family:'Playfair Display',serif;font-style:italic;
   font-size:clamp(1.45rem,4vw,2.1rem);font-weight:700;
-  background:linear-gradient(135deg,#fff 0%,#f472b6 45%,#fbbf24 80%);
+  background:linear-gradient(135deg,#fff 0%,#7dd3fc 45%,#fbbf24 80%);
   -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
   line-height:1.2;margin-bottom:.9rem}
 .hero-body{color:rgba(226,232,240,.6);font-size:13.5px;line-height:1.75;
@@ -149,7 +149,7 @@ h1,h2,h3{font-family:'Playfair Display',serif}
 /* SECTIONS */
 .section{padding:2rem 1.5rem;max-width:860px;margin:0 auto}
 .section-title{font-size:1.4rem;font-weight:700;font-style:italic;margin-bottom:1.25rem;
-  background:linear-gradient(135deg,#fff 0%,#f472b6 55%,#fbbf24 100%);
+  background:linear-gradient(135deg,#fff 0%,#7dd3fc 55%,#fbbf24 100%);
   -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
 .divider{height:1px;background:linear-gradient(90deg,transparent,rgba(255,255,255,.06),transparent);margin:0 1.5rem}
 .reveal{opacity:0;transform:translateY(16px);transition:opacity .5s,transform .5s}
@@ -186,10 +186,11 @@ h1,h2,h3{font-family:'Playfair Display',serif}
 .char-card{background:var(--card);border-radius:var(--radius);border:1px solid var(--border);
   padding:1.25rem;transition:all .25s;position:relative;overflow:hidden}
 .char-card::before{content:'';position:absolute;top:0;left:0;right:0;height:2px}
-.char-card.marcus::before{background:linear-gradient(90deg,transparent,var(--marcus),transparent)}
-.char-card.ryan::before{background:linear-gradient(90deg,transparent,var(--ryan),transparent)}
-.char-card.jade::before{background:linear-gradient(90deg,transparent,var(--jade),transparent)}
-.char-card.judy::before{background:linear-gradient(90deg,transparent,var(--judy),transparent)}
+.char-card.trump::before{background:linear-gradient(90deg,transparent,var(--trump),transparent)}
+.char-card.putin::before{background:linear-gradient(90deg,transparent,var(--putin),transparent)}
+.char-card.xi::before{background:linear-gradient(90deg,transparent,var(--xi),transparent)}
+.char-card.netanyahu::before{background:linear-gradient(90deg,transparent,var(--netanyahu),transparent)}
+.char-card.conor::before{background:linear-gradient(90deg,transparent,var(--conor),transparent)}
 .char-card:hover{transform:translateY(-3px);border-color:rgba(255,255,255,.12)}
 .char-avatar{width:48px;height:48px;border-radius:50%;display:flex;align-items:center;justify-content:center;
   font-weight:800;font-size:16px;font-family:'Plus Jakarta Sans',sans-serif;margin-bottom:.85rem}
@@ -264,7 +265,7 @@ footer span{color:var(--muted);font-weight:600}
   #story-scroll{position:relative;inset:auto;overflow-y:visible}
   #world-bg{display:none}
   #dark-overlay{display:none}
-  body{background:linear-gradient(160deg,#0a1628 0%,#070d18 45%,#06100e 100%)}
+  body{background:linear-gradient(160deg,#13294a 0%,#0b1220 45%,#020812 100%)}
   .section{padding:1.25rem 1rem}
   .back-bar{padding:.5rem 1rem}
   .back-bar-title{font-size:14px}
@@ -284,58 +285,81 @@ footer span{color:var(--muted);font-weight:600}
 </head>
 <body>
 
-<!-- Island world as fixed background -->
+<!-- Frozen-yacht world as fixed background -->
 <div id="world-bg">
 <svg viewBox="0 0 1000 600" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
 <defs>
-  <linearGradient id="sky-morning" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#c2410c"/><stop offset="20%" stop-color="#ea580c"/><stop offset="42%" stop-color="#fbbf24"/><stop offset="65%" stop-color="#7dd3fc"/><stop offset="100%" stop-color="#bae6fd"/></linearGradient>
-  <linearGradient id="sky-midday" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0369a1"/><stop offset="35%" stop-color="#0ea5e9"/><stop offset="70%" stop-color="#38bdf8"/><stop offset="100%" stop-color="#bae6fd"/></linearGradient>
-  <linearGradient id="sky-afternoon" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#1d4ed8"/><stop offset="40%" stop-color="#0ea5e9"/><stop offset="75%" stop-color="#7dd3fc"/><stop offset="100%" stop-color="#dbeafe"/></linearGradient>
-  <linearGradient id="sky-evening" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#6d28d9"/><stop offset="22%" stop-color="#be185d"/><stop offset="48%" stop-color="#dc2626"/><stop offset="68%" stop-color="#ea580c"/><stop offset="85%" stop-color="#fbbf24"/><stop offset="100%" stop-color="#fde68a"/></linearGradient>
-  <linearGradient id="sky-night" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#020617"/><stop offset="40%" stop-color="#0f172a"/><stop offset="80%" stop-color="#1e1b4b"/><stop offset="100%" stop-color="#1e1b4b"/></linearGradient>
-  <linearGradient id="sky-dawn" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#1e1b4b"/><stop offset="28%" stop-color="#4c1d95"/><stop offset="52%" stop-color="#7c3aed"/><stop offset="72%" stop-color="#be185d"/><stop offset="88%" stop-color="#f97316"/><stop offset="100%" stop-color="#fbbf24"/></linearGradient>
-  <linearGradient id="ocean-g" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0369a1"/><stop offset="60%" stop-color="#075985"/><stop offset="100%" stop-color="#0c4a6e"/></linearGradient>
+  <linearGradient id="sky-morning" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#1e3a5f"/><stop offset="22%" stop-color="#3b6ea5"/><stop offset="48%" stop-color="#7dd3fc"/><stop offset="72%" stop-color="#bae6fd"/><stop offset="100%" stop-color="#e0f2fe"/></linearGradient>
+  <linearGradient id="sky-midday" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0c4a6e"/><stop offset="35%" stop-color="#0ea5e9"/><stop offset="70%" stop-color="#7dd3fc"/><stop offset="100%" stop-color="#e0f2fe"/></linearGradient>
+  <linearGradient id="sky-afternoon" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#155e8c"/><stop offset="40%" stop-color="#38bdf8"/><stop offset="75%" stop-color="#bae6fd"/><stop offset="100%" stop-color="#f0f9ff"/></linearGradient>
+  <linearGradient id="sky-evening" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#312e81"/><stop offset="24%" stop-color="#5b21b6"/><stop offset="50%" stop-color="#9d5cc9"/><stop offset="72%" stop-color="#f0abfc"/><stop offset="88%" stop-color="#fcd9b6"/><stop offset="100%" stop-color="#fde68a"/></linearGradient>
+  <linearGradient id="sky-night" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#020812"/><stop offset="40%" stop-color="#06101c"/><stop offset="80%" stop-color="#0c1b2e"/><stop offset="100%" stop-color="#13294a"/></linearGradient>
+  <linearGradient id="sky-dawn" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#06101c"/><stop offset="28%" stop-color="#1e1b4b"/><stop offset="52%" stop-color="#3730a3"/><stop offset="72%" stop-color="#7c6ad6"/><stop offset="88%" stop-color="#c4b5fd"/><stop offset="100%" stop-color="#fde68a"/></linearGradient>
+  <linearGradient id="ice-g" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#f0f9ff"/><stop offset="55%" stop-color="#e0f2fe"/><stop offset="100%" stop-color="#bae6fd"/></linearGradient>
+  <linearGradient id="ocean-g" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#7dd3fc"/><stop offset="60%" stop-color="#38bdf8"/><stop offset="100%" stop-color="#0c4a6e"/></linearGradient>
+  <linearGradient id="hull-g" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#475569"/><stop offset="55%" stop-color="#334155"/><stop offset="100%" stop-color="#1e293b"/></linearGradient>
+  <linearGradient id="super-g" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#f8fafc"/><stop offset="60%" stop-color="#e2e8f0"/><stop offset="100%" stop-color="#cbd5e1"/></linearGradient>
 </defs>
 <rect id="sky-bg" width="1000" height="315" fill="url(#sky-afternoon)"/>
-<g id="sun-group"><circle cx="810" cy="88" r="70" fill="#fbbf24" opacity=".1"/><circle cx="810" cy="88" r="48" fill="#fcd34d" opacity=".18"/><circle cx="810" cy="88" r="28" fill="#fef3c7"/></g>
-<g id="moon-group" opacity="0"><circle cx="810" cy="88" r="28" fill="#e2e8f0"/><circle cx="823" cy="80" r="22" fill="#0f172a"/></g>
-<g class="cl1" opacity=".7"><ellipse cx="-180" cy="75" rx="68" ry="26" fill="white"/><ellipse cx="-140" cy="64" rx="50" ry="22" fill="white"/><ellipse cx="-215" cy="80" rx="42" ry="19" fill="white"/></g>
-<g class="cl2" opacity=".55"><ellipse cx="-480" cy="50" rx="55" ry="20" fill="white"/><ellipse cx="-445" cy="41" rx="40" ry="17" fill="white"/></g>
-<path d="M 0 285 Q 120 248 250 272 Q 390 245 520 265 Q 660 242 790 265 Q 900 248 1000 262 L 1000 315 L 0 315 Z" fill="#166534" opacity=".7"/>
-<path d="M 0 298 Q 180 272 360 290 Q 530 270 700 286 Q 850 270 1000 282 L 1000 315 L 0 315 Z" fill="#15803d" opacity=".55"/>
-<rect x="0" y="310" width="1000" height="200" fill="#16a34a"/>
-<path d="M 0 310 Q 250 302 500 312 Q 750 302 1000 308" stroke="#15803d" stroke-width="4" fill="none" opacity=".6"/>
-<!-- Forest -->
-<rect x="30" y="298" width="13" height="56" rx="3" fill="#92400e"/><ellipse cx="37" cy="298" rx="32" ry="24" fill="#14532d"/><ellipse cx="37" cy="284" rx="26" ry="19" fill="#166534"/><ellipse cx="37" cy="272" rx="17" ry="14" fill="#16a34a"/>
-<rect x="88" y="290" width="12" height="50" rx="3" fill="#92400e"/><ellipse cx="94" cy="290" rx="30" ry="22" fill="#14532d"/><ellipse cx="94" cy="277" rx="24" ry="18" fill="#166534"/><ellipse cx="94" cy="265" rx="16" ry="13" fill="#16a34a"/>
-<rect x="148" y="295" width="13" height="58" rx="3" fill="#92400e"/><ellipse cx="155" cy="295" rx="34" ry="25" fill="#14532d"/><ellipse cx="155" cy="280" rx="27" ry="20" fill="#166534"/><ellipse cx="155" cy="267" rx="18" ry="15" fill="#16a34a"/>
-<!-- Cliff + tent -->
-<path d="M 822 318 L 812 258 L 828 202 L 856 168 L 892 160 L 928 180 L 952 222 L 968 272 L 988 308 L 1000 318 L 1000 355 L 822 355 Z" fill="#78716c"/>
-<ellipse cx="878" cy="170" rx="52" ry="14" fill="#16a34a"/>
-<polygon points="848,208 878,174 908,208" fill="#92400e"/><polygon points="848,208 878,174 878,208" fill="#78350f"/>
-<!-- House -->
-<rect x="478" y="318" width="110" height="48" fill="#fef3c7"/>
-<polygon points="466,321 533,280 600,321" fill="#9a3412"/><polygon points="466,321 533,280 533,321" fill="#7c2d12"/>
-<rect x="488" y="326" width="25" height="21" fill="#bae6fd" rx="2"/><rect x="552" y="326" width="25" height="21" fill="#bae6fd" rx="2"/>
-<rect x="521" y="338" width="24" height="26" fill="#78350f" rx="3"/>
-<!-- Palms + hammock -->
-<path d="M 194 398 Q 186 365 183 328 Q 181 302 172 280" stroke="#a16207" stroke-width="12" fill="none" stroke-linecap="round"/>
-<path d="M 172 280 Q 135 264 115 254" stroke="#15803d" stroke-width="6" fill="none" stroke-linecap="round"/><path d="M 172 280 Q 155 260 148 243" stroke="#15803d" stroke-width="5" fill="none" stroke-linecap="round"/><path d="M 172 280 Q 179 258 181 242" stroke="#166534" stroke-width="5" fill="none" stroke-linecap="round"/><path d="M 172 280 Q 193 262 207 250" stroke="#15803d" stroke-width="5" fill="none" stroke-linecap="round"/>
-<path d="M 268 398 Q 276 365 279 328 Q 281 302 290 280" stroke="#a16207" stroke-width="12" fill="none" stroke-linecap="round"/>
-<path d="M 290 280 Q 325 264 345 254" stroke="#15803d" stroke-width="6" fill="none" stroke-linecap="round"/><path d="M 290 280 Q 307 260 314 243" stroke="#15803d" stroke-width="5" fill="none" stroke-linecap="round"/><path d="M 290 280 Q 283 258 281 242" stroke="#166534" stroke-width="5" fill="none" stroke-linecap="round"/>
-<path d="M 185 342 Q 232 365 279 342" fill="#be185d" opacity=".88"/>
-<!-- Fire pit -->
-<ellipse cx="492" cy="438" rx="34" ry="14" fill="#1c0a00"/>
-<ellipse cx="492" cy="434" rx="30" ry="12" fill="none" stroke="#92400e" stroke-width="9"/>
-<path class="fa" d="M 483 428 Q 480 414 484 403 Q 488 393 492 384 Q 496 393 500 403 Q 504 414 501 428 Q 496 418 492 424 Q 488 418 483 428" fill="#dc2626"/>
-<path class="fb" d="M 485 426 Q 483 413 487 403 Q 489 395 492 388 Q 495 395 497 403 Q 501 413 499 426 Q 495 417 492 422 Q 489 417 485 426" fill="#f97316"/>
-<path class="fc" d="M 487 424 Q 486 413 488 405 Q 490 399 492 394 Q 494 399 496 405 Q 498 413 497 424 Q 494 416 492 421 Q 490 416 487 424" fill="#fbbf24"/>
-<!-- Beach + ocean -->
-<path d="M 0 492 Q 200 480 400 488 Q 600 478 800 486 Q 900 483 1000 490 L 1000 525 L 0 525 Z" fill="#fef9c3"/>
-<rect x="0" y="518" width="1000" height="82" fill="url(#ocean-g)"/>
-<path class="wa" d="M -500 534 Q -375 524 -250 534 Q -125 544 0 534 Q 125 524 250 534 Q 375 544 500 534 Q 625 524 750 534 Q 875 544 1000 534 Q 1125 524 1250 534 Q 1375 544 1500 534 L 1500 600 L -500 600 Z" fill="#0284c7" opacity=".45"/>
-<path class="wb" d="M -300 546 Q -175 537 -50 546 Q 75 555 200 546 Q 325 537 450 546 Q 575 555 700 546 Q 825 537 950 546 L 1450 600 L -300 600 Z" fill="#075985" opacity=".5"/>
-<rect id="night-overlay" width="1000" height="600" fill="#020617" opacity="0"/>
+<!-- pale arctic sun -->
+<g id="sun-group"><circle cx="810" cy="100" r="120" fill="#e0f2fe" opacity=".12"/><circle cx="810" cy="100" r="48" fill="#f0f9ff" opacity=".3"/><circle cx="810" cy="100" r="28" fill="#f8fafc"/></g>
+<g id="moon-group" opacity="0"><circle cx="810" cy="88" r="28" fill="#e2e8f0"/><circle cx="823" cy="80" r="22" fill="#0c1b2e"/></g>
+<!-- ice-haze clouds -->
+<g class="cl1" opacity=".5"><ellipse cx="-180" cy="75" rx="78" ry="22" fill="#e0f2fe"/><ellipse cx="-130" cy="64" rx="54" ry="18" fill="#f0f9ff"/><ellipse cx="-220" cy="80" rx="44" ry="15" fill="#e0f2fe"/></g>
+<g class="cl2" opacity=".4"><ellipse cx="-480" cy="50" rx="58" ry="18" fill="#e0f2fe"/><ellipse cx="-445" cy="41" rx="42" ry="15" fill="#f0f9ff"/></g>
+<!-- distant glaciers / ice ridge on the horizon -->
+<path d="M 0 270 L 120 230 L 230 268 L 360 232 L 470 270 L 600 238 L 720 272 L 850 240 L 1000 272 L 1000 315 L 0 315 Z" fill="#cbd5e1" opacity=".55"/>
+<path d="M 0 290 L 150 262 L 300 288 L 470 264 L 640 290 L 820 266 L 1000 288 L 1000 315 L 0 315 Z" fill="#e2e8f0" opacity=".5"/>
+<!-- the frozen sea — pack ice -->
+<rect x="0" y="310" width="1000" height="290" fill="url(#ice-g)"/>
+<!-- cracks revealing dark water beneath -->
+<path d="M 0 360 Q 180 350 340 372 Q 520 392 700 366 Q 860 348 1000 372" stroke="#38bdf8" stroke-width="3" fill="none" opacity=".5"/>
+<path d="M 120 420 Q 320 405 520 430 Q 720 452 940 422" stroke="#0ea5e9" stroke-width="2.5" fill="none" opacity=".45"/>
+<path d="M 0 500 Q 250 482 500 506 Q 750 528 1000 498" stroke="#0284c7" stroke-width="3" fill="none" opacity=".4"/>
+<!-- pressure-ridge shadows on the ice -->
+<path d="M 60 350 L 200 358 L 150 372 Z" fill="#bae6fd" opacity=".5"/>
+<path d="M 720 470 L 900 480 L 820 496 Z" fill="#bae6fd" opacity=".5"/>
+<!-- ══ THE FROZEN SUPERYACHT — run aground, listing in the pack ice ══ -->
+<g transform="translate(0,2)">
+  <!-- hull -->
+  <path d="M 332 388 L 690 388 L 660 444 L 374 444 Z" fill="url(#hull-g)"/>
+  <path d="M 332 388 L 374 444 L 332 444 Z" fill="#1e293b"/>
+  <!-- waterline ice gripping the hull -->
+  <path d="M 360 440 Q 510 452 670 440 L 690 444 L 660 452 L 374 452 L 360 444 Z" fill="#f0f9ff" opacity=".85"/>
+  <!-- superstructure: lower deck -->
+  <rect x="392" y="346" width="232" height="44" rx="4" fill="url(#super-g)"/>
+  <!-- glowing cabin windows (warm) -->
+  <rect x="406" y="356" width="26" height="18" rx="2" fill="#fde68a" opacity=".9"/>
+  <rect x="444" y="356" width="26" height="18" rx="2" fill="#fbbf24" opacity=".75"/>
+  <rect x="482" y="356" width="26" height="18" rx="2" fill="#fde68a" opacity=".9"/>
+  <rect x="546" y="356" width="26" height="18" rx="2" fill="#fbbf24" opacity=".7"/>
+  <rect x="584" y="356" width="26" height="18" rx="2" fill="#fde68a" opacity=".85"/>
+  <!-- upper deck / bridge -->
+  <rect x="436" y="312" width="150" height="36" rx="4" fill="url(#super-g)"/>
+  <rect x="450" y="320" width="22" height="16" rx="2" fill="#7dd3fc" opacity=".8"/>
+  <rect x="486" y="320" width="22" height="16" rx="2" fill="#7dd3fc" opacity=".8"/>
+  <rect x="522" y="320" width="22" height="16" rx="2" fill="#7dd3fc" opacity=".8"/>
+  <rect x="556" y="320" width="22" height="16" rx="2" fill="#7dd3fc" opacity=".7"/>
+  <!-- funnel -->
+  <rect x="498" y="282" width="30" height="34" rx="4" fill="#334155"/>
+  <rect x="498" y="282" width="30" height="8" rx="3" fill="#0f172a"/>
+  <!-- mast -->
+  <line x1="511" y1="282" x2="511" y2="244" stroke="#cbd5e1" stroke-width="2.5"/>
+  <!-- snow capping the decks -->
+  <path d="M 436 312 Q 511 305 586 312 L 586 316 L 436 316 Z" fill="#fff" opacity=".9"/>
+  <path d="M 392 346 Q 508 339 624 346 L 624 350 L 392 350 Z" fill="#fff" opacity=".85"/>
+  <!-- warm glow spilling onto the ice from the cabins -->
+  <ellipse cx="508" cy="392" rx="160" ry="22" fill="#fbbf24" opacity=".1"/>
+</g>
+<!-- ══ DECK STOVE (warm survival fire on deck) ══ -->
+<ellipse cx="640" cy="416" rx="26" ry="9" fill="#fbbf24" opacity=".12"/>
+<rect x="628" y="402" width="24" height="16" rx="3" fill="#1f2937"/>
+<rect x="632" y="398" width="16" height="5" rx="2" fill="#0f172a"/>
+<path class="fa" d="M 635 400 Q 633 392 636 386 Q 638 381 640 376 Q 642 381 644 386 Q 647 392 645 400 Q 642 394 640 397 Q 638 394 635 400" fill="#f97316"/>
+<path class="fb" d="M 637 399 Q 636 392 638 386 Q 639 382 640 379 Q 641 382 642 386 Q 644 392 643 399 Q 641 395 640 397 Q 639 395 637 399" fill="#fbbf24"/>
+<!-- snow drifted against the hull -->
+<path d="M 300 444 Q 360 430 430 442 Q 510 452 600 440 Q 680 432 740 446 L 740 470 L 300 470 Z" fill="#f0f9ff" opacity=".75"/>
+<rect id="night-overlay" width="1000" height="600" fill="#020812" opacity="0"/>
 </svg>
 </div>
 <div id="dark-overlay"></div>
@@ -348,7 +372,7 @@ footer span{color:var(--muted);font-weight:600}
   <!-- Back bar -->
   <div class="back-bar">
     <a class="back-btn" href="index.html">← World</a>
-    <span class="back-bar-title">Tropicana</span>
+    <span class="back-bar-title">Politicana</span>
     <span id="day-label" style="display:none">Day 1</span>
     <span id="cycle-label" style="display:none">—</span>
     <span id="weather-label" style="display:none">☀️</span>
@@ -361,8 +385,8 @@ footer span{color:var(--muted);font-weight:600}
 
   <!-- Hero Intro -->
   <div class="hero-intro reveal">
-    <div class="hero-tagline" id="hero-tagline">Three people. One island. No script.</div>
-    <div class="hero-body" id="hero-body">Tropicana is a never-ending story — strangers cast onto a deserted island with no script, no crew, and no exit. The story unfolds four times a day. The characters grow, change, and surprise you as time goes on — no one controls them. At midnight, the Island Oracle drops a fate event that can shift the entire storyline. This entire world runs at zero cost.</div>
+    <div class="hero-tagline" id="hero-tagline">Five rivals. One frozen yacht. No script.</div>
+    <div class="hero-body" id="hero-body">Politicana is a never-ending story — five world rivals marooned on a luxury superyacht run aground and frozen into arctic pack ice, with no crew, no signal, and no way off. The story unfolds four times a day. The characters scheme, clash, and surprise you as time goes on — no one controls them. At midnight, the Oracle drops a fate event that can shift the entire storyline. This entire world runs at zero cost.</div>
     <div class="hero-stats">
       <div class="hero-stat-chip">Day <strong id="hsc-day">—</strong></div>
       <div class="hero-stat-chip">Updated <strong>4×</strong> a day</div>
@@ -372,9 +396,9 @@ footer span{color:var(--muted);font-weight:600}
 
   <div class="divider"></div>
 
-  <!-- Island Log -->
+  <!-- Ship's Log -->
   <div class="section reveal">
-    <div class="section-title">Island Log</div>
+    <div class="section-title">Ship's Log</div>
     <div id="full-log"></div>
   </div>
 
@@ -382,7 +406,7 @@ footer span{color:var(--muted);font-weight:600}
 
   <!-- Character Profiles -->
   <div class="section reveal">
-    <div class="section-title">The Islanders</div>
+    <div class="section-title">Those Aboard</div>
     <div class="profiles-grid" id="profiles-grid"></div>
   </div>
 
@@ -400,7 +424,7 @@ footer span{color:var(--muted);font-weight:600}
   </div>
 
   <footer>
-    <p>Tropicana · Updated by pressing <span>▶ Run</span> on the world page</p>
+    <p>Politicana · Updated by pressing <span>▶ Run</span> on the world page</p>
     <p style="margin-top:.4rem">Built with <span>Claude Haiku</span> · Running since Day 1</p>
   </footer>
 
@@ -408,12 +432,15 @@ footer span{color:var(--muted);font-weight:600}
 </div><!-- #story-scroll -->
 
 <script>
-let CHARS = {marcus:'#60a5fa',ryan:'#fbbf24',jade:'#f472b6'}
-let CHAR_NAMES = {marcus:'Marcus',ryan:'Ryan',jade:'Jade'}
+// Cast colour + display-name maps are derived ENTIRELY from data/characters.json so they
+// can never drift from the data. Display name = the leader's CALL NAME (Donald, Vladimir,
+// Jinping, Bibi, McGregor), falling back to first name then capitalised id.
+let CHARS = {}
+let CHAR_NAMES = {}
 function syncCharMaps(){
   Object.entries(S.chars).forEach(([k,v])=>{
-    if(!CHARS[k]) CHARS[k] = v.color||'#a78bfa'
-    if(!CHAR_NAMES[k]) CHAR_NAMES[k] = v.name||cap(k)
+    CHARS[k] = v.color || CHARS[k] || '#94a3b8'
+    CHAR_NAMES[k] = v.callname || (v.name ? v.name.split(' ')[0] : '') || CHAR_NAMES[k] || cap(k)
   })
 }
 const CYCLE_ORDER = ['morning','midday','evening','night']
@@ -464,7 +491,7 @@ function toggleDaySummary(day, chipEl) {
   const bubble = document.getElementById('day-summary-bubble')
   if (!bubble) return
   // Mark hint as seen
-  localStorage.setItem('tropicana_chipHintSeen','1')
+  localStorage.setItem('politicana_chipHintSeen','1')
   document.getElementById('day-hint')?.classList.add('hint-faded')
   document.querySelectorAll('.day-chip').forEach(c=>c.classList.remove('chip-active'))
   if (_activeSummaryDay === day) {
@@ -488,18 +515,18 @@ function render() {
   const NUM_WORDS = ['','One','Two','Three','Four','Five','Six','Seven','Eight','Nine','Ten']
   const n = Object.keys(S.chars).length
   const tagline = document.getElementById('hero-tagline')
-  if(tagline) tagline.textContent = `${NUM_WORDS[n]||n} ${n===1?'person':'people'}. One island. No script.`
+  if(tagline) tagline.textContent = `${NUM_WORDS[n]||n} ${n===1?'rival':'rivals'}. One frozen yacht. No script.`
   const hbody = document.getElementById('hero-body')
-  if(hbody) hbody.innerHTML = `Tropicana is a never-ending story — ${NUM_WORDS[n]||n} ${n===1?'stranger':'strangers'} cast onto a deserted island with no script, no crew, and no exit. The story unfolds four times a day. The characters grow, change, and surprise you as time goes on — no one controls them. At midnight, the <strong style="color:#f472b6">Island Oracle</strong> drops a fate event that can shift the entire storyline. This entire world runs at zero cost. ✦ <em>Scroll down for the Island Log (every cycle, logged), The Islanders (character profiles &amp; relationships), and World State (survival resources &amp; structures).</em>`
+  if(hbody) hbody.innerHTML = `Politicana is a never-ending story — ${NUM_WORDS[n]||n} ${n===1?'rival':'rivals'} marooned on a luxury superyacht run aground and frozen into arctic pack ice, with no crew, no signal, and no way off. The story unfolds four times a day. The characters scheme, clash, and surprise you as time goes on — no one controls them. At midnight, the <strong style="color:#7dd3fc">Oracle</strong> drops a fate event that can shift the entire storyline. This entire world runs at zero cost. ✦ <em>Scroll down for the Ship's Log (every cycle, logged), Those Aboard (character profiles &amp; alliances), and World State (survival resources &amp; structures).</em>`
   renderDayChips()
   renderProfiles()
   renderWorldState()
   renderLog()
 }
 
-const STRUCT_EMOJI = {tent:'⛺',house:'🏠',hammock:'🌴',firepit:'🔥',garden:'🌱',
-  watchtower:'🗼',storage:'📦',raft:'🛶',signal_fire:'🔥',fish_trap:'🎣',
-  cave:'🪨',waterfall:'💧',wreckage:'⚓',spring:'💧',discovery:'✨'}
+const STRUCT_EMOJI = {stove:'🔥',firepit:'🔥',galley:'🍳',cabin:'🛏️',bridge:'🧭',
+  watchpost:'🔭',storage:'📦',lifeboat:'🛟',raft:'🛟',signal_fire:'🔥',ice_hole:'🎣',fish_trap:'🎣',
+  shelter:'⛺',wreckage:'⚓',spring:'💧',discovery:'✨'}
 
 function renderWorldState() {
   const w = S.world
@@ -507,14 +534,14 @@ function renderWorldState() {
   const structs = w.structures || []
   const disc = w.discoveries || []
 
-  const resItems = [{k:'food',icon:'🍖',col:'#22c55e'},{k:'water',icon:'💧',col:'#38bdf8'},
-                    {k:'wood',icon:'🪵',col:'#a78bfa'},{k:'medicine',icon:'🌿',col:'#f472b6'}]
+  const resItems = [{k:'food',label:'Food',icon:'🐟',col:'#22c55e'},{k:'water',label:'Water',icon:'💧',col:'#38bdf8'},
+                    {k:'wood',label:'Fuel',icon:'⛽',col:'#f59e0b'},{k:'medicine',label:'Medicine',icon:'🩺',col:'#3b82f6'}]
   document.getElementById('resources-grid').innerHTML = resItems.map(r => {
     const v = res[r.k] ?? 0
     const vc = v<=20?'#ef4444':v<=40?'#f59e0b':'rgba(255,255,255,.55)'
     return `<div class="res-row">
       <span class="res-icon">${r.icon}</span>
-      <span class="res-label">${r.k}</span>
+      <span class="res-label">${r.label}</span>
       <div class="res-track"><div class="res-fill" style="width:${v}%;background:${r.col}"></div></div>
       <span class="res-val" style="color:${vc}">${v}</span>
     </div>`
@@ -522,7 +549,7 @@ function renderWorldState() {
 
   document.getElementById('structures-list').innerHTML = structs.length ? structs.map(s => {
     const icon = STRUCT_EMOJI[s.type]||'📍'
-    const builder = s.builder ? (S.chars[s.builder]?.name?.split(' ')[0]||cap(s.builder)) : ''
+    const builder = s.builder ? (CHAR_NAMES[s.builder]||S.chars[s.builder]?.name?.split(' ')[0]||cap(s.builder)) : ''
     const bc = CHARS[s.builder]||'#94a3b8'
     return `<div class="struct-item">
       <span class="struct-item-icon">${icon}</span>
@@ -534,7 +561,7 @@ function renderWorldState() {
   }).join('') : `<div style="color:var(--muted);font-size:13px;padding:.5rem 0">Nothing built yet.</div>`
 
   document.getElementById('discoveries-list').innerHTML = disc.length ? disc.map(d => {
-    const finder = d.discovered_by ? (S.chars[d.discovered_by]?.name?.split(' ')[0]||cap(d.discovered_by)) : ''
+    const finder = d.discovered_by ? (CHAR_NAMES[d.discovered_by]||S.chars[d.discovered_by]?.name?.split(' ')[0]||cap(d.discovered_by)) : ''
     const fc = CHARS[d.discovered_by]||'#94a3b8'
     return `<div class="struct-item">
       <span class="struct-item-icon">✨</span>
@@ -547,7 +574,7 @@ function renderWorldState() {
 }
 
 function renderProfiles() {
-  // "The Islanders" = named people only. Pets (e.g. the stray dog, species!=human) and
+  // "Those Aboard" = named people only. Pets (e.g. a stray, species!=human) and
   // any not-yet-named/dormant character are excluded so they can't render a blank card.
   document.getElementById('profiles-grid').innerHTML = Object.entries(S.chars)
     .filter(([cid,c]) => (c.species==='dog') || ((!c.species || c.species==='human') && c.name && c.name.trim()))
@@ -556,11 +583,11 @@ function renderProfiles() {
     const color = c.color || CHARS[cid]
     const initials = (c.name||'').split(' ').map(w=>w[0]).join('')
     const moodEmoji = MOOD_EMOJI[(c.mood||'').toLowerCase()] || '😐'
-    const shelter = {tent:'⛺',house:'🏠',hammock:'🌴',beach:'🏖️',forest:'🌲'}
+    const shelter = {"owner's suite":'🛏️',stateroom:'🛏️','crew quarters':'🛌','the open deck':'❄️',galley:'🍳',bridge:'🧭'}
     return `<div class="char-card ${cid}" style="box-shadow:0 0 30px ${color}12">
       <div class="char-avatar" style="background:${color}18;border:2px solid ${color}40;color:${color}">${initials}</div>
       <div class="char-name" style="color:${color}">${c.name}</div>
-      <div class="char-archetype">The ${cap(c.archetype)}</div>
+      <div class="char-archetype">The ${cap((c.archetype||'').replace(/^the\s+/i,''))}</div>
       <div class="char-bio">${c.bio}</div>
       <div class="char-mood" style="color:${color}">${moodEmoji} ${cap(c.mood||'')}</div>
       ${Object.entries(c.scores||{}).filter(([k])=>!['hunger','thirst','energy'].includes(k)).map(([k,v])=>`
@@ -583,19 +610,19 @@ function renderProfiles() {
   }).join('')
 }
 
-// A dog isn't an "islander" with traits — it gets its own card that says what it is.
+// A dog isn't a passenger with traits — it gets its own card that says what it is.
 function dogProfileCard(cid, c){
   const color = c.color || '#b5793f'
   const named = c.name && c.name.trim()
   const displayName = named ? c.name : 'Unnamed stray'
   const moodEmoji = MOOD_EMOJI[(c.mood||'').toLowerCase()] || '🐾'
-  const bio = c.bio || 'A stray pup that crept in from the dark one night, drawn to the firelight — wary, but hoping to be wanted.'
-  const tag = named ? '🐕 The camp dog' : '🐾 Stray · not yet named'
+  const bio = c.bio || 'A stray that padded aboard out of the cold one night, drawn to the stove glow — wary, but hoping to be wanted.'
+  const tag = named ? '🐕 The ship dog' : '🐾 Stray · not yet named'
   const shelter = {tent:'⛺',house:'🏠',hammock:'🌴',beach:'🏖️',forest:'🌲'}
   return `<div class="char-card dog-card" style="box-shadow:0 0 30px ${color}12">
     <div class="char-avatar" style="background:${color}18;border:2px solid ${color}40;font-size:24px">🐾</div>
     <div class="char-name" style="color:${color}">${displayName}</div>
-    <div class="char-archetype">The ${cap(c.archetype||'stray pup')}</div>
+    <div class="char-archetype">The ${cap((c.archetype||'stray pup').replace(/^the\s+/i,''))}</div>
     <div class="char-bio">${bio}</div>
     <div class="char-mood" style="color:${color}">${moodEmoji} ${cap(c.mood||'')}</div>
     <div class="dog-status" style="font-size:11px;color:var(--muted2);margin-top:.5rem;letter-spacing:.3px">${tag}</div>
@@ -641,10 +668,10 @@ function renderLog() {
   })
   const pDots = pChars.map(cid => `<div class="log-dot" style="background:${CHARS[cid]||'#475569'}"></div>`).join('')
   const NUMW = ['','One','Two','Three','Four','Five','Six','Seven','Eight']
-  const pNames = pChars.map(cid => (S.chars[cid].name||'').split(' ')[0])
+  const pNames = pChars.map(cid => CHAR_NAMES[cid] || (S.chars[cid].name||'').split(' ')[0])
   const nameList = pNames.length>1 ? pNames.slice(0,-1).join(', ')+' and '+pNames.slice(-1) : (pNames[0]||'')
   const pn = pChars.length
-  const prologueText = `${NUMW[pn]||pn} stranger${pn===1?'':'s'} wash ashore with nothing but the clothes on their backs. ${nameList} — no plan, no rules, no way home. The story begins here.`
+  const prologueText = `${NUMW[pn]||pn} rival${pn===1?'':'s'} wake to find the yacht run aground and frozen fast in the ice. ${nameList} — no crew, no signal, no way off. The story begins here.`
   const prologueHtml = `<div class="log-day">
     <div class="log-day-header" style="font-size:10px;letter-spacing:1.5px;color:var(--muted2)">PROLOGUE</div>
     <div class="log-entry">
@@ -711,7 +738,7 @@ async function init() {
     document.getElementById('loading').classList.add('hidden')
     document.getElementById('app').classList.remove('hidden')
     // Day hint — fade once user has tapped a chip
-    if(localStorage.getItem('tropicana_chipHintSeen')) {
+    if(localStorage.getItem('politicana_chipHintSeen')) {
       document.getElementById('day-hint')?.classList.add('hint-faded')
     }
     // Close summary bubble when clicking outside chips area
