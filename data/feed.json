@@ -470,5 +470,186 @@
       }
     ],
     "timestamp": "2026-06-06T23:12:14.161124"
+  },
+  {
+    "day": 1,
+    "cycle": "evening",
+    "character": "trump",
+    "action": "Paces the galley, gesturing emphatically, trying to impose order on the evening meal.",
+    "thought": "My authority is finally taking root tonight.",
+    "location": {
+      "waypoint": "galley",
+      "x": 50,
+      "y": 30
+    },
+    "shelter": "owner's suite",
+    "mood": "imperious",
+    "timestamp": "2026-06-06T23:15:08.569247"
+  },
+  {
+    "day": 1,
+    "cycle": "evening",
+    "character": "putin",
+    "action": "Stands on the frozen open deck, shirtless in the arctic wind, watching the yacht lights flicker.",
+    "thought": "Let him play captain. The ice doesn't care.",
+    "location": {
+      "waypoint": "deck_rail",
+      "x": 80,
+      "y": 40
+    },
+    "shelter": "the open deck",
+    "mood": "impassive",
+    "timestamp": "2026-06-06T23:15:08.569247"
+  },
+  {
+    "day": 1,
+    "cycle": "evening",
+    "character": "xi",
+    "action": "Sits in the lounge on a cushioned bench, nursing a cup of warm water, observing the evening quietly.",
+    "thought": "Order emerges only when necessity demands it.",
+    "location": {
+      "waypoint": "lounge_couch",
+      "x": 35,
+      "y": 48
+    },
+    "shelter": "stateroom",
+    "mood": "inscrutable",
+    "timestamp": "2026-06-06T23:15:08.569247"
+  },
+  {
+    "day": 1,
+    "cycle": "evening",
+    "character": "netanyahu",
+    "action": "Ladles chowder in the galley, managing portions with meticulous care, the peacemaker's work never done.",
+    "thought": "If they eat together, maybe they'll listen.",
+    "location": {
+      "waypoint": "galley",
+      "x": 65,
+      "y": 40
+    },
+    "shelter": "stateroom",
+    "mood": "calculating",
+    "timestamp": "2026-06-06T23:15:08.569247"
+  },
+  {
+    "day": 1,
+    "cycle": "evening",
+    "character": "conor",
+    "action": "Enters the galley soaked in ice water, shaking himself dry, eyes fixed on the stove and the food.",
+    "thought": "Six o'clock means nothing. Work never stops.",
+    "location": {
+      "waypoint": "galley",
+      "x": 20,
+      "y": 62
+    },
+    "shelter": "crew quarters",
+    "mood": "frustrated",
+    "timestamp": "2026-06-06T23:15:08.569247"
+  },
+  {
+    "day": 1,
+    "cycle": "evening",
+    "type": "interaction",
+    "characters": [
+      "trump",
+      "netanyahu",
+      "conor"
+    ],
+    "description": "Evening in the galley around the stove. Donald tries to impose dinner protocol while McGregor, fresh from the ice, demands immediate food. Netanyahu mediates between them.",
+    "dialogue": [
+      {
+        "speaker": "trump",
+        "line": "We're establishing protocols. Dinner at six p.m., everyone at the table. Non-negotiable."
+      },
+      {
+        "speaker": "conor",
+        "line": "Protocols? I've been breaking ice for hours. I need food now, not a schedule."
+      },
+      {
+        "speaker": "netanyahu",
+        "line": "Let's get Conor warmed up first, Donald. He can listen while we eat."
+      },
+      {
+        "speaker": "trump",
+        "line": "The point is order. Everyone gathers at six, every day. This is discipline."
+      },
+      {
+        "speaker": "conor",
+        "line": "Discipline? You're sitting here warm while I'm freezing out there actually working."
+      },
+      {
+        "speaker": "trump",
+        "line": "Someone has to think strategically. Leadership means planning ahead."
+      },
+      {
+        "speaker": "netanyahu",
+        "line": "He's right about that, Conor. Routine does help people feel stable."
+      },
+      {
+        "speaker": "conor",
+        "line": "I'm stable. I don't need his schedule for that."
+      },
+      {
+        "speaker": "trump",
+        "line": "You need more than that. You need structure, purpose, the knowledge we're still civilized."
+      },
+      {
+        "speaker": "netanyahu",
+        "line": "Is that what dinner at six is about, Donald?"
+      },
+      {
+        "speaker": "trump",
+        "line": "It's about saying we haven't given up. That even in this cold, we maintain our humanity."
+      },
+      {
+        "speaker": "conor",
+        "line": "Is he serious right now?"
+      },
+      {
+        "speaker": "netanyahu",
+        "line": "He might be. And... he's not entirely wrong. Dinner at six does sound kind of nice."
+      },
+      {
+        "speaker": "conor",
+        "line": "Fine. I'll come at six. But I'm not dressing it up."
+      },
+      {
+        "speaker": "trump",
+        "line": "That's all I ask. Tomorrow we establish watch schedules, sleeping arrangements, everything."
+      },
+      {
+        "speaker": "netanyahu",
+        "line": "One thing at a time, Donald. Tonight, everyone needs rest."
+      },
+      {
+        "speaker": "conor",
+        "line": "Yeah. I need rest more than I need schedules."
+      },
+      {
+        "speaker": "trump",
+        "line": "Rest is good. But tomorrow, things change. We become disciplined. Organized."
+      },
+      {
+        "speaker": "netanyahu",
+        "line": "Tomorrow's fine. Tonight we have warmth, food, and each other. That's enough."
+      },
+      {
+        "speaker": "conor",
+        "line": "That's all that matters. That's all we really need."
+      },
+      {
+        "speaker": "trump",
+        "line": "Six p.m., everyone together. That's the start of real order."
+      },
+      {
+        "speaker": "netanyahu",
+        "line": "Let's all sleep. Tomorrow comes fast in the cold."
+      },
+      {
+        "speaker": "conor",
+        "line": "I'm with Bibi. Sleep sounds perfect right now."
+      }
+    ],
+    "timestamp": "2026-06-06T23:15:08.569247"
   }
 ]
