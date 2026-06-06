@@ -5,19 +5,19 @@
     "archetype": "the self-declared captain",
     "color": "#f59e0b",
     "scores": {
-      "trust": 28,
+      "trust": 27,
       "openness": 71,
-      "ambition": 99,
-      "loneliness": 23,
+      "ambition": 100,
+      "loneliness": 26,
       "resilience": 72,
       "hunger": 53,
-      "thirst": 53,
-      "energy": 44,
+      "thirst": 45,
+      "energy": 80,
       "health": 100
     },
     "mood": "tense",
     "location": {
-      "waypoint": "galley",
+      "waypoint": "owner's suite",
       "x": 50,
       "y": 30
     },
@@ -26,7 +26,7 @@
     "relationships": {
       "putin": {
         "closeness": 42,
-        "tension": 36,
+        "tension": 37,
         "attraction": 0
       },
       "xi": {
@@ -35,21 +35,18 @@
         "attraction": 0
       },
       "netanyahu": {
-        "closeness": 58,
-        "tension": 14,
+        "closeness": 59,
+        "tension": 13,
         "attraction": 0
       },
       "conor": {
-        "closeness": 46,
+        "closeness": 45,
         "tension": 25,
         "attraction": 0
       }
     },
     "bio": "Declared himself captain within ninety seconds of running aground. Wants to rename the yacht and bill the ocean for the damage. Everything is the best or the worst, never in between.",
-    "interaction": {
-      "with": "netanyahu",
-      "state": "sitting_together"
-    },
+    "interaction": null,
     "memories": [
       {
         "day": 1,
@@ -66,18 +63,18 @@
     "color": "#94a3b8",
     "scores": {
       "trust": 8,
-      "openness": 15,
-      "ambition": 92,
-      "loneliness": 39,
+      "openness": 14,
+      "ambition": 93,
+      "loneliness": 35,
       "resilience": 98,
       "hunger": 53,
-      "thirst": 53,
-      "energy": 46,
+      "thirst": 45,
+      "energy": 82,
       "health": 100
     },
     "mood": "detached",
     "location": {
-      "waypoint": "galley_door",
+      "waypoint": "deck_rail",
       "x": 62,
       "y": 30
     },
@@ -86,7 +83,7 @@
     "relationships": {
       "trump": {
         "closeness": 42,
-        "tension": 36,
+        "tension": 37,
         "attraction": 0
       },
       "xi": {
@@ -100,20 +97,25 @@
         "attraction": 0
       },
       "conor": {
-        "closeness": 37,
-        "tension": 25,
+        "closeness": 39,
+        "tension": 24,
         "attraction": 0
       }
     },
     "bio": "Unbothered by the cold — strips to the waist on the frozen deck to prove a point. Says little, trusts no one, and is quietly relocating the last of the fuel.",
     "interaction": {
-      "with": "trump",
+      "with": "conor",
       "state": "talking"
     },
     "memories": [
       {
         "day": 1,
         "text": "McGregor and I quietly aligned against Trump's incompetence tonight.",
+        "weight": 2
+      },
+      {
+        "day": 1,
+        "text": "McGregor sees what matters. He will be essential. Trust him.",
         "weight": 2
       }
     ],
@@ -128,16 +130,16 @@
       "trust": 25,
       "openness": 20,
       "ambition": 89,
-      "loneliness": 29,
+      "loneliness": 32,
       "resilience": 92,
       "hunger": 53,
-      "thirst": 53,
-      "energy": 46,
+      "thirst": 45,
+      "energy": 82,
       "health": 100
     },
     "mood": "serene",
     "location": {
-      "waypoint": "lounge",
+      "waypoint": "stateroom",
       "x": 35,
       "y": 48
     },
@@ -182,19 +184,19 @@
     "archetype": "the survivor",
     "color": "#3b82f6",
     "scores": {
-      "trust": 31,
+      "trust": 32,
       "openness": 52,
-      "ambition": 86,
-      "loneliness": 27,
+      "ambition": 87,
+      "loneliness": 29,
       "resilience": 90,
       "hunger": 53,
-      "thirst": 53,
-      "energy": 44,
+      "thirst": 45,
+      "energy": 80,
       "health": 100
     },
-    "mood": "diplomatic",
+    "mood": "confident",
     "location": {
-      "waypoint": "galley",
+      "waypoint": "stateroom",
       "x": 65,
       "y": 40
     },
@@ -202,8 +204,8 @@
     "condition": "healthy",
     "relationships": {
       "trump": {
-        "closeness": 58,
-        "tension": 14,
+        "closeness": 59,
+        "tension": 13,
         "attraction": 0
       },
       "putin": {
@@ -223,10 +225,7 @@
       }
     },
     "bio": "The ultimate political survivor — smooth, speechy, security-obsessed. Wants to fortify the deck and gives press conferences to the circling seagulls.",
-    "interaction": {
-      "with": "trump",
-      "state": "sitting_together"
-    },
+    "interaction": null,
     "memories": [
       {
         "day": 1,
@@ -242,19 +241,19 @@
     "archetype": "the wildcard",
     "color": "#22c55e",
     "scores": {
-      "trust": 46,
-      "openness": 82,
+      "trust": 47,
+      "openness": 83,
       "ambition": 74,
-      "loneliness": 19,
-      "resilience": 88,
+      "loneliness": 17,
+      "resilience": 89,
       "hunger": 53,
-      "thirst": 53,
-      "energy": 48,
+      "thirst": 45,
+      "energy": 84,
       "health": 100
     },
-    "mood": "exasperated",
+    "mood": "weary",
     "location": {
-      "waypoint": "galley",
+      "waypoint": "deck_rail",
       "x": 60,
       "y": 48
     },
@@ -262,13 +261,13 @@
     "condition": "healthy",
     "relationships": {
       "trump": {
-        "closeness": 46,
+        "closeness": 45,
         "tension": 25,
         "attraction": 0
       },
       "putin": {
-        "closeness": 37,
-        "tension": 25,
+        "closeness": 39,
+        "tension": 24,
         "attraction": 0
       },
       "xi": {
@@ -284,13 +283,18 @@
     },
     "bio": "The only one who'll actually fish, haul, or fight the cold. Zero respect for 'the suits', mocks them all, stirs trouble — and somehow keeps the camp alive.",
     "interaction": {
-      "with": "trump",
-      "state": "back_to_back"
+      "with": "putin",
+      "state": "talking"
     },
     "memories": [
       {
         "day": 1,
         "text": "I took the stove work; Trump needed to save face. Smart.",
+        "weight": 2
+      },
+      {
+        "day": 1,
+        "text": "Vladimir understands. Work matters more than ego. Unexpected ally.",
         "weight": 2
       }
     ],

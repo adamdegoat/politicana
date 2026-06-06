@@ -1,10 +1,10 @@
 {
   "day": 1,
-  "cycle": "evening",
+  "cycle": "night",
   "weather": "clear",
   "pending_events": [],
   "started": true,
-  "pulse": "Netanyahu quietly binds himself to Trump while Conor does the real work and Putin silently calculates everyone's weakness.",
+  "pulse": "McGregor and Vladimir have found each other; Donald dreams of command while his authority quietly slips away.",
   "structures": [
     {
       "id": "ship_stove",
@@ -16,29 +16,31 @@
       "builder": "",
       "day": 1,
       "label": "Ship's Stove",
-      "condition": 91
+      "condition": 88
     }
   ],
   "resources": {
+    "food": 8,
+    "water": 72,
+    "wood": 38,
+    "medicine": 20
+  },
+  "resources_prev": {
     "food": 20,
     "water": 64,
     "wood": 40,
     "medicine": 20
   },
-  "resources_prev": {
-    "food": 32,
-    "water": 71,
-    "wood": 39,
-    "medicine": 20
-  },
   "discoveries": [],
-  "last_cycle_key": "2026-06-06:evening",
-  "scene": "Trump declared himself chef, Netanyahu cheered, and Conor took the stove anyway. By dusk, the galley was a study in hierarchy: Trump gesturing authority, Netanyahu backing him smoothly, Conor at the stove doing the work, and Putin watching from the threshold with the patience of someone counting mistakes.",
-  "day_summaries": {},
+  "last_cycle_key": "2026-06-06:night",
+  "scene": "Vladimir stepped outside to meet McGregor; an unexpected alliance between observer and worker. By midnight, Donald lay reassessing control, Jinping meditated in darkness, Bibi calculated tomorrow, and McGregor slept knowing one man understood.",
+  "day_summaries": {
+    "1": "Day 1: Donald claimed command and Bibi backed him; McGregor did the actual work tending the stove while Vladimir watched everything with cold amusement; Jinping observed the emerging hierarchy from his stateroom; and by nightfall, an unexpected alliance had formed between the man of action and the observer of power, neither Donald nor the others yet aware that the real captain of this frozen yacht was no longer speaking."
+  },
   "last_run_date": "2026-06-06",
   "camp_climate": "steady",
   "fire": {
     "lit": true,
-    "fuel": 14
+    "fuel": 2
   }
 }

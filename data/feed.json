@@ -693,5 +693,245 @@
       }
     ],
     "timestamp": "2026-06-06T22:29:01.420032"
+  },
+  {
+    "day": 1,
+    "cycle": "night",
+    "character": "trump",
+    "action": "Reviewed the stove's condition and remaining supplies in the galley, then retreated to his suite to reassess the day's events.",
+    "thought": "Bibi is loyal. Vladimir is watching closely.",
+    "location": {
+      "waypoint": "owner's suite",
+      "x": 50,
+      "y": 30
+    },
+    "shelter": "owner's suite",
+    "mood": "tense",
+    "timestamp": "2026-06-06T23:02:53.808062"
+  },
+  {
+    "day": 1,
+    "cycle": "night",
+    "character": "putin",
+    "action": "Emerged from below to stand on the frozen deck, watching the dark ice, his mind working through the day's positions and power.",
+    "thought": "McGregor sees what truly matters here.",
+    "location": {
+      "waypoint": "deck_rail",
+      "x": 62,
+      "y": 30
+    },
+    "shelter": "the open deck",
+    "mood": "detached",
+    "timestamp": "2026-06-06T23:02:53.808062"
+  },
+  {
+    "day": 1,
+    "cycle": "night",
+    "character": "xi",
+    "action": "Sat alone in dim lamplight in his stateroom, observing the patterns of the day and reflecting on emerging hierarchies.",
+    "thought": "Chaos resolves into order naturally.",
+    "location": {
+      "waypoint": "stateroom",
+      "x": 35,
+      "y": 48
+    },
+    "shelter": "stateroom",
+    "mood": "serene",
+    "timestamp": "2026-06-06T23:02:53.808062"
+  },
+  {
+    "day": 1,
+    "cycle": "night",
+    "character": "netanyahu",
+    "action": "Lay in his stateroom reviewing the day's alignments, satisfied that Donald felt supported and remained convinced of his centrality.",
+    "thought": "Trump trusts me. That is leverage.",
+    "location": {
+      "waypoint": "stateroom",
+      "x": 65,
+      "y": 40
+    },
+    "shelter": "stateroom",
+    "mood": "confident",
+    "timestamp": "2026-06-06T23:02:53.808062"
+  },
+  {
+    "day": 1,
+    "cycle": "night",
+    "character": "conor",
+    "action": "Finished banking the stove carefully for the night, then stepped out onto the frozen deck to clear his head.",
+    "thought": "Finally someone who understands real work.",
+    "location": {
+      "waypoint": "deck_rail",
+      "x": 60,
+      "y": 48
+    },
+    "shelter": "crew quarters",
+    "mood": "weary",
+    "timestamp": "2026-06-06T23:02:53.808062"
+  },
+  {
+    "day": 1,
+    "cycle": "night",
+    "type": "interaction",
+    "characters": [
+      "putin",
+      "conor"
+    ],
+    "description": "Vladimir steps outside to meet McGregor on the frozen deck; two men who value action over words, finding each other in the dark.",
+    "dialogue": [
+      {
+        "speaker": "putin",
+        "line": "You did the real work today. The rest of them just talked."
+      },
+      {
+        "speaker": "conor",
+        "line": "Someone has to feed that fire. It won't do itself."
+      },
+      {
+        "speaker": "putin",
+        "line": "Cold teaches lessons most men cannot learn. You are not most men."
+      },
+      {
+        "speaker": "conor",
+        "line": "Cold doesn't care what I am. I care about keeping us from freezing."
+      },
+      {
+        "speaker": "putin",
+        "line": "This is correct thinking. The others will panic when scarcity becomes real."
+      },
+      {
+        "speaker": "conor",
+        "line": "Let them panic. Panic won't fix anything. Work will."
+      },
+      {
+        "speaker": "putin",
+        "line": "You understand power, then. Real power."
+      },
+      {
+        "speaker": "conor",
+        "line": "I understand keeping the stove lit and our bellies filled. That's all."
+      },
+      {
+        "speaker": "putin",
+        "line": "That is everything. Everything else—the speeches, the authority claims—it is theater."
+      },
+      {
+        "speaker": "conor",
+        "line": "Donald thinks he's the captain. But he didn't tend the fire."
+      },
+      {
+        "speaker": "putin",
+        "line": "He needs to believe he commands. It keeps him from being useless."
+      },
+      {
+        "speaker": "conor",
+        "line": "He's lucky the stove hasn't gone cold. Lucky I know how to work."
+      },
+      {
+        "speaker": "putin",
+        "line": "He is extremely fortunate you are here. He does not realize it."
+      },
+      {
+        "speaker": "conor",
+        "line": "He knows. Just won't admit another man fixed his mistake."
+      },
+      {
+        "speaker": "putin",
+        "line": "His pride will become dangerous if supplies truly tighten."
+      },
+      {
+        "speaker": "conor",
+        "line": "Then we keep him busy. Make sure he has work that looks important."
+      },
+      {
+        "speaker": "putin",
+        "line": "You think strategically. Most men only think of themselves."
+      },
+      {
+        "speaker": "conor",
+        "line": "These men have never worked a day in their lives. No wonder they're soft."
+      },
+      {
+        "speaker": "putin",
+        "line": "Netanyahu will try to make himself essential. He smells the power shifts."
+      },
+      {
+        "speaker": "conor",
+        "line": "Bibi's smart. At least he helped with dinner. Didn't just stand around talking."
+      },
+      {
+        "speaker": "putin",
+        "line": "Jinping is the real danger. He says almost nothing. He is watching."
+      },
+      {
+        "speaker": "conor",
+        "line": "Let him watch. I worry more about the loud ones. They cause disasters."
+      },
+      {
+        "speaker": "putin",
+        "line": "Disasters come when the strong and weak are forced to share close quarters."
+      },
+      {
+        "speaker": "conor",
+        "line": "Then we keep them working, keep them focused. Less time for nonsense."
+      },
+      {
+        "speaker": "putin",
+        "line": "That stove burns fuel constantly. How long before the wood truly runs low?"
+      },
+      {
+        "speaker": "conor",
+        "line": "We fish, we set traps, we find more supplies. The work doesn't end."
+      },
+      {
+        "speaker": "putin",
+        "line": "You will do the work. But will the others actually help?"
+      },
+      {
+        "speaker": "conor",
+        "line": "Doesn't matter. One man working beats five men fighting about the plan."
+      },
+      {
+        "speaker": "putin",
+        "line": "Steel can break. Even the strongest man grows tired. You will need allies."
+      },
+      {
+        "speaker": "conor",
+        "line": "If I need help, they'll know it. Right now I need rest. Dawn will come."
+      },
+      {
+        "speaker": "putin",
+        "line": "The stove will burn. The ice remains. You will wake to hunger again."
+      },
+      {
+        "speaker": "conor",
+        "line": "At least I'll be rested for it. Are you coming in soon? You'll freeze."
+      },
+      {
+        "speaker": "putin",
+        "line": "Soon enough. I prefer the cold to the noise inside. It clears the mind."
+      },
+      {
+        "speaker": "conor",
+        "line": "Cold clears the mind until it clears the life right out of you too."
+      },
+      {
+        "speaker": "putin",
+        "line": "I have survived temperatures that would kill most men. The cold knows my name."
+      },
+      {
+        "speaker": "conor",
+        "line": "Sure. But coming in to eat, getting warm, sleeping—that's not weakness, mate."
+      },
+      {
+        "speaker": "putin",
+        "line": "I understand this. I choose to think out here because my mind is sharper."
+      },
+      {
+        "speaker": "conor",
+        "line": "Fair. Come in when you're done. There's hot stew and warmth waiting inside."
+      }
+    ],
+    "timestamp": "2026-06-06T23:02:53.808062"
   }
 ]
