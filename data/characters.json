@@ -1,0 +1,261 @@
+{
+  "trump": {
+    "name": "Donald Trump",
+    "age": 78,
+    "archetype": "the self-declared captain",
+    "color": "#f59e0b",
+    "scores": {
+      "trust": 29,
+      "openness": 72,
+      "ambition": 96,
+      "loneliness": 28,
+      "resilience": 70,
+      "hunger": 54,
+      "thirst": 56,
+      "energy": 56,
+      "health": 100
+    },
+    "mood": "bombastic",
+    "location": {
+      "waypoint": "captains_chair",
+      "x": 50,
+      "y": 30
+    },
+    "shelter": "owner's suite",
+    "condition": "healthy",
+    "relationships": {
+      "putin": {
+        "closeness": 42,
+        "tension": 33,
+        "attraction": 0
+      },
+      "xi": {
+        "closeness": 20,
+        "tension": 50,
+        "attraction": 0
+      },
+      "netanyahu": {
+        "closeness": 55,
+        "tension": 15,
+        "attraction": 0
+      },
+      "conor": {
+        "closeness": 45,
+        "tension": 23,
+        "attraction": 0
+      }
+    },
+    "bio": "Declared himself captain within ninety seconds of running aground. Wants to rename the yacht and bill the ocean for the damage. Everything is the best or the worst, never in between.",
+    "interaction": {
+      "with": "netanyahu",
+      "state": "talking"
+    },
+    "memories": []
+  },
+  "putin": {
+    "name": "Vladimir Putin",
+    "age": 72,
+    "archetype": "the cold operator",
+    "color": "#94a3b8",
+    "scores": {
+      "trust": 10,
+      "openness": 15,
+      "ambition": 90,
+      "loneliness": 43,
+      "resilience": 96,
+      "hunger": 54,
+      "thirst": 56,
+      "energy": 58,
+      "health": 100
+    },
+    "mood": "impassive",
+    "location": {
+      "waypoint": "deck_rail",
+      "x": 80,
+      "y": 40
+    },
+    "shelter": "the open deck",
+    "condition": "healthy",
+    "relationships": {
+      "trump": {
+        "closeness": 42,
+        "tension": 33,
+        "attraction": 0
+      },
+      "xi": {
+        "closeness": 50,
+        "tension": 25,
+        "attraction": 0
+      },
+      "netanyahu": {
+        "closeness": 25,
+        "tension": 40,
+        "attraction": 0
+      },
+      "conor": {
+        "closeness": 35,
+        "tension": 25,
+        "attraction": 0
+      }
+    },
+    "bio": "Unbothered by the cold — strips to the waist on the frozen deck to prove a point. Says little, trusts no one, and is quietly relocating the last of the fuel.",
+    "interaction": null,
+    "memories": []
+  },
+  "xi": {
+    "name": "Xi Jinping",
+    "age": 71,
+    "archetype": "the patient strategist",
+    "color": "#ef4444",
+    "scores": {
+      "trust": 25,
+      "openness": 20,
+      "ambition": 88,
+      "loneliness": 33,
+      "resilience": 90,
+      "hunger": 54,
+      "thirst": 56,
+      "energy": 58,
+      "health": 100
+    },
+    "mood": "inscrutable",
+    "location": {
+      "waypoint": "lounge",
+      "x": 35,
+      "y": 48
+    },
+    "shelter": "stateroom",
+    "condition": "healthy",
+    "relationships": {
+      "trump": {
+        "closeness": 20,
+        "tension": 50,
+        "attraction": 0
+      },
+      "putin": {
+        "closeness": 50,
+        "tension": 25,
+        "attraction": 0
+      },
+      "netanyahu": {
+        "closeness": 20,
+        "tension": 35,
+        "attraction": 0
+      },
+      "conor": {
+        "closeness": 20,
+        "tension": 30,
+        "attraction": 0
+      }
+    },
+    "bio": "Calm, measured, speaks in proverbs. Drew up a five-year plan for the lifeboat by lunch on day one. Says least, maneuvers most.",
+    "interaction": null,
+    "memories": []
+  },
+  "netanyahu": {
+    "name": "Benjamin Netanyahu",
+    "age": 75,
+    "archetype": "the survivor",
+    "color": "#3b82f6",
+    "scores": {
+      "trust": 30,
+      "openness": 51,
+      "ambition": 85,
+      "loneliness": 32,
+      "resilience": 88,
+      "hunger": 54,
+      "thirst": 56,
+      "energy": 56,
+      "health": 100
+    },
+    "mood": "calculating",
+    "location": {
+      "waypoint": "lounge_bar",
+      "x": 65,
+      "y": 40
+    },
+    "shelter": "stateroom",
+    "condition": "healthy",
+    "relationships": {
+      "trump": {
+        "closeness": 55,
+        "tension": 15,
+        "attraction": 0
+      },
+      "putin": {
+        "closeness": 25,
+        "tension": 40,
+        "attraction": 0
+      },
+      "xi": {
+        "closeness": 20,
+        "tension": 35,
+        "attraction": 0
+      },
+      "conor": {
+        "closeness": 26,
+        "tension": 25,
+        "attraction": 0
+      }
+    },
+    "bio": "The ultimate political survivor — smooth, speechy, security-obsessed. Wants to fortify the deck and gives press conferences to the circling seagulls.",
+    "interaction": {
+      "with": "trump",
+      "state": "talking"
+    },
+    "memories": []
+  },
+  "conor": {
+    "name": "Conor McGregor",
+    "age": 36,
+    "archetype": "the wildcard",
+    "color": "#22c55e",
+    "scores": {
+      "trust": 45,
+      "openness": 80,
+      "ambition": 75,
+      "loneliness": 23,
+      "resilience": 86,
+      "hunger": 54,
+      "thirst": 56,
+      "energy": 60,
+      "health": 100
+    },
+    "mood": "cocky",
+    "location": {
+      "waypoint": "bow",
+      "x": 20,
+      "y": 62
+    },
+    "shelter": "crew quarters",
+    "condition": "healthy",
+    "relationships": {
+      "trump": {
+        "closeness": 45,
+        "tension": 23,
+        "attraction": 0
+      },
+      "putin": {
+        "closeness": 35,
+        "tension": 25,
+        "attraction": 0
+      },
+      "xi": {
+        "closeness": 20,
+        "tension": 30,
+        "attraction": 0
+      },
+      "netanyahu": {
+        "closeness": 26,
+        "tension": 25,
+        "attraction": 0
+      }
+    },
+    "bio": "The only one who'll actually fish, haul, or fight the cold. Zero respect for 'the suits', mocks them all, stirs trouble — and somehow keeps the camp alive.",
+    "interaction": {
+      "with": "trump",
+      "state": "talking"
+    },
+    "memories": []
+  }
+}

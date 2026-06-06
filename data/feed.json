@@ -1,0 +1,227 @@
+[
+  {
+    "day": 1,
+    "cycle": "morning",
+    "character": "trump",
+    "action": "Strides to the captain's chair on the bridge and immediately declares himself captain of the yacht.",
+    "thought": "This yacht needs real leadership now.",
+    "location": {
+      "waypoint": "captains_chair",
+      "x": 50,
+      "y": 30
+    },
+    "shelter": "owner's suite",
+    "mood": "bombastic",
+    "timestamp": "2026-06-06T20:46:31.283322"
+  },
+  {
+    "day": 1,
+    "cycle": "morning",
+    "character": "putin",
+    "action": "Stands shirtless on the frozen rail of the open deck, surveying the ice field and the yacht's predicament with cold eyes.",
+    "thought": "His panic works in my favor.",
+    "location": {
+      "waypoint": "deck_rail",
+      "x": 80,
+      "y": 40
+    },
+    "shelter": "the open deck",
+    "mood": "impassive",
+    "timestamp": "2026-06-06T20:46:31.283322"
+  },
+  {
+    "day": 1,
+    "cycle": "morning",
+    "character": "xi",
+    "action": "Sits quietly in the lounge, observing the morning chaos from a distance and formulating a long-term strategy.",
+    "thought": "Patience and order will matter most.",
+    "location": {
+      "waypoint": "lounge",
+      "x": 35,
+      "y": 48
+    },
+    "shelter": "stateroom",
+    "mood": "inscrutable",
+    "timestamp": "2026-06-06T20:46:31.283322"
+  },
+  {
+    "day": 1,
+    "cycle": "morning",
+    "character": "netanyahu",
+    "action": "Gathers supplies in the galley and heads to the lounge to discuss the morning's developments with Trump.",
+    "thought": "I can work with this situation.",
+    "location": {
+      "waypoint": "lounge_bar",
+      "x": 65,
+      "y": 40
+    },
+    "shelter": "stateroom",
+    "mood": "calculating",
+    "timestamp": "2026-06-06T20:46:31.283322"
+  },
+  {
+    "day": 1,
+    "cycle": "morning",
+    "character": "conor",
+    "action": "Prepares fishing gear by the bow, mocking the leadership chaos and preparing to actually accomplish something.",
+    "thought": "Someone needs to do real work.",
+    "location": {
+      "waypoint": "bow",
+      "x": 20,
+      "y": 62
+    },
+    "shelter": "crew quarters",
+    "mood": "cocky",
+    "timestamp": "2026-06-06T20:46:31.283322"
+  },
+  {
+    "day": 1,
+    "cycle": "morning",
+    "type": "interaction",
+    "characters": [
+      "trump",
+      "netanyahu",
+      "conor"
+    ],
+    "description": "The three gather in the lounge during breakfast to confront the reality of being frozen and stranded. Trump declares captaincy, Netanyahu proposes democratic structure, and Conor dismisses both while preparing to fish.",
+    "dialogue": [
+      {
+        "speaker": "trump",
+        "line": "Good morning, gentlemen. I've just declared myself captain of this vessel."
+      },
+      {
+        "speaker": "netanyahu",
+        "line": "Good morning. That's... an interesting first decision."
+      },
+      {
+        "speaker": "conor",
+        "line": "Captain of what, exactly? A frozen floating bathtub?"
+      },
+      {
+        "speaker": "trump",
+        "line": "Don't be ridiculous. This is a $300 million yacht. Tremendous yacht. And as owner—well, interim owner—I'm taking command."
+      },
+      {
+        "speaker": "netanyahu",
+        "line": "No one owns this yacht, Donald. It was chartered. And frankly, we should discuss leadership democratically."
+      },
+      {
+        "speaker": "conor",
+        "line": "Democratically? We've got five people and it's freezing. What we need is for someone to fix the heating and someone to fish. I'll do both."
+      },
+      {
+        "speaker": "trump",
+        "line": "You can fish? Great. I'll oversee the fishing operation. Big picture strategy."
+      },
+      {
+        "speaker": "conor",
+        "line": "Of course you will. From the warm lounge while I'm standing in the Arctic."
+      },
+      {
+        "speaker": "netanyahu",
+        "line": "The point is structure. We need order. Perhaps we could establish a council? Each of us with clear responsibilities."
+      },
+      {
+        "speaker": "trump",
+        "line": "A council? This isn't the UN. We need one leader. Me."
+      },
+      {
+        "speaker": "conor",
+        "line": "You know what we actually need? Food and water. The heating's still running. The question is how long."
+      },
+      {
+        "speaker": "netanyahu",
+        "line": "Conor's right. Our supplies are limited—we need to account for everything."
+      },
+      {
+        "speaker": "trump",
+        "line": "I'll account for them. I'm very good with numbers. Made billions. Billions and billions."
+      },
+      {
+        "speaker": "conor",
+        "line": "You've gone bankrupt six times, but sure, let's let you handle supplies."
+      },
+      {
+        "speaker": "trump",
+        "line": "Those were strategic moves. Tremendous negotiating tactics."
+      },
+      {
+        "speaker": "netanyahu",
+        "line": "Regardless, we need a plan for food, water, heat, and rescue. I suggest we assess the situation together."
+      },
+      {
+        "speaker": "conor",
+        "line": "Here's my assessment: we're stuck, it's cold, and talking about it doesn't warm anyone up."
+      },
+      {
+        "speaker": "trump",
+        "line": "I will not be spoken to this way. I'm the captain."
+      },
+      {
+        "speaker": "netanyahu",
+        "line": "Donald, perhaps we could discuss this over breakfast?"
+      },
+      {
+        "speaker": "conor",
+        "line": "Breakfast? From what—the stale caviar? We need to ration."
+      },
+      {
+        "speaker": "trump",
+        "line": "There's caviar? Where?"
+      },
+      {
+        "speaker": "conor",
+        "line": "See? You don't even know what's aboard."
+      },
+      {
+        "speaker": "netanyahu",
+        "line": "Perhaps we should conduct an inventory. All of us together."
+      },
+      {
+        "speaker": "trump",
+        "line": "I'll conduct it. Captain does the inventory."
+      },
+      {
+        "speaker": "conor",
+        "line": "Of course the captain does. How convenient."
+      },
+      {
+        "speaker": "netanyahu",
+        "line": "Gentlemen, arguing won't help. We're here. We're alive. Let's focus on that."
+      },
+      {
+        "speaker": "trump",
+        "line": "I am focused. Focused on making sure this yacht is run properly. Very properly."
+      },
+      {
+        "speaker": "conor",
+        "line": "Then let me go fish and you two can sit here and talk about running things."
+      },
+      {
+        "speaker": "trump",
+        "line": "Fine. But I want a full report on every fish you catch."
+      },
+      {
+        "speaker": "conor",
+        "line": "Right. I'll write you a detailed report while dangling from the ice."
+      },
+      {
+        "speaker": "netanyahu",
+        "line": "Perhaps we should meet again this evening to discuss the day's findings."
+      },
+      {
+        "speaker": "trump",
+        "line": "Good idea. We'll have a big beautiful evening meeting. The best meeting."
+      },
+      {
+        "speaker": "netanyahu",
+        "line": "Yes. And in the meantime, let's ensure the stove remains lit. Heat is our priority."
+      },
+      {
+        "speaker": "conor",
+        "line": "I'll be back with fish. You two figure out who's really in charge."
+      }
+    ],
+    "timestamp": "2026-06-06T20:46:31.283322"
+  }
+]
