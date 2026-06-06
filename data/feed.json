@@ -651,5 +651,185 @@
       }
     ],
     "timestamp": "2026-06-06T23:15:08.569247"
+  },
+  {
+    "day": 1,
+    "cycle": "night",
+    "character": "trump",
+    "action": "Donald settled into the captain's chair on the bridge, savoring the moment of authority he'd seized at dinner.",
+    "thought": "I proved it. My protocol took hold.",
+    "location": {
+      "waypoint": "captains_chair",
+      "x": 50,
+      "y": 30
+    },
+    "shelter": "owner's suite",
+    "mood": "triumphant",
+    "timestamp": "2026-06-06T23:18:04.438187"
+  },
+  {
+    "day": 1,
+    "cycle": "night",
+    "character": "putin",
+    "action": "Vladimir moved silently through the galley in the dark, counting the fuel cans and assessing how long they had.",
+    "thought": "Let him play captain. The ice decides.",
+    "location": {
+      "waypoint": "galley",
+      "x": 80,
+      "y": 40
+    },
+    "shelter": "the open deck",
+    "mood": "impassive",
+    "timestamp": "2026-06-06T23:18:04.438187"
+  },
+  {
+    "day": 1,
+    "cycle": "night",
+    "character": "xi",
+    "action": "Jinping lay in his bunk, watching the shadows on the cabin walls and thinking about what order really meant.",
+    "thought": "The cold will teach them all something.",
+    "location": {
+      "waypoint": "lounge_couch",
+      "x": 35,
+      "y": 48
+    },
+    "shelter": "stateroom",
+    "mood": "contemplative",
+    "timestamp": "2026-06-06T23:18:04.438187"
+  },
+  {
+    "day": 1,
+    "cycle": "night",
+    "character": "netanyahu",
+    "action": "Bibi moved through the sleeping quarters, checking on people, worried that his carefully held mediation was already fracturing.",
+    "thought": "It held for one day. How much longer?",
+    "location": {
+      "waypoint": "lounge",
+      "x": 65,
+      "y": 40
+    },
+    "shelter": "stateroom",
+    "mood": "anxious",
+    "timestamp": "2026-06-06T23:18:04.438187"
+  },
+  {
+    "day": 1,
+    "cycle": "night",
+    "character": "conor",
+    "action": "McGregor came into the galley for warmth and found Vladimir doing the one thing nobody else was: thinking practically.",
+    "thought": "Finally, someone who actually understands survival.",
+    "location": {
+      "waypoint": "galley",
+      "x": 20,
+      "y": 62
+    },
+    "shelter": "crew quarters",
+    "mood": "satisfied",
+    "timestamp": "2026-06-06T23:18:04.438187"
+  },
+  {
+    "day": 1,
+    "cycle": "night",
+    "type": "interaction",
+    "characters": [
+      "putin",
+      "conor"
+    ],
+    "description": "In the galley after dark, Vladimir checks the fuel while McGregor comes in from the cold, and between them the real power on the ship forms — quietly, practically, with no speeches.",
+    "dialogue": [
+      {
+        "speaker": "conor",
+        "line": "Checking the stove, or just brooding in the dark?"
+      },
+      {
+        "speaker": "putin",
+        "line": "Both. The fuel won't last five days at this rate."
+      },
+      {
+        "speaker": "conor",
+        "line": "Five days? Christ. And Donald's worried about dinner schedules."
+      },
+      {
+        "speaker": "putin",
+        "line": "He believes order creates safety."
+      },
+      {
+        "speaker": "conor",
+        "line": "Does it?"
+      },
+      {
+        "speaker": "putin",
+        "line": "No. Work does. You understand this."
+      },
+      {
+        "speaker": "conor",
+        "line": "Someone has to. Bibi's trying, at least. But Xi and Donald are useless."
+      },
+      {
+        "speaker": "putin",
+        "line": "They will learn when the cold teaches them."
+      },
+      {
+        "speaker": "conor",
+        "line": "And what happens then?"
+      },
+      {
+        "speaker": "putin",
+        "line": "We will see who remembers how to survive."
+      },
+      {
+        "speaker": "conor",
+        "line": "You talk like you've done this before."
+      },
+      {
+        "speaker": "putin",
+        "line": "The cold respects those who respect it."
+      },
+      {
+        "speaker": "conor",
+        "line": "That's almost poetic, mate."
+      },
+      {
+        "speaker": "putin",
+        "line": "It is practical. There is no poetry in freezing."
+      },
+      {
+        "speaker": "conor",
+        "line": "Fair. So what's your actual plan, then? Beyond counting fuel?"
+      },
+      {
+        "speaker": "putin",
+        "line": "To stay alive. To make sure this ship stays alive. Everything else is secondary."
+      },
+      {
+        "speaker": "conor",
+        "line": "Finally, someone talking sense. I've been saying—"
+      },
+      {
+        "speaker": "putin",
+        "line": "—that you are the only one working. Yes."
+      },
+      {
+        "speaker": "conor",
+        "line": "Christ, you were listening. Even when you look like you're not."
+      },
+      {
+        "speaker": "putin",
+        "line": "I listen to what matters. The west hold seal is failing. We should check it."
+      },
+      {
+        "speaker": "conor",
+        "line": "Tonight? Now?"
+      },
+      {
+        "speaker": "putin",
+        "line": "The ice will not wait. Neither should we."
+      },
+      {
+        "speaker": "conor",
+        "line": "You're right. Let me grab my coat."
+      }
+    ],
+    "timestamp": "2026-06-06T23:18:04.438187"
   }
 ]

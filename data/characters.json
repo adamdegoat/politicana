@@ -5,19 +5,19 @@
     "archetype": "the self-declared captain",
     "color": "#f59e0b",
     "scores": {
-      "trust": 30,
+      "trust": 28,
       "openness": 72,
-      "ambition": 99,
-      "loneliness": 24,
+      "ambition": 100,
+      "loneliness": 28,
       "resilience": 71,
       "hunger": 53,
-      "thirst": 53,
-      "energy": 52,
+      "thirst": 45,
+      "energy": 88,
       "health": 100
     },
-    "mood": "imperious",
+    "mood": "triumphant",
     "location": {
-      "waypoint": "galley",
+      "waypoint": "captains_chair",
       "x": 50,
       "y": 30
     },
@@ -26,7 +26,7 @@
     "relationships": {
       "putin": {
         "closeness": 42,
-        "tension": 36,
+        "tension": 37,
         "attraction": 0
       },
       "xi": {
@@ -41,7 +41,7 @@
       },
       "conor": {
         "closeness": 45,
-        "tension": 23,
+        "tension": 24,
         "attraction": 0
       }
     },
@@ -72,19 +72,19 @@
     "archetype": "the cold operator",
     "color": "#94a3b8",
     "scores": {
-      "trust": 10,
+      "trust": 11,
       "openness": 15,
-      "ambition": 90,
-      "loneliness": 45,
+      "ambition": 91,
+      "loneliness": 42,
       "resilience": 97,
       "hunger": 53,
-      "thirst": 53,
-      "energy": 52,
+      "thirst": 45,
+      "energy": 88,
       "health": 100
     },
     "mood": "impassive",
     "location": {
-      "waypoint": "deck_rail",
+      "waypoint": "galley",
       "x": 80,
       "y": 40
     },
@@ -93,7 +93,7 @@
     "relationships": {
       "trump": {
         "closeness": 42,
-        "tension": 36,
+        "tension": 37,
         "attraction": 0
       },
       "xi": {
@@ -103,21 +103,29 @@
       },
       "netanyahu": {
         "closeness": 26,
-        "tension": 40,
+        "tension": 41,
         "attraction": 0
       },
       "conor": {
-        "closeness": 38,
-        "tension": 25,
+        "closeness": 40,
+        "tension": 24,
         "attraction": 0
       }
     },
     "bio": "Unbothered by the cold — strips to the waist on the frozen deck to prove a point. Says little, trusts no one, and is quietly relocating the last of the fuel.",
-    "interaction": null,
+    "interaction": {
+      "with": "conor",
+      "state": "talking"
+    },
     "memories": [
       {
         "day": 1,
         "text": "Donald thinks a title makes him captain. Let him learn.",
+        "weight": 2
+      },
+      {
+        "day": 1,
+        "text": "McGregor is the only one who truly works. We have aligned.",
         "weight": 2
       }
     ],
@@ -131,15 +139,15 @@
     "scores": {
       "trust": 25,
       "openness": 20,
-      "ambition": 88,
-      "loneliness": 34,
-      "resilience": 90,
+      "ambition": 89,
+      "loneliness": 36,
+      "resilience": 91,
       "hunger": 53,
-      "thirst": 53,
-      "energy": 52,
+      "thirst": 45,
+      "energy": 88,
       "health": 100
     },
-    "mood": "inscrutable",
+    "mood": "contemplative",
     "location": {
       "waypoint": "lounge_couch",
       "x": 35,
@@ -176,6 +184,11 @@
         "day": 1,
         "text": "The cold will decide who leads, not titles or ego.",
         "weight": 2
+      },
+      {
+        "day": 1,
+        "text": "The cold will decide everything. Not dinners or speeches.",
+        "weight": 1
       }
     ],
     "callname": "Jinping"
@@ -187,18 +200,18 @@
     "color": "#3b82f6",
     "scores": {
       "trust": 31,
-      "openness": 53,
-      "ambition": 85,
-      "loneliness": 27,
-      "resilience": 89,
+      "openness": 52,
+      "ambition": 84,
+      "loneliness": 32,
+      "resilience": 88,
       "hunger": 53,
-      "thirst": 53,
-      "energy": 52,
+      "thirst": 45,
+      "energy": 88,
       "health": 100
     },
-    "mood": "calculating",
+    "mood": "anxious",
     "location": {
-      "waypoint": "galley",
+      "waypoint": "lounge",
       "x": 65,
       "y": 40
     },
@@ -212,7 +225,7 @@
       },
       "putin": {
         "closeness": 26,
-        "tension": 40,
+        "tension": 41,
         "attraction": 0
       },
       "xi": {
@@ -221,16 +234,13 @@
         "attraction": 0
       },
       "conor": {
-        "closeness": 27,
+        "closeness": 26,
         "tension": 24,
         "attraction": 0
       }
     },
     "bio": "The ultimate political survivor — smooth, speechy, security-obsessed. Wants to fortify the deck and gives press conferences to the circling seagulls.",
-    "interaction": {
-      "with": "trump",
-      "state": "sitting_together"
-    },
+    "interaction": null,
     "memories": [
       {
         "day": 1,
@@ -246,6 +256,11 @@
         "day": 1,
         "text": "Kept Donald and Conor from exploding. Mediation matters. But how long can it hold?",
         "weight": 2
+      },
+      {
+        "day": 1,
+        "text": "Fed them but their alliance is breaking apart beyond me.",
+        "weight": 2
       }
     ],
     "callname": "Bibi"
@@ -256,17 +271,17 @@
     "archetype": "the wildcard",
     "color": "#22c55e",
     "scores": {
-      "trust": 46,
-      "openness": 80,
-      "ambition": 75,
-      "loneliness": 18,
+      "trust": 48,
+      "openness": 81,
+      "ambition": 74,
+      "loneliness": 14,
       "resilience": 89,
       "hunger": 53,
-      "thirst": 53,
-      "energy": 52,
+      "thirst": 45,
+      "energy": 88,
       "health": 100
     },
-    "mood": "frustrated",
+    "mood": "satisfied",
     "location": {
       "waypoint": "galley",
       "x": 20,
@@ -277,12 +292,12 @@
     "relationships": {
       "trump": {
         "closeness": 45,
-        "tension": 23,
+        "tension": 24,
         "attraction": 0
       },
       "putin": {
-        "closeness": 38,
-        "tension": 25,
+        "closeness": 40,
+        "tension": 24,
         "attraction": 0
       },
       "xi": {
@@ -291,14 +306,14 @@
         "attraction": 0
       },
       "netanyahu": {
-        "closeness": 27,
+        "closeness": 26,
         "tension": 24,
         "attraction": 0
       }
     },
     "bio": "The only one who'll actually fish, haul, or fight the cold. Zero respect for 'the suits', mocks them all, stirs trouble — and somehow keeps the camp alive.",
     "interaction": {
-      "with": "trump",
+      "with": "putin",
       "state": "talking"
     },
     "memories": [
@@ -316,6 +331,11 @@
         "day": 1,
         "text": "Fine. Six o'clock. As long as the work gets done, I don't care about his schedule.",
         "weight": 1
+      },
+      {
+        "day": 1,
+        "text": "Vladimir sees what needs doing. No bullshit, just survival.",
+        "weight": 2
       }
     ],
     "callname": "McGregor"

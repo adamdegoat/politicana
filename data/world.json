@@ -1,10 +1,10 @@
 {
   "day": 1,
-  "cycle": "evening",
+  "cycle": "night",
   "weather": "clear",
   "pending_events": [],
   "started": true,
-  "pulse": "Donald forced through a dinner protocol at the galley stove; McGregor grudgingly agreed; control of the group's daily rhythm could shift the balance of power.",
+  "pulse": "Putin and McGregor secretly aligned on survival; Donald's captain act crumbled, Bibi's mediation failed, Xi watched the power shift.",
   "structures": [
     {
       "id": "ship_stove",
@@ -16,29 +16,31 @@
       "builder": "",
       "day": 1,
       "label": "Ship's Stove",
-      "condition": 91
+      "condition": 88
     }
   ],
   "resources": {
+    "food": 8,
+    "water": 71,
+    "wood": 43,
+    "medicine": 20
+  },
+  "resources_prev": {
     "food": 18,
     "water": 60,
     "wood": 43,
     "medicine": 20
   },
-  "resources_prev": {
-    "food": 34,
-    "water": 65,
-    "wood": 41,
-    "medicine": 20
-  },
   "discoveries": [],
-  "last_cycle_key": "2026-06-06:evening",
-  "scene": "Donald established six p.m. dinner in the galley as McGregor returned soaked from checking rigging. By evening, an uneasy protocol held — everyone would gather at six — but tension simmered beneath McGregor's compliance and Donald's satisfaction.",
-  "day_summaries": {},
+  "last_cycle_key": "2026-06-06:night",
+  "scene": "In the galley, Putin and McGregor agreed to run the ship together on survival terms. Donald slept in his suite convinced his authority held; Bibi lay awake sensing his mediation failing; Xi rested quietly, observing.",
+  "day_summaries": {
+    "1": "Day 1: Donald appointed himself captain and imposed a six o'clock dinner protocol. Bibi kept the peace with chowder, McGregor did all the real work, Vladimir watched coldly from the deck unimpressed. By nightfall, Vladimir and McGregor had forged a practical alliance, and Donald's authority was already hollow."
+  },
   "last_run_date": "2026-06-06",
   "camp_climate": "steady",
   "fire": {
     "lit": true,
-    "fuel": 14
+    "fuel": 2
   }
 }
