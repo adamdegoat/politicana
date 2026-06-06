@@ -2,23 +2,23 @@
   "world": "politicana",
   "poll": {
     "id": "2026-06-07",
-    "question": "Which way should Politicana tilt tomorrow?",
     "closes": "tonight",
+    "question": "The fuel lasts 40 days if Vladimir controls the stove. Donald insists on breakfast protocol. Morale or math—who decides?",
     "options": [
       {
-        "id": "ambition",
-        "label": "Ambition",
-        "desc": "nudge someone to make a bold grab for control"
+        "id": "vladimir_math",
+        "label": "Vladimir's authority",
+        "desc": "The math becomes law."
       },
       {
-        "id": "paranoia",
-        "label": "Paranoia",
-        "desc": "let suspicion, hoarding and plotting take hold"
+        "id": "donald_ceremony",
+        "label": "Donald's protocol",
+        "desc": "Ceremony feeds the soul."
       },
       {
-        "id": "alliance",
-        "label": "Alliance",
-        "desc": "let two of them forge an unlikely pact"
+        "id": "bibi_balance",
+        "label": "Bibi's compromise",
+        "desc": "The balance holds. For now."
       }
     ]
   }
