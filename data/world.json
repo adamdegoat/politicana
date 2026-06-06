@@ -1,10 +1,10 @@
 {
   "day": 1,
-  "cycle": "night",
+  "cycle": "morning",
   "weather": "clear",
   "pending_events": [],
   "started": true,
-  "pulse": "McGregor and Vladimir have found each other; Donald dreams of command while his authority quietly slips away.",
+  "pulse": "Donald crowned himself captain at breakfast. Vladimir quietly refused. Bibi offered rotation. By mid-morning, five men and one stove began their cold arithmetic.",
   "structures": [
     {
       "id": "ship_stove",
@@ -16,31 +16,29 @@
       "builder": "",
       "day": 1,
       "label": "Ship's Stove",
-      "condition": 88
+      "condition": 97
     }
   ],
   "resources": {
-    "food": 8,
-    "water": 72,
-    "wood": 38,
+    "food": 45,
+    "water": 56,
+    "wood": 39,
     "medicine": 20
   },
   "resources_prev": {
-    "food": 20,
-    "water": 64,
-    "wood": 40,
+    "food": 40,
+    "water": 45,
+    "wood": 35,
     "medicine": 20
   },
   "discoveries": [],
-  "last_cycle_key": "2026-06-06:night",
-  "scene": "Vladimir stepped outside to meet McGregor; an unexpected alliance between observer and worker. By midnight, Donald lay reassessing control, Jinping meditated in darkness, Bibi calculated tomorrow, and McGregor slept knowing one man understood.",
-  "day_summaries": {
-    "1": "Day 1: Donald claimed command and Bibi backed him; McGregor did the actual work tending the stove while Vladimir watched everything with cold amusement; Jinping observed the emerging hierarchy from his stateroom; and by nightfall, an unexpected alliance had formed between the man of action and the observer of power, neither Donald nor the others yet aware that the real captain of this frozen yacht was no longer speaking."
-  },
+  "last_cycle_key": "2026-06-06:morning",
+  "scene": "In the galley at dawn, Donald declared himself captain; Vladimir answered that the cold, not Donald, was the only authority aboard. By mid-morning, all five scattered: McGregor to the ice to fish alone, Vladimir back to the frozen deck, Jinping to his lounge, and Bibi scribbling the rules nobody yet agreed to.",
+  "day_summaries": {},
   "last_run_date": "2026-06-06",
   "camp_climate": "steady",
   "fire": {
     "lit": true,
-    "fuel": 2
+    "fuel": 38
   }
 }

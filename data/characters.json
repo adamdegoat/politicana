@@ -5,19 +5,19 @@
     "archetype": "the self-declared captain",
     "color": "#f59e0b",
     "scores": {
-      "trust": 27,
-      "openness": 71,
-      "ambition": 100,
-      "loneliness": 26,
-      "resilience": 72,
-      "hunger": 53,
-      "thirst": 45,
-      "energy": 80,
+      "trust": 29,
+      "openness": 72,
+      "ambition": 96,
+      "loneliness": 28,
+      "resilience": 70,
+      "hunger": 54,
+      "thirst": 56,
+      "energy": 64,
       "health": 100
     },
-    "mood": "tense",
+    "mood": "bombastic",
     "location": {
-      "waypoint": "owner's suite",
+      "waypoint": "captains_chair",
       "x": 50,
       "y": 30
     },
@@ -26,22 +26,22 @@
     "relationships": {
       "putin": {
         "closeness": 42,
-        "tension": 37,
+        "tension": 35,
         "attraction": 0
       },
       "xi": {
         "closeness": 20,
-        "tension": 51,
+        "tension": 50,
         "attraction": 0
       },
       "netanyahu": {
-        "closeness": 59,
-        "tension": 13,
+        "closeness": 56,
+        "tension": 15,
         "attraction": 0
       },
       "conor": {
         "closeness": 45,
-        "tension": 25,
+        "tension": 23,
         "attraction": 0
       }
     },
@@ -50,8 +50,8 @@
     "memories": [
       {
         "day": 1,
-        "text": "Netanyahu backed my judgment perfectly tonight. I'm clearly the captain.",
-        "weight": 1
+        "text": "Vladimir refuses to acknowledge my authority. He won't accept it.",
+        "weight": 2
       }
     ],
     "callname": "Donald"
@@ -62,28 +62,28 @@
     "archetype": "the cold operator",
     "color": "#94a3b8",
     "scores": {
-      "trust": 8,
-      "openness": 14,
-      "ambition": 93,
-      "loneliness": 35,
-      "resilience": 98,
-      "hunger": 53,
-      "thirst": 45,
-      "energy": 82,
+      "trust": 10,
+      "openness": 15,
+      "ambition": 90,
+      "loneliness": 38,
+      "resilience": 97,
+      "hunger": 54,
+      "thirst": 56,
+      "energy": 64,
       "health": 100
     },
-    "mood": "detached",
+    "mood": "impassive",
     "location": {
       "waypoint": "deck_rail",
-      "x": 62,
-      "y": 30
+      "x": 80,
+      "y": 40
     },
     "shelter": "the open deck",
     "condition": "healthy",
     "relationships": {
       "trump": {
         "closeness": 42,
-        "tension": 37,
+        "tension": 35,
         "attraction": 0
       },
       "xi": {
@@ -92,30 +92,22 @@
         "attraction": 0
       },
       "netanyahu": {
-        "closeness": 25,
-        "tension": 41,
+        "closeness": 26,
+        "tension": 40,
         "attraction": 0
       },
       "conor": {
-        "closeness": 39,
-        "tension": 24,
+        "closeness": 36,
+        "tension": 25,
         "attraction": 0
       }
     },
     "bio": "Unbothered by the cold — strips to the waist on the frozen deck to prove a point. Says little, trusts no one, and is quietly relocating the last of the fuel.",
-    "interaction": {
-      "with": "conor",
-      "state": "talking"
-    },
+    "interaction": null,
     "memories": [
       {
         "day": 1,
-        "text": "McGregor and I quietly aligned against Trump's incompetence tonight.",
-        "weight": 2
-      },
-      {
-        "day": 1,
-        "text": "McGregor sees what matters. He will be essential. Trust him.",
+        "text": "Donald thinks a title makes him captain. Let him learn.",
         "weight": 2
       }
     ],
@@ -129,17 +121,17 @@
     "scores": {
       "trust": 25,
       "openness": 20,
-      "ambition": 89,
-      "loneliness": 32,
-      "resilience": 92,
-      "hunger": 53,
-      "thirst": 45,
-      "energy": 82,
+      "ambition": 88,
+      "loneliness": 28,
+      "resilience": 90,
+      "hunger": 54,
+      "thirst": 56,
+      "energy": 64,
       "health": 100
     },
-    "mood": "serene",
+    "mood": "inscrutable",
     "location": {
-      "waypoint": "stateroom",
+      "waypoint": "lounge_couch",
       "x": 35,
       "y": 48
     },
@@ -148,7 +140,7 @@
     "relationships": {
       "trump": {
         "closeness": 20,
-        "tension": 51,
+        "tension": 50,
         "attraction": 0
       },
       "putin": {
@@ -162,7 +154,7 @@
         "attraction": 0
       },
       "conor": {
-        "closeness": 21,
+        "closeness": 20,
         "tension": 30,
         "attraction": 0
       }
@@ -172,8 +164,8 @@
     "memories": [
       {
         "day": 1,
-        "text": "Order emerges from chaos. Watch them organize by natural hierarchy.",
-        "weight": 1
+        "text": "The cold will decide who leads, not titles or ego.",
+        "weight": 2
       }
     ],
     "callname": "Jinping"
@@ -184,19 +176,19 @@
     "archetype": "the survivor",
     "color": "#3b82f6",
     "scores": {
-      "trust": 32,
-      "openness": 52,
-      "ambition": 87,
-      "loneliness": 29,
-      "resilience": 90,
-      "hunger": 53,
-      "thirst": 45,
-      "energy": 80,
+      "trust": 30,
+      "openness": 51,
+      "ambition": 85,
+      "loneliness": 33,
+      "resilience": 88,
+      "hunger": 54,
+      "thirst": 56,
+      "energy": 64,
       "health": 100
     },
-    "mood": "confident",
+    "mood": "calculating",
     "location": {
-      "waypoint": "stateroom",
+      "waypoint": "galley",
       "x": 65,
       "y": 40
     },
@@ -204,13 +196,13 @@
     "condition": "healthy",
     "relationships": {
       "trump": {
-        "closeness": 59,
-        "tension": 13,
+        "closeness": 56,
+        "tension": 15,
         "attraction": 0
       },
       "putin": {
-        "closeness": 25,
-        "tension": 41,
+        "closeness": 26,
+        "tension": 40,
         "attraction": 0
       },
       "xi": {
@@ -219,7 +211,7 @@
         "attraction": 0
       },
       "conor": {
-        "closeness": 27,
+        "closeness": 25,
         "tension": 25,
         "attraction": 0
       }
@@ -229,7 +221,7 @@
     "memories": [
       {
         "day": 1,
-        "text": "Trump trusted my support instantly. I'm positioning myself as absolutely essential.",
+        "text": "Donald and Vladimir clashing already. I'll have to mediate.",
         "weight": 2
       }
     ],
@@ -241,60 +233,52 @@
     "archetype": "the wildcard",
     "color": "#22c55e",
     "scores": {
-      "trust": 47,
-      "openness": 83,
-      "ambition": 74,
-      "loneliness": 17,
-      "resilience": 89,
-      "hunger": 53,
-      "thirst": 45,
-      "energy": 84,
+      "trust": 45,
+      "openness": 80,
+      "ambition": 75,
+      "loneliness": 23,
+      "resilience": 87,
+      "hunger": 54,
+      "thirst": 56,
+      "energy": 64,
       "health": 100
     },
-    "mood": "weary",
+    "mood": "cocky",
     "location": {
-      "waypoint": "deck_rail",
-      "x": 60,
-      "y": 48
+      "waypoint": "fishing_hole",
+      "x": 20,
+      "y": 62
     },
     "shelter": "crew quarters",
     "condition": "healthy",
     "relationships": {
       "trump": {
         "closeness": 45,
-        "tension": 25,
+        "tension": 23,
         "attraction": 0
       },
       "putin": {
-        "closeness": 39,
-        "tension": 24,
+        "closeness": 36,
+        "tension": 25,
         "attraction": 0
       },
       "xi": {
-        "closeness": 21,
+        "closeness": 20,
         "tension": 30,
         "attraction": 0
       },
       "netanyahu": {
-        "closeness": 27,
+        "closeness": 25,
         "tension": 25,
         "attraction": 0
       }
     },
     "bio": "The only one who'll actually fish, haul, or fight the cold. Zero respect for 'the suits', mocks them all, stirs trouble — and somehow keeps the camp alive.",
-    "interaction": {
-      "with": "putin",
-      "state": "talking"
-    },
+    "interaction": null,
     "memories": [
       {
         "day": 1,
-        "text": "I took the stove work; Trump needed to save face. Smart.",
-        "weight": 2
-      },
-      {
-        "day": 1,
-        "text": "Vladimir understands. Work matters more than ego. Unexpected ally.",
+        "text": "None of them know what they're doing. Thank fuck for that.",
         "weight": 2
       }
     ],

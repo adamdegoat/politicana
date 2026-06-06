@@ -3,8 +3,8 @@
     "day": 1,
     "cycle": "morning",
     "character": "trump",
-    "action": "Strides to the captain's chair on the bridge and immediately declares himself captain of the yacht.",
-    "thought": "This yacht needs real leadership now.",
+    "action": "He wakes in the owner's suite and storms to the bridge, announcing himself captain to the empty helm.",
+    "thought": "I'm still in charge, right?",
     "location": {
       "waypoint": "captains_chair",
       "x": 50,
@@ -12,14 +12,14 @@
     },
     "shelter": "owner's suite",
     "mood": "bombastic",
-    "timestamp": "2026-06-06T20:46:31.283322"
+    "timestamp": "2026-06-06T23:09:17.835565"
   },
   {
     "day": 1,
     "cycle": "morning",
     "character": "putin",
-    "action": "Stands shirtless on the frozen rail of the open deck, surveying the ice field and the yacht's predicament with cold eyes.",
-    "thought": "His panic works in my favor.",
+    "action": "He emerges from the frozen deck, strips off his outer layer without flinching, and heads inside to check the stove.",
+    "thought": "Let him play captain. Ice doesn't care.",
     "location": {
       "waypoint": "deck_rail",
       "x": 80,
@@ -27,52 +27,52 @@
     },
     "shelter": "the open deck",
     "mood": "impassive",
-    "timestamp": "2026-06-06T20:46:31.283322"
+    "timestamp": "2026-06-06T23:09:17.835565"
   },
   {
     "day": 1,
     "cycle": "morning",
     "character": "xi",
-    "action": "Sits quietly in the lounge, observing the morning chaos from a distance and formulating a long-term strategy.",
-    "thought": "Patience and order will matter most.",
+    "action": "He wakes on his bunk in the stateroom, thinks quietly about the food supplies, and heads to the lounge to observe.",
+    "thought": "Strategy requires patience and clear thinking.",
     "location": {
-      "waypoint": "lounge",
+      "waypoint": "lounge_couch",
       "x": 35,
       "y": 48
     },
     "shelter": "stateroom",
     "mood": "inscrutable",
-    "timestamp": "2026-06-06T20:46:31.283322"
+    "timestamp": "2026-06-06T23:09:17.835565"
   },
   {
     "day": 1,
     "cycle": "morning",
     "character": "netanyahu",
-    "action": "Gathers supplies in the galley and heads to the lounge to discuss the morning's developments with Trump.",
-    "thought": "I can work with this situation.",
+    "action": "He's already awake, mentally planning the day's priorities, and moves to the galley to organize supplies and take notes.",
+    "thought": "Order prevents chaos. Chaos kills us.",
     "location": {
-      "waypoint": "lounge_bar",
+      "waypoint": "galley",
       "x": 65,
       "y": 40
     },
     "shelter": "stateroom",
     "mood": "calculating",
-    "timestamp": "2026-06-06T20:46:31.283322"
+    "timestamp": "2026-06-06T23:09:17.835565"
   },
   {
     "day": 1,
     "cycle": "morning",
     "character": "conor",
-    "action": "Prepares fishing gear by the bow, mocking the leadership chaos and preparing to actually accomplish something.",
-    "thought": "Someone needs to do real work.",
+    "action": "He's out on the ice before sunrise, checking the fishing rig and gathering driftwood, soaked and grinning.",
+    "thought": "Someone's gotta do the real work.",
     "location": {
-      "waypoint": "bow",
+      "waypoint": "fishing_hole",
       "x": 20,
       "y": 62
     },
     "shelter": "crew quarters",
     "mood": "cocky",
-    "timestamp": "2026-06-06T20:46:31.283322"
+    "timestamp": "2026-06-06T23:09:17.835565"
   },
   {
     "day": 1,
@@ -80,858 +80,170 @@
     "type": "interaction",
     "characters": [
       "trump",
-      "netanyahu",
-      "conor"
-    ],
-    "description": "The three gather in the lounge during breakfast to confront the reality of being frozen and stranded. Trump declares captaincy, Netanyahu proposes democratic structure, and Conor dismisses both while preparing to fish.",
-    "dialogue": [
-      {
-        "speaker": "trump",
-        "line": "Good morning, gentlemen. I've just declared myself captain of this vessel."
-      },
-      {
-        "speaker": "netanyahu",
-        "line": "Good morning. That's... an interesting first decision."
-      },
-      {
-        "speaker": "conor",
-        "line": "Captain of what, exactly? A frozen floating bathtub?"
-      },
-      {
-        "speaker": "trump",
-        "line": "Don't be ridiculous. This is a $300 million yacht. Tremendous yacht. And as owner—well, interim owner—I'm taking command."
-      },
-      {
-        "speaker": "netanyahu",
-        "line": "No one owns this yacht, Donald. It was chartered. And frankly, we should discuss leadership democratically."
-      },
-      {
-        "speaker": "conor",
-        "line": "Democratically? We've got five people and it's freezing. What we need is for someone to fix the heating and someone to fish. I'll do both."
-      },
-      {
-        "speaker": "trump",
-        "line": "You can fish? Great. I'll oversee the fishing operation. Big picture strategy."
-      },
-      {
-        "speaker": "conor",
-        "line": "Of course you will. From the warm lounge while I'm standing in the Arctic."
-      },
-      {
-        "speaker": "netanyahu",
-        "line": "The point is structure. We need order. Perhaps we could establish a council? Each of us with clear responsibilities."
-      },
-      {
-        "speaker": "trump",
-        "line": "A council? This isn't the UN. We need one leader. Me."
-      },
-      {
-        "speaker": "conor",
-        "line": "You know what we actually need? Food and water. The heating's still running. The question is how long."
-      },
-      {
-        "speaker": "netanyahu",
-        "line": "Conor's right. Our supplies are limited—we need to account for everything."
-      },
-      {
-        "speaker": "trump",
-        "line": "I'll account for them. I'm very good with numbers. Made billions. Billions and billions."
-      },
-      {
-        "speaker": "conor",
-        "line": "You've gone bankrupt six times, but sure, let's let you handle supplies."
-      },
-      {
-        "speaker": "trump",
-        "line": "Those were strategic moves. Tremendous negotiating tactics."
-      },
-      {
-        "speaker": "netanyahu",
-        "line": "Regardless, we need a plan for food, water, heat, and rescue. I suggest we assess the situation together."
-      },
-      {
-        "speaker": "conor",
-        "line": "Here's my assessment: we're stuck, it's cold, and talking about it doesn't warm anyone up."
-      },
-      {
-        "speaker": "trump",
-        "line": "I will not be spoken to this way. I'm the captain."
-      },
-      {
-        "speaker": "netanyahu",
-        "line": "Donald, perhaps we could discuss this over breakfast?"
-      },
-      {
-        "speaker": "conor",
-        "line": "Breakfast? From what—the stale caviar? We need to ration."
-      },
-      {
-        "speaker": "trump",
-        "line": "There's caviar? Where?"
-      },
-      {
-        "speaker": "conor",
-        "line": "See? You don't even know what's aboard."
-      },
-      {
-        "speaker": "netanyahu",
-        "line": "Perhaps we should conduct an inventory. All of us together."
-      },
-      {
-        "speaker": "trump",
-        "line": "I'll conduct it. Captain does the inventory."
-      },
-      {
-        "speaker": "conor",
-        "line": "Of course the captain does. How convenient."
-      },
-      {
-        "speaker": "netanyahu",
-        "line": "Gentlemen, arguing won't help. We're here. We're alive. Let's focus on that."
-      },
-      {
-        "speaker": "trump",
-        "line": "I am focused. Focused on making sure this yacht is run properly. Very properly."
-      },
-      {
-        "speaker": "conor",
-        "line": "Then let me go fish and you two can sit here and talk about running things."
-      },
-      {
-        "speaker": "trump",
-        "line": "Fine. But I want a full report on every fish you catch."
-      },
-      {
-        "speaker": "conor",
-        "line": "Right. I'll write you a detailed report while dangling from the ice."
-      },
-      {
-        "speaker": "netanyahu",
-        "line": "Perhaps we should meet again this evening to discuss the day's findings."
-      },
-      {
-        "speaker": "trump",
-        "line": "Good idea. We'll have a big beautiful evening meeting. The best meeting."
-      },
-      {
-        "speaker": "netanyahu",
-        "line": "Yes. And in the meantime, let's ensure the stove remains lit. Heat is our priority."
-      },
-      {
-        "speaker": "conor",
-        "line": "I'll be back with fish. You two figure out who's really in charge."
-      }
-    ],
-    "timestamp": "2026-06-06T20:46:31.283322"
-  },
-  {
-    "day": 1,
-    "cycle": "midday",
-    "character": "trump",
-    "action": "Summons everyone to the galley for an emergency supply and duty meeting.",
-    "thought": "They all need my leadership here.",
-    "location": {
-      "waypoint": "galley",
-      "x": 50,
-      "y": 30
-    },
-    "shelter": "owner's suite",
-    "mood": "bombastic",
-    "timestamp": "2026-06-06T22:26:38.896528"
-  },
-  {
-    "day": 1,
-    "cycle": "midday",
-    "character": "putin",
-    "action": "Stands silently in the galley doorway, observing the chaos with an unreadable expression.",
-    "thought": "Trump believes he commands. He will fail.",
-    "location": {
-      "waypoint": "galley_door",
-      "x": 62,
-      "y": 30
-    },
-    "shelter": "the open deck",
-    "mood": "impassive",
-    "timestamp": "2026-06-06T22:26:38.896528"
-  },
-  {
-    "day": 1,
-    "cycle": "midday",
-    "character": "xi",
-    "action": "Quietly observes the supply meeting and begins sketching an organizational schedule.",
-    "thought": "Order will emerge from chaos. Patience wins.",
-    "location": {
-      "waypoint": "galley",
-      "x": 35,
-      "y": 48
-    },
-    "shelter": "stateroom",
-    "mood": "inscrutable",
-    "timestamp": "2026-06-06T22:26:38.896528"
-  },
-  {
-    "day": 1,
-    "cycle": "midday",
-    "character": "netanyahu",
-    "action": "Smoothly supports Trump's leadership while quietly evaluating each person's weaknesses.",
-    "thought": "Trump needs support. I can be invaluable.",
-    "location": {
-      "waypoint": "galley",
-      "x": 65,
-      "y": 40
-    },
-    "shelter": "stateroom",
-    "mood": "calculating",
-    "timestamp": "2026-06-06T22:26:38.896528"
-  },
-  {
-    "day": 1,
-    "cycle": "midday",
-    "character": "conor",
-    "action": "Begins preparing what food is available, only half-listening to the debate about authority.",
-    "thought": "Talk all you want. Someone needs real work.",
-    "location": {
-      "waypoint": "galley",
-      "x": 60,
-      "y": 48
-    },
-    "shelter": "crew quarters",
-    "mood": "cocky",
-    "timestamp": "2026-06-06T22:26:38.896528"
-  },
-  {
-    "day": 1,
-    "cycle": "midday",
-    "type": "interaction",
-    "characters": [
-      "trump",
       "putin",
+      "netanyahu",
       "xi",
-      "netanyahu",
       "conor"
     ],
-    "description": "The group gathers in the galley to discuss supplies and organize duties as Trump takes charge and Putin watches with quiet disdain.",
+    "description": "In the galley at dawn, all five gather around the stove and the food. Donald tries to assert command. Vladimir refuses it. Bibi proposes a system. Jinping observes. McGregor offers to work and leaves.",
     "dialogue": [
       {
         "speaker": "trump",
-        "line": "Everyone! In the galley. We need to discuss supplies and organize the work."
-      },
-      {
-        "speaker": "netanyahu",
-        "line": "Excellent idea, Donald. A proper system will save us."
-      },
-      {
-        "speaker": "xi",
-        "line": "Discipline creates order. Order creates survival."
-      },
-      {
-        "speaker": "conor",
-        "line": "So what needs doing?"
-      },
-      {
-        "speaker": "trump",
-        "line": "Inventory, Netanyahu. Full accounting of every can, bottle, package."
-      },
-      {
-        "speaker": "netanyahu",
-        "line": "Of course. Though perhaps we should record it democratically? Equal input from all of us?"
+        "line": "Gentlemen, I've taken stock of the situation. As captain, I'll oversee all operations."
       },
       {
         "speaker": "putin",
-        "line": "Input. How charming."
-      },
-      {
-        "speaker": "xi",
-        "line": "Each person tracks their consumption. Daily log. No exceptions."
-      },
-      {
-        "speaker": "trump",
-        "line": "I like it. Very smart, very efficient. Write it down. You're good at that, Xi."
+        "line": "You have already given yourself a promotion. Congratulations."
       },
       {
         "speaker": "netanyahu",
-        "line": "Now, about authority—I think we should discuss how decisions get made."
-      },
-      {
-        "speaker": "conor",
-        "line": "And what about the fish? The ice hole's just sitting there."
+        "line": "Before we discuss hierarchy, we should inventory the yacht properly. I'll make a list."
       },
       {
         "speaker": "trump",
-        "line": "The fish—yes. You'll handle that, Conor. It's perfect for you. The best man for the job."
+        "line": "I've already inventoried. Food, water, fuel—I have a system."
       },
       {
         "speaker": "putin",
-        "line": "The captain assigns the jobs now. How Soviet."
-      },
-      {
-        "speaker": "netanyahu",
-        "line": "Vladimir, surely we can all contribute without formality? We're practical people."
-      },
-      {
-        "speaker": "conor",
-        "line": "Someone's got to fish. And I don't mind the cold, so yeah, I'll fish."
+        "line": "Your system is breakfast in the captain's suite while others freeze. That is not leadership."
       },
       {
         "speaker": "xi",
-        "line": "Without structure, chaos follows. A simple schedule: fishing, fuel, water, inventory."
+        "line": "Order must serve survival, not ego. What burns the stove today?"
       },
       {
         "speaker": "trump",
-        "line": "Exactly! We're organized. It's tremendous. I'm already feeling better about this."
+        "line": "We ration carefully. Two wood-units per day to keep the fire steady."
+      },
+      {
+        "speaker": "conor",
+        "line": "Two units? I've already found driftwood on the floe. Fifteen more, maybe twenty if I haul it."
       },
       {
         "speaker": "putin",
-        "line": "You feel better. How reassuring for the rest of us."
-      },
-      {
-        "speaker": "netanyahu",
-        "line": "Donald, you have a gift for leadership. I think everyone recognizes that."
-      },
-      {
-        "speaker": "conor",
-        "line": "But we do need someone watching the fuel. The stove can't go out."
+        "line": "Then the problem is not fuel. It is discipline."
       },
       {
         "speaker": "trump",
-        "line": "Of course not. The stove stays hot. That's the priority, number one."
-      },
-      {
-        "speaker": "xi",
-        "line": "The stove burns. We survive. Everything else is secondary."
-      },
-      {
-        "speaker": "netanyahu",
-        "line": "Perhaps a rotation? Donald, Conor, Xi, Vladimir, myself? Each takes four hours?"
+        "line": "Discipline starts with a clear captain. Everyone answers to me."
       },
       {
         "speaker": "putin",
-        "line": "I don't take orders. Not from him, not from anyone."
-      },
-      {
-        "speaker": "trump",
-        "line": "Nobody's giving orders, Vladimir. I'm asking for cooperation. I'm the captain, and I need you."
-      },
-      {
-        "speaker": "conor",
-        "line": "Jesus, this is why I work alone."
-      },
-      {
-        "speaker": "xi",
-        "line": "Rotation ensures no one person fails from exhaustion."
+        "line": "I will heat the stove. I will eat. The rest is your problem."
       },
       {
         "speaker": "netanyahu",
-        "line": "Vladimir, I understand your independence. But the cold doesn't care about pride."
+        "line": "What if we establish a council? Each man responsible for one domain—navigation, supply, heat, security."
+      },
+      {
+        "speaker": "xi",
+        "line": "And argue every day about borders? No. One voice gives orders. The question is whose."
+      },
+      {
+        "speaker": "conor",
+        "line": "Not his. He doesn't even know where the lifeboats are."
       },
       {
         "speaker": "trump",
-        "line": "We all have pride. But we're not idiots. We work together or we freeze."
+        "line": "I know exactly where the lifeboats are. I own this yacht."
       },
       {
         "speaker": "putin",
-        "line": "You already are idiots. I merely freeze last."
-      },
-      {
-        "speaker": "conor",
-        "line": "I'll do midday. Keep the fish going and the fire hot."
+        "line": "The starboard lifeboat is sealed with ice. The port one is half-flooded. You will learn."
       },
       {
         "speaker": "netanyahu",
-        "line": "That leaves evening and night. We need volunteers."
+        "line": "Gentlemen, panic is not survival. We can vote on a command structure when we've all—"
       },
       {
         "speaker": "xi",
-        "line": "Nighttime is hardest. Coldest. We need the strongest person there."
-      },
-      {
-        "speaker": "trump",
-        "line": "I agree. Putin, you're the toughest. How about night watch?"
-      },
-      {
-        "speaker": "xi",
-        "line": "He will not volunteer. We must accept this."
-      },
-      {
-        "speaker": "netanyahu",
-        "line": "Well, we'll work it out as we go. For now, let's be grateful we have a plan."
-      },
-      {
-        "speaker": "trump",
-        "line": "Trust? You'll all trust me. I've never let anyone down."
+        "line": "A yacht does not need five captains. It needs four workers and one coordinator."
       },
       {
         "speaker": "conor",
-        "line": "Alright, I'm starting the catch now. Someone needs to prep for dinner."
+        "line": "I volunteer to be one of the four. I'll catch fish, haul ice, keep us fed. You lot sort out rank."
       },
       {
-        "speaker": "netanyahu",
-        "line": "I'll help you organize the supplies inventory, Xi. Together we can be thorough."
+        "speaker": "trump",
+        "line": "McGregor's right. I'll LEAD, and the rest work. That's how I built everything."
       },
       {
         "speaker": "putin",
-        "line": "The captain has spoken. How amusing."
+        "line": "I have told you: I do not follow. I cooperate. There is a difference."
+      },
+      {
+        "speaker": "netanyahu",
+        "line": "Let me propose: rotation. Each man leads for three days, then passes command to the next."
+      },
+      {
+        "speaker": "xi",
+        "line": "Rotation works only if the men agree to follow. Do you agree, Vladimir?"
+      },
+      {
+        "speaker": "putin",
+        "line": "I agree to stay alive. How I stay alive is my choice."
+      },
+      {
+        "speaker": "trump",
+        "line": "That's the problem right there. Everyone's going to do whatever they want."
+      },
+      {
+        "speaker": "conor",
+        "line": "Yeah? Then we fail together. Or we work, and we don't. I'm fixing the fishing rig. Anyone want food, help or shut up."
+      },
+      {
+        "speaker": "netanyahu",
+        "line": "Fair division of the catch?"
+      },
+      {
+        "speaker": "conor",
+        "line": "The fish don't care about fairness. Neither do I."
+      },
+      {
+        "speaker": "xi",
+        "line": "In a siege, the strongest commands. Are we in a siege?"
+      },
+      {
+        "speaker": "putin",
+        "line": "We are always in a siege. The cold is the enemy. The man who fights it best will lead."
+      },
+      {
+        "speaker": "trump",
+        "line": "I didn't get where I am by sitting on my hands—"
+      },
+      {
+        "speaker": "putin",
+        "line": "You got where you are in a tower in New York. Here, you are on ice. Here, everything is new."
+      },
+      {
+        "speaker": "netanyahu",
+        "line": "Fine. A trial: who can actually keep us alive? Let's reconvene at dinner. By then we'll see who brought food, water, heat."
+      },
+      {
+        "speaker": "xi",
+        "line": "Agreed. Three days of work before we choose a captain."
+      },
+      {
+        "speaker": "trump",
+        "line": "I don't need to earn it. I already AM captain."
+      },
+      {
+        "speaker": "putin",
+        "line": "Then prove it. Or stop saying it."
+      },
+      {
+        "speaker": "netanyahu",
+        "line": "I think we're about to find out."
+      },
+      {
+        "speaker": "xi",
+        "line": "A wise man knows when to lead and when to listen."
+      },
+      {
+        "speaker": "trump",
+        "line": "Tremendous. Absolutely tremendous. I'm still in charge here..."
       }
     ],
-    "timestamp": "2026-06-06T22:26:38.896528"
-  },
-  {
-    "day": 1,
-    "cycle": "evening",
-    "character": "trump",
-    "action": "Strides into the galley gesturing expansively, announcing his intention to take command of dinner preparation and establish his dominance over the evening meal.",
-    "thought": "They need to see my leadership here clearly.",
-    "location": {
-      "waypoint": "galley",
-      "x": 50,
-      "y": 30
-    },
-    "shelter": "owner's suite",
-    "mood": "tense",
-    "timestamp": "2026-06-06T22:29:01.420032"
-  },
-  {
-    "day": 1,
-    "cycle": "evening",
-    "character": "netanyahu",
-    "action": "Positions himself next to Trump, nodding supportively at every declaration and offering measured diplomatic phrases of endorsement.",
-    "thought": "Keep Trump satisfied. I'm becoming indispensable.",
-    "location": {
-      "waypoint": "galley",
-      "x": 65,
-      "y": 40
-    },
-    "shelter": "stateroom",
-    "mood": "diplomatic",
-    "timestamp": "2026-06-06T22:29:01.420032"
-  },
-  {
-    "day": 1,
-    "cycle": "evening",
-    "character": "putin",
-    "action": "Arrives at the galley doorway from the frozen deck, deliberately peeling off his gloves and observing the scene with cold amusement before speaking.",
-    "thought": "Watch them squabble over nothing while I watch.",
-    "location": {
-      "waypoint": "galley_door",
-      "x": 62,
-      "y": 30
-    },
-    "shelter": "the open deck",
-    "mood": "detached",
-    "timestamp": "2026-06-06T22:29:01.420032"
-  },
-  {
-    "day": 1,
-    "cycle": "evening",
-    "character": "conor",
-    "action": "Steps toward the stove, rolls up his sleeves, and begins moving past Trump's posturing to take control of the actual cooking without waiting for permission.",
-    "thought": "Someone has to do real work tonight.",
-    "location": {
-      "waypoint": "galley",
-      "x": 60,
-      "y": 48
-    },
-    "shelter": "crew quarters",
-    "mood": "exasperated",
-    "timestamp": "2026-06-06T22:29:01.420032"
-  },
-  {
-    "day": 1,
-    "cycle": "evening",
-    "character": "xi",
-    "action": "Observes quietly from the lounge entrance, listening to the hierarchy establishing itself through conflict and ego, then makes a single measured observation before withdrawing.",
-    "thought": "Order will emerge from their chaos naturally.",
-    "location": {
-      "waypoint": "lounge",
-      "x": 35,
-      "y": 48
-    },
-    "shelter": "stateroom",
-    "mood": "serene",
-    "timestamp": "2026-06-06T22:29:01.420032"
-  },
-  {
-    "day": 1,
-    "cycle": "evening",
-    "type": "interaction",
-    "characters": [
-      "trump",
-      "netanyahu",
-      "putin",
-      "conor",
-      "xi"
-    ],
-    "description": "The galley fills with tension as Trump claims command of dinner; Netanyahu immediately backs him; Conor takes the stove anyway; Putin arrives to observe with cold amusement; Xi makes one wise remark from the doorway.",
-    "dialogue": [
-      {
-        "speaker": "trump",
-        "line": "Gentlemen, I'm taking the galley tonight. Nobody understands luxury and excellence like me. The meal will be tremendous."
-      },
-      {
-        "speaker": "netanyahu",
-        "line": "Absolutely, Mr. President. Your leadership is exactly what we need in this moment."
-      },
-      {
-        "speaker": "conor",
-        "line": "Have you ever actually cooked a meal in your whole feckin' life?"
-      },
-      {
-        "speaker": "trump",
-        "line": "I've built the greatest hotels in the world. I know food. I know excellence. I know people."
-      },
-      {
-        "speaker": "putin",
-        "line": "And yet the captain has never held a cooking knife."
-      },
-      {
-        "speaker": "conor",
-        "line": "Right. Exactly. So let me do this. I know what I'm doing."
-      },
-      {
-        "speaker": "netanyahu",
-        "line": "Perhaps we could establish some kind of collaborative system—Mr. President's vision guiding the overall—"
-      },
-      {
-        "speaker": "trump",
-        "line": "This is my yacht. My galley. My decision to lead. I'm cooking."
-      },
-      {
-        "speaker": "putin",
-        "line": "A man who has never cooked, commanding a kitchen in an arctic night. Fascinating."
-      },
-      {
-        "speaker": "conor",
-        "line": "It'll be a disaster. I can cook. You can't. Simple."
-      },
-      {
-        "speaker": "trump",
-        "line": "I can learn anything fast. Stable genius-level intelligence. Believe me."
-      },
-      {
-        "speaker": "netanyahu",
-        "line": "Your confidence is truly inspiring, sir. But practically speaking—"
-      },
-      {
-        "speaker": "putin",
-        "line": "Practically, he will burn the food and waste what little fuel remains."
-      },
-      {
-        "speaker": "trump",
-        "line": "You want control of my command, Vladimir? Is that it?"
-      },
-      {
-        "speaker": "putin",
-        "line": "I want to eat. I want to survive. Nothing more."
-      },
-      {
-        "speaker": "conor",
-        "line": "Jesus, we're frozen at the bottom of the world and you're still—look, I'm cooking. Final answer."
-      },
-      {
-        "speaker": "trump",
-        "line": "Fine. Cook. But I'm overseeing the entire operation. Every step."
-      },
-      {
-        "speaker": "netanyahu",
-        "line": "Mr. President, your oversight is invaluable and—"
-      },
-      {
-        "speaker": "putin",
-        "line": "He will stand there and make suggestions and take credit."
-      },
-      {
-        "speaker": "conor",
-        "line": "I don't care who's in charge. Just nobody in the feckin' kitchen but me."
-      },
-      {
-        "speaker": "trump",
-        "line": "I AM in charge. Of everything. That's the deal here."
-      },
-      {
-        "speaker": "conor",
-        "line": "Right. Sure. Cook dinner now?"
-      },
-      {
-        "speaker": "putin",
-        "line": "By tomorrow, he will claim he prepared this meal."
-      },
-      {
-        "speaker": "conor",
-        "line": "Let him claim it. I just want us fed and alive tomorrow."
-      },
-      {
-        "speaker": "netanyahu",
-        "line": "You've shown true leadership tonight, Mr. President. We're fortunate to have you."
-      },
-      {
-        "speaker": "xi",
-        "line": "Each man thinks he leads, but only one has his hands on the heat."
-      },
-      {
-        "speaker": "trump",
-        "line": "Very wise, Xi. Dinner at six. Make it elegant."
-      },
-      {
-        "speaker": "conor",
-        "line": "I'll make it edible. That's the baseline."
-      },
-      {
-        "speaker": "trump",
-        "line": "Make it both. I have standards."
-      },
-      {
-        "speaker": "putin",
-        "line": "Rest well. Tomorrow brings new complications."
-      },
-      {
-        "speaker": "netanyahu",
-        "line": "A well-earned rest indeed. We've accomplished much today."
-      },
-      {
-        "speaker": "xi",
-        "line": "The strongest teams find order through natural harmony, not force."
-      }
-    ],
-    "timestamp": "2026-06-06T22:29:01.420032"
-  },
-  {
-    "day": 1,
-    "cycle": "night",
-    "character": "trump",
-    "action": "Reviewed the stove's condition and remaining supplies in the galley, then retreated to his suite to reassess the day's events.",
-    "thought": "Bibi is loyal. Vladimir is watching closely.",
-    "location": {
-      "waypoint": "owner's suite",
-      "x": 50,
-      "y": 30
-    },
-    "shelter": "owner's suite",
-    "mood": "tense",
-    "timestamp": "2026-06-06T23:02:53.808062"
-  },
-  {
-    "day": 1,
-    "cycle": "night",
-    "character": "putin",
-    "action": "Emerged from below to stand on the frozen deck, watching the dark ice, his mind working through the day's positions and power.",
-    "thought": "McGregor sees what truly matters here.",
-    "location": {
-      "waypoint": "deck_rail",
-      "x": 62,
-      "y": 30
-    },
-    "shelter": "the open deck",
-    "mood": "detached",
-    "timestamp": "2026-06-06T23:02:53.808062"
-  },
-  {
-    "day": 1,
-    "cycle": "night",
-    "character": "xi",
-    "action": "Sat alone in dim lamplight in his stateroom, observing the patterns of the day and reflecting on emerging hierarchies.",
-    "thought": "Chaos resolves into order naturally.",
-    "location": {
-      "waypoint": "stateroom",
-      "x": 35,
-      "y": 48
-    },
-    "shelter": "stateroom",
-    "mood": "serene",
-    "timestamp": "2026-06-06T23:02:53.808062"
-  },
-  {
-    "day": 1,
-    "cycle": "night",
-    "character": "netanyahu",
-    "action": "Lay in his stateroom reviewing the day's alignments, satisfied that Donald felt supported and remained convinced of his centrality.",
-    "thought": "Trump trusts me. That is leverage.",
-    "location": {
-      "waypoint": "stateroom",
-      "x": 65,
-      "y": 40
-    },
-    "shelter": "stateroom",
-    "mood": "confident",
-    "timestamp": "2026-06-06T23:02:53.808062"
-  },
-  {
-    "day": 1,
-    "cycle": "night",
-    "character": "conor",
-    "action": "Finished banking the stove carefully for the night, then stepped out onto the frozen deck to clear his head.",
-    "thought": "Finally someone who understands real work.",
-    "location": {
-      "waypoint": "deck_rail",
-      "x": 60,
-      "y": 48
-    },
-    "shelter": "crew quarters",
-    "mood": "weary",
-    "timestamp": "2026-06-06T23:02:53.808062"
-  },
-  {
-    "day": 1,
-    "cycle": "night",
-    "type": "interaction",
-    "characters": [
-      "putin",
-      "conor"
-    ],
-    "description": "Vladimir steps outside to meet McGregor on the frozen deck; two men who value action over words, finding each other in the dark.",
-    "dialogue": [
-      {
-        "speaker": "putin",
-        "line": "You did the real work today. The rest of them just talked."
-      },
-      {
-        "speaker": "conor",
-        "line": "Someone has to feed that fire. It won't do itself."
-      },
-      {
-        "speaker": "putin",
-        "line": "Cold teaches lessons most men cannot learn. You are not most men."
-      },
-      {
-        "speaker": "conor",
-        "line": "Cold doesn't care what I am. I care about keeping us from freezing."
-      },
-      {
-        "speaker": "putin",
-        "line": "This is correct thinking. The others will panic when scarcity becomes real."
-      },
-      {
-        "speaker": "conor",
-        "line": "Let them panic. Panic won't fix anything. Work will."
-      },
-      {
-        "speaker": "putin",
-        "line": "You understand power, then. Real power."
-      },
-      {
-        "speaker": "conor",
-        "line": "I understand keeping the stove lit and our bellies filled. That's all."
-      },
-      {
-        "speaker": "putin",
-        "line": "That is everything. Everything else—the speeches, the authority claims—it is theater."
-      },
-      {
-        "speaker": "conor",
-        "line": "Donald thinks he's the captain. But he didn't tend the fire."
-      },
-      {
-        "speaker": "putin",
-        "line": "He needs to believe he commands. It keeps him from being useless."
-      },
-      {
-        "speaker": "conor",
-        "line": "He's lucky the stove hasn't gone cold. Lucky I know how to work."
-      },
-      {
-        "speaker": "putin",
-        "line": "He is extremely fortunate you are here. He does not realize it."
-      },
-      {
-        "speaker": "conor",
-        "line": "He knows. Just won't admit another man fixed his mistake."
-      },
-      {
-        "speaker": "putin",
-        "line": "His pride will become dangerous if supplies truly tighten."
-      },
-      {
-        "speaker": "conor",
-        "line": "Then we keep him busy. Make sure he has work that looks important."
-      },
-      {
-        "speaker": "putin",
-        "line": "You think strategically. Most men only think of themselves."
-      },
-      {
-        "speaker": "conor",
-        "line": "These men have never worked a day in their lives. No wonder they're soft."
-      },
-      {
-        "speaker": "putin",
-        "line": "Netanyahu will try to make himself essential. He smells the power shifts."
-      },
-      {
-        "speaker": "conor",
-        "line": "Bibi's smart. At least he helped with dinner. Didn't just stand around talking."
-      },
-      {
-        "speaker": "putin",
-        "line": "Jinping is the real danger. He says almost nothing. He is watching."
-      },
-      {
-        "speaker": "conor",
-        "line": "Let him watch. I worry more about the loud ones. They cause disasters."
-      },
-      {
-        "speaker": "putin",
-        "line": "Disasters come when the strong and weak are forced to share close quarters."
-      },
-      {
-        "speaker": "conor",
-        "line": "Then we keep them working, keep them focused. Less time for nonsense."
-      },
-      {
-        "speaker": "putin",
-        "line": "That stove burns fuel constantly. How long before the wood truly runs low?"
-      },
-      {
-        "speaker": "conor",
-        "line": "We fish, we set traps, we find more supplies. The work doesn't end."
-      },
-      {
-        "speaker": "putin",
-        "line": "You will do the work. But will the others actually help?"
-      },
-      {
-        "speaker": "conor",
-        "line": "Doesn't matter. One man working beats five men fighting about the plan."
-      },
-      {
-        "speaker": "putin",
-        "line": "Steel can break. Even the strongest man grows tired. You will need allies."
-      },
-      {
-        "speaker": "conor",
-        "line": "If I need help, they'll know it. Right now I need rest. Dawn will come."
-      },
-      {
-        "speaker": "putin",
-        "line": "The stove will burn. The ice remains. You will wake to hunger again."
-      },
-      {
-        "speaker": "conor",
-        "line": "At least I'll be rested for it. Are you coming in soon? You'll freeze."
-      },
-      {
-        "speaker": "putin",
-        "line": "Soon enough. I prefer the cold to the noise inside. It clears the mind."
-      },
-      {
-        "speaker": "conor",
-        "line": "Cold clears the mind until it clears the life right out of you too."
-      },
-      {
-        "speaker": "putin",
-        "line": "I have survived temperatures that would kill most men. The cold knows my name."
-      },
-      {
-        "speaker": "conor",
-        "line": "Sure. But coming in to eat, getting warm, sleeping—that's not weakness, mate."
-      },
-      {
-        "speaker": "putin",
-        "line": "I understand this. I choose to think out here because my mind is sharper."
-      },
-      {
-        "speaker": "conor",
-        "line": "Fair. Come in when you're done. There's hot stew and warmth waiting inside."
-      }
-    ],
-    "timestamp": "2026-06-06T23:02:53.808062"
+    "timestamp": "2026-06-06T23:09:17.835565"
   }
 ]
