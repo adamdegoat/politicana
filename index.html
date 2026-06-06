@@ -26,11 +26,15 @@
 *{margin:0;padding:0;box-sizing:border-box}
 :root{--above-hud:62px;--stage-bottom:96px}
 html,body{width:100%;height:100%;overflow:hidden;font-family:'Plus Jakarta Sans',sans-serif;background:#020617}
-/* (Mobile turns on overflow-x:auto inside the @media(max-width:768px) block below so the
-   wider-than-screen yacht can be swiped bow→stern; desktop stays overflow:hidden.) */
+/* #viewport is the ONLY horizontal scroll container (mobile turns on overflow-x:auto inside
+   the @media(max-width:768px) block below so the wider-than-screen yacht can be swiped
+   bow→stern; desktop stays overflow:hidden). The body itself never scrolls, so the
+   position:fixed HUD overlays (all body-level, OUTSIDE #viewport) stay rock-solid. */
+#viewport{position:relative;width:100vw;height:calc(100vh - var(--stage-bottom));overflow:hidden}
 /* World renders ABOVE the fixed bottom bars (HUD + collapsed feed drawer) so the
-   beach + ocean band are never hidden behind them. --stage-bottom is measured live. */
-#world{position:relative;width:100vw;height:calc(100vh - var(--stage-bottom));overflow:hidden}
+   beach + ocean band are never hidden behind them. --stage-bottom is measured live.
+   #world is the (on mobile, wider-than-viewport) scene content inside #viewport. */
+#world{position:relative;width:100%;height:100%;overflow:visible}
 #world-svg{position:absolute;inset:0;width:100%;height:100%;z-index:0;transform:translateY(calc(-1 * var(--world-shift,0px)))}
 #stars{position:absolute;inset:0;width:100%;height:34%;pointer-events:none;z-index:2;opacity:0;transition:opacity 3s}
 #world.night #stars,#world.dawn #stars{opacity:1}
@@ -387,15 +391,17 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'Plus Jakarta Sans'
 /* ── MOBILE ── */
 @media(max-width:768px){
   /* Horizontal pan ON (vertical locked) so the wider-than-screen yacht can be swiped bow→stern.
-     body is the horizontal scroll container (its wide #world child overflows it); the layout
-     JS pans it via scroller()/scrollLeft. html stays clipped so only body scrolls sideways. */
-  html{overflow:hidden;width:100%}
-  body{overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch;overscroll-behavior-x:contain;width:100%;height:100%}
-  /* Mobile: the world is rendered WIDER than the viewport (full yacht at a height-fit scale,
-     width set in px by updateWorld) so the page can be swiped left/right to pan bow→stern.
-     The body is the horizontal scroller (overflow-x:auto above); #world just overflows it.
+     #viewport is the horizontal scroll container (its wide #world child overflows it); the
+     layout JS pans it via scroller()/scrollLeft. The BODY stays clipped (overflow:hidden,
+     inherited from the base html,body rule) so the position:fixed HUD overlays — which live
+     OUTSIDE #viewport — are anchored to the stable viewport and never jitter during a swipe. */
+  html,body{overflow:hidden;width:100%;height:100%}
+  /* Mobile: #world is rendered WIDER than #viewport (full yacht at a height-fit scale, width
+     set in px by updateWorld) so #viewport can be swiped left/right to pan bow→stern.
+     #viewport is the horizontal scroller (overflow-x:auto); #world just overflows it.
      Characters + structures use the same worldMetrics() transform so feet stay on the decks. */
-  #world{height:calc(100dvh - var(--stage-bottom))}
+  #viewport{overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch;overscroll-behavior-x:contain;height:calc(100dvh - var(--stage-bottom))}
+  #world{height:100%}
   /* HUD: 3-row layout — cycle strip + timing visible on mobile */
   #status-msg{display:none}
   #hud{padding:5px .75rem 4px;height:auto;flex-wrap:wrap;align-content:flex-start;gap:3px .3rem}
@@ -518,62 +524,20 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'Plus Jakarta Sans'
 </style>
 </head>
 <body>
+<!-- ══ VIEWPORT (the ONLY horizontal scroll container on mobile) ════════════════
+     On mobile #viewport scrolls sideways (overflow-x:auto) while the body stays clipped,
+     so the wider-than-screen yacht (#world) can be swiped bow→stern. Crucially, ALL the
+     position:fixed HUD overlays live OUTSIDE #viewport (direct body children below), so
+     they are positioned against the stable viewport and never jitter while the scene pans.
+     On desktop #viewport is a plain non-scrolling container (its #world child fits). -->
+<div id="viewport">
 <div id="world" class="afternoon">
 <canvas id="stars"></canvas>
 
-<!-- ══ BACK TO WORLD (self-contained, top-left) ════════════ -->
-<a id="back-to-world" href="https://adamdegoat.github.io/neverendingworld/" title="Back to World">
-  <span class="btw-globe">🌐</span><span class="btw-text">Back to World</span>
-</a>
-<style id="back-to-world-style">
-  #back-to-world{
-    position:fixed; top:12px; left:12px; z-index:99999;
-    display:flex; align-items:center; gap:0;
-    height:38px; max-width:38px; padding:0;
-    border-radius:19px; overflow:hidden;
-    background:rgba(12,18,32,.62); backdrop-filter:blur(7px); -webkit-backdrop-filter:blur(7px);
-    border:1px solid rgba(255,255,255,.18); box-shadow:0 4px 16px rgba(0,0,0,.32);
-    color:#eef3ff; text-decoration:none; font:600 13px/1 system-ui,-apple-system,sans-serif;
-    letter-spacing:.01em; white-space:nowrap;
-    transition:max-width .34s cubic-bezier(.2,.7,.2,1), background .25s, border-color .25s;
-    cursor:pointer;
-  }
-  #back-to-world .btw-globe{
-    flex:0 0 38px; width:38px; height:38px;
-    display:flex; align-items:center; justify-content:center; font-size:17px;
-  }
-  #back-to-world .btw-text{ opacity:0; padding-right:16px; transition:opacity .2s .08s; }
-  #back-to-world:hover, #back-to-world:focus-visible{
-    max-width:220px; background:rgba(20,28,46,.82); border-color:rgba(255,255,255,.34);
-  }
-  #back-to-world:hover .btw-text, #back-to-world:focus-visible .btw-text{ opacity:1; }
-  @media(max-width:680px){ #back-to-world{ top:9px; left:9px; height:34px; max-width:34px; border-radius:17px; }
-    #back-to-world .btw-globe{ flex-basis:34px; width:34px; height:34px; font-size:15px; } }
-</style>
-
-<!-- ══ DAY STAMP ══════════════════════════════════════════ -->
-<div id="day-stamp">
-  <div id="ds-day">Day 1</div>
-  <div id="ds-cycle">—</div>
-</div>
-<button id="day-hist-btn" onclick="toggleDayHistory()">📅 Days</button>
-<div id="day-history-panel" onclick="event.stopPropagation()"><div id="dhp-inner"></div></div>
-<div id="vote-pill" onclick="toggleVote()"><span class="vp-dot"></span> Vote</div>
-<div id="vote-panel" onclick="event.stopPropagation()">
-  <div class="vp-inner">
-    <div class="vp-eyebrow">✦ Cast your voice</div>
-    <div class="vp-head">Sway the yacht</div>
-    <div class="vp-tag">You nudge how they lean — you never script them.</div>
-    <div id="vp-body">Loading the vote…</div>
-  </div>
-</div>
-<div id="pulse"></div>
-<div id="scene-line"></div>
+<!-- ══ SCENE DECORATION LAYERS (inside the scroller — they pan with the yacht) ══ -->
 <div id="structures-layer"></div>
 <div id="vignette"></div>
 <div id="color-wash"></div>
-<div id="fire-chip"></div>
-<div id="res-hud"></div>
 
 <!-- ══ WORLD SVG ══════════════════════════════════════════ -->
 <svg id="world-svg" viewBox="0 0 1000 600" preserveAspectRatio="xMidYMin slice" xmlns="http://www.w3.org/2000/svg">
@@ -1091,6 +1055,66 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'Plus Jakarta Sans'
 <!-- NIGHT OVERLAY -->
 <rect id="night-overlay" width="1000" height="600" fill="#06101c" opacity="0"/>
 </svg>
+</div><!-- #world -->
+</div><!-- #viewport -->
+
+<!-- ══════════════════════════════════════════════════════════════════════════════
+     BODY-LEVEL FIXED HUD OVERLAYS — these live OUTSIDE #viewport on purpose, so they
+     are positioned against the stable visual viewport and stay rock-solid while the
+     scene scrolls sideways underneath them. (Previously they were inside #world, which
+     made them jitter when the body was the horizontal scroller on mobile.)
+     ══════════════════════════════════════════════════════════════════════════════ -->
+
+<!-- ══ BACK TO WORLD (self-contained, top-left) ════════════ -->
+<a id="back-to-world" href="https://adamdegoat.github.io/neverendingworld/" title="Back to World">
+  <span class="btw-globe">🌐</span><span class="btw-text">Back to World</span>
+</a>
+<style id="back-to-world-style">
+  #back-to-world{
+    position:fixed; top:12px; left:12px; z-index:99999;
+    display:flex; align-items:center; gap:0;
+    height:38px; max-width:38px; padding:0;
+    border-radius:19px; overflow:hidden;
+    background:rgba(12,18,32,.62); backdrop-filter:blur(7px); -webkit-backdrop-filter:blur(7px);
+    border:1px solid rgba(255,255,255,.18); box-shadow:0 4px 16px rgba(0,0,0,.32);
+    color:#eef3ff; text-decoration:none; font:600 13px/1 system-ui,-apple-system,sans-serif;
+    letter-spacing:.01em; white-space:nowrap;
+    transition:max-width .34s cubic-bezier(.2,.7,.2,1), background .25s, border-color .25s;
+    cursor:pointer;
+  }
+  #back-to-world .btw-globe{
+    flex:0 0 38px; width:38px; height:38px;
+    display:flex; align-items:center; justify-content:center; font-size:17px;
+  }
+  #back-to-world .btw-text{ opacity:0; padding-right:16px; transition:opacity .2s .08s; }
+  #back-to-world:hover, #back-to-world:focus-visible{
+    max-width:220px; background:rgba(20,28,46,.82); border-color:rgba(255,255,255,.34);
+  }
+  #back-to-world:hover .btw-text, #back-to-world:focus-visible .btw-text{ opacity:1; }
+  @media(max-width:680px){ #back-to-world{ top:9px; left:9px; height:34px; max-width:34px; border-radius:17px; }
+    #back-to-world .btw-globe{ flex-basis:34px; width:34px; height:34px; font-size:15px; } }
+</style>
+
+<!-- ══ DAY STAMP ══════════════════════════════════════════ -->
+<div id="day-stamp">
+  <div id="ds-day">Day 1</div>
+  <div id="ds-cycle">—</div>
+</div>
+<button id="day-hist-btn" onclick="toggleDayHistory()">📅 Days</button>
+<div id="day-history-panel" onclick="event.stopPropagation()"><div id="dhp-inner"></div></div>
+<div id="vote-pill" onclick="toggleVote()"><span class="vp-dot"></span> Vote</div>
+<div id="vote-panel" onclick="event.stopPropagation()">
+  <div class="vp-inner">
+    <div class="vp-eyebrow">✦ Cast your voice</div>
+    <div class="vp-head">Sway the yacht</div>
+    <div class="vp-tag">You nudge how they lean — you never script them.</div>
+    <div id="vp-body">Loading the vote…</div>
+  </div>
+</div>
+<div id="pulse"></div>
+<div id="scene-line"></div>
+<div id="fire-chip"></div>
+<div id="res-hud"></div>
 
 
 <!-- ══ ORACLE WIDGET ═══════════════════════════════════════ -->
@@ -1135,8 +1159,6 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'Plus Jakarta Sans'
     <a id="story-btn" href="story.html">📖 Story</a>
   </div>
 </div>
-
-</div><!-- #world -->
 
 <script>
 // ── FACE DATA ─────────────────────────────────────────────
@@ -1319,10 +1341,14 @@ function getWorldWidth() {
   return (w && w.clientWidth) || window.innerWidth
 }
 let mobileScrollInited = false
-// On mobile the BODY is the horizontal scroll container (CSS sets body overflow-x:auto). All
-// pan logic goes through this so art + characters stay locked and the whole yacht is reachable.
-function scroller(){ return document.body }
-function maxScrollX(){ return Math.max(0, getWorldWidth() - window.innerWidth) }
+// On mobile #viewport is the horizontal scroll container (CSS sets #viewport overflow-x:auto);
+// its wide #world child overflows it. ALL pan logic goes through scroller() so art + characters
+// stay locked and the whole yacht is reachable. The body never scrolls, so the body-level
+// position:fixed HUD overlays (OUTSIDE #viewport) stay rock-solid while the scene pans.
+// On desktop #world fits #viewport exactly, so the scroller never horizontally scrolls.
+function scroller(){ return document.getElementById('viewport') || document.body }
+function viewportW(){ const s=scroller(); return (s && s.clientWidth) || window.innerWidth }
+function maxScrollX(){ return Math.max(0, getWorldWidth() - viewportW()) }
 function setScrollX(x){ const s=scroller(); s.scrollLeft = Math.min(maxScrollX(), Math.max(0, x)) }
 function getScrollX(){ return scroller().scrollLeft }
 
@@ -1392,7 +1418,7 @@ function worldMetrics() {
     // ── MOBILE: render the FULL yacht WIDER than the phone, then let the user swipe
     //    left/right to pan bow→stern. The scene is HEIGHT-fit (so the vessel reads at a
     //    comfortable size) and the world is exactly the full viewBox width at that scale —
-    //    so the world overflows the viewport horizontally and #world becomes a touch-scroll
+    //    so #world overflows #viewport horizontally and #viewport is the touch-scroll
     //    container (CSS overflow-x:auto). Because the world IS the whole viewBox, offX=0:
     //    every waypoint (bow at sx≈270 → lifeboat at sx≈870) is reachable by scrolling, and
     //    feet land on the painted decks just like desktop. ──
@@ -2614,23 +2640,31 @@ window.addEventListener('resize', ()=>{ setHudVar(); if(S && Object.keys(S.chars
 
 // ── ZOOM-AWARE RE-SYNC (mobile pinch-zoom) ──────────────────────────────────
 // Mobile browsers (esp. iOS Safari) let users pinch-zoom even though our viewport asks them
-// not to. The fixed UI + horizontal map-scroll were built assuming no zoom, so after a zoom
-// in/out things could be left "stuck" (stale layout, scroll jammed past the world edge).
-// When a zoom settles (scale returns toward 1) — or on any visual-viewport change — we
-// re-measure + re-lay-out (same path as a resize) and clamp the map-scroll back into bounds,
-// so nothing stays stuck once the gesture ends. (Additive: only runs on visualViewport
-// events, so the normal no-zoom layout is untouched.)
+// not to. After a real zoom (scale ≠ 1) the fixed UI + scene layout can be left "stuck", so
+// when the SCALE actually changes we re-measure + re-lay-out and clamp the scroll back in.
+//
+// CRITICAL (the old flicker bug): visualViewport fires 'resize'/'scroll' constantly during a
+// normal swipe because the address bar shows/hides — and the old handler ran the FULL
+// updateWorld() (re-lays-out the whole scene + every character) on EVERY such event, causing
+// a mid-scroll re-layout = flicker/jump. We now ONLY run the heavy updateWorld() when the
+// visual-viewport SCALE genuinely changed (a real pinch-zoom). On a plain scroll / address-bar
+// resize (scale ~unchanged) we do the cheap work only: refresh the HUD CSS var + clamp scroll.
 if (window.visualViewport) {
   const vv = window.visualViewport
   let vvRaf = null
+  let lastScale = vv.scale || 1
   const syncViewport = () => {
     vvRaf = null
+    const scale = vv.scale || 1
+    const scaleChanged = Math.abs(scale - lastScale) > 0.01   // real pinch-zoom only
+    lastScale = scale
     setHudVar()
-    if (S && Object.keys(S.chars||{}).length) updateWorld()
-    if (isMobile()) {
-      // clamp the body-scroll back into bounds after a zoom/viewport change
-      setScrollX(getScrollX())
+    if (scaleChanged) {
+      // Real zoom settled → full re-layout (chars + scene) so nothing is left stuck.
+      if (S && Object.keys(S.chars||{}).length) updateWorld()
     }
+    // Plain scroll / address-bar resize: NO updateWorld() — just keep the scroll in bounds.
+    if (isMobile()) setScrollX(getScrollX())
   }
   const onVV = () => { if (!vvRaf) vvRaf = requestAnimationFrame(syncViewport) }
   vv.addEventListener('resize', onVV)
