@@ -70,9 +70,9 @@
     },
     "mood": "impassive",
     "location": {
-      "waypoint": "deck_rail",
-      "x": 80,
-      "y": 40
+      "waypoint": "sundeck_aft",
+      "x": 62,
+      "y": 30
     },
     "shelter": "the open deck",
     "condition": "healthy",
@@ -223,9 +223,9 @@
     },
     "mood": "cocky",
     "location": {
-      "waypoint": "bow",
-      "x": 20,
-      "y": 62
+      "waypoint": "galley",
+      "x": 60,
+      "y": 48
     },
     "shelter": "crew quarters",
     "condition": "healthy",
