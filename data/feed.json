@@ -223,5 +223,256 @@
       }
     ],
     "timestamp": "2026-06-06T20:46:31.283322"
+  },
+  {
+    "day": 1,
+    "cycle": "midday",
+    "character": "trump",
+    "action": "Summons everyone to the galley for an emergency supply and duty meeting.",
+    "thought": "They all need my leadership here.",
+    "location": {
+      "waypoint": "galley",
+      "x": 50,
+      "y": 30
+    },
+    "shelter": "owner's suite",
+    "mood": "bombastic",
+    "timestamp": "2026-06-06T22:26:38.896528"
+  },
+  {
+    "day": 1,
+    "cycle": "midday",
+    "character": "putin",
+    "action": "Stands silently in the galley doorway, observing the chaos with an unreadable expression.",
+    "thought": "Trump believes he commands. He will fail.",
+    "location": {
+      "waypoint": "galley_door",
+      "x": 62,
+      "y": 30
+    },
+    "shelter": "the open deck",
+    "mood": "impassive",
+    "timestamp": "2026-06-06T22:26:38.896528"
+  },
+  {
+    "day": 1,
+    "cycle": "midday",
+    "character": "xi",
+    "action": "Quietly observes the supply meeting and begins sketching an organizational schedule.",
+    "thought": "Order will emerge from chaos. Patience wins.",
+    "location": {
+      "waypoint": "galley",
+      "x": 35,
+      "y": 48
+    },
+    "shelter": "stateroom",
+    "mood": "inscrutable",
+    "timestamp": "2026-06-06T22:26:38.896528"
+  },
+  {
+    "day": 1,
+    "cycle": "midday",
+    "character": "netanyahu",
+    "action": "Smoothly supports Trump's leadership while quietly evaluating each person's weaknesses.",
+    "thought": "Trump needs support. I can be invaluable.",
+    "location": {
+      "waypoint": "galley",
+      "x": 65,
+      "y": 40
+    },
+    "shelter": "stateroom",
+    "mood": "calculating",
+    "timestamp": "2026-06-06T22:26:38.896528"
+  },
+  {
+    "day": 1,
+    "cycle": "midday",
+    "character": "conor",
+    "action": "Begins preparing what food is available, only half-listening to the debate about authority.",
+    "thought": "Talk all you want. Someone needs real work.",
+    "location": {
+      "waypoint": "galley",
+      "x": 60,
+      "y": 48
+    },
+    "shelter": "crew quarters",
+    "mood": "cocky",
+    "timestamp": "2026-06-06T22:26:38.896528"
+  },
+  {
+    "day": 1,
+    "cycle": "midday",
+    "type": "interaction",
+    "characters": [
+      "trump",
+      "putin",
+      "xi",
+      "netanyahu",
+      "conor"
+    ],
+    "description": "The group gathers in the galley to discuss supplies and organize duties as Trump takes charge and Putin watches with quiet disdain.",
+    "dialogue": [
+      {
+        "speaker": "trump",
+        "line": "Everyone! In the galley. We need to discuss supplies and organize the work."
+      },
+      {
+        "speaker": "netanyahu",
+        "line": "Excellent idea, Donald. A proper system will save us."
+      },
+      {
+        "speaker": "xi",
+        "line": "Discipline creates order. Order creates survival."
+      },
+      {
+        "speaker": "conor",
+        "line": "So what needs doing?"
+      },
+      {
+        "speaker": "trump",
+        "line": "Inventory, Netanyahu. Full accounting of every can, bottle, package."
+      },
+      {
+        "speaker": "netanyahu",
+        "line": "Of course. Though perhaps we should record it democratically? Equal input from all of us?"
+      },
+      {
+        "speaker": "putin",
+        "line": "Input. How charming."
+      },
+      {
+        "speaker": "xi",
+        "line": "Each person tracks their consumption. Daily log. No exceptions."
+      },
+      {
+        "speaker": "trump",
+        "line": "I like it. Very smart, very efficient. Write it down. You're good at that, Xi."
+      },
+      {
+        "speaker": "netanyahu",
+        "line": "Now, about authority—I think we should discuss how decisions get made."
+      },
+      {
+        "speaker": "conor",
+        "line": "And what about the fish? The ice hole's just sitting there."
+      },
+      {
+        "speaker": "trump",
+        "line": "The fish—yes. You'll handle that, Conor. It's perfect for you. The best man for the job."
+      },
+      {
+        "speaker": "putin",
+        "line": "The captain assigns the jobs now. How Soviet."
+      },
+      {
+        "speaker": "netanyahu",
+        "line": "Vladimir, surely we can all contribute without formality? We're practical people."
+      },
+      {
+        "speaker": "conor",
+        "line": "Someone's got to fish. And I don't mind the cold, so yeah, I'll fish."
+      },
+      {
+        "speaker": "xi",
+        "line": "Without structure, chaos follows. A simple schedule: fishing, fuel, water, inventory."
+      },
+      {
+        "speaker": "trump",
+        "line": "Exactly! We're organized. It's tremendous. I'm already feeling better about this."
+      },
+      {
+        "speaker": "putin",
+        "line": "You feel better. How reassuring for the rest of us."
+      },
+      {
+        "speaker": "netanyahu",
+        "line": "Donald, you have a gift for leadership. I think everyone recognizes that."
+      },
+      {
+        "speaker": "conor",
+        "line": "But we do need someone watching the fuel. The stove can't go out."
+      },
+      {
+        "speaker": "trump",
+        "line": "Of course not. The stove stays hot. That's the priority, number one."
+      },
+      {
+        "speaker": "xi",
+        "line": "The stove burns. We survive. Everything else is secondary."
+      },
+      {
+        "speaker": "netanyahu",
+        "line": "Perhaps a rotation? Donald, Conor, Xi, Vladimir, myself? Each takes four hours?"
+      },
+      {
+        "speaker": "putin",
+        "line": "I don't take orders. Not from him, not from anyone."
+      },
+      {
+        "speaker": "trump",
+        "line": "Nobody's giving orders, Vladimir. I'm asking for cooperation. I'm the captain, and I need you."
+      },
+      {
+        "speaker": "conor",
+        "line": "Jesus, this is why I work alone."
+      },
+      {
+        "speaker": "xi",
+        "line": "Rotation ensures no one person fails from exhaustion."
+      },
+      {
+        "speaker": "netanyahu",
+        "line": "Vladimir, I understand your independence. But the cold doesn't care about pride."
+      },
+      {
+        "speaker": "trump",
+        "line": "We all have pride. But we're not idiots. We work together or we freeze."
+      },
+      {
+        "speaker": "putin",
+        "line": "You already are idiots. I merely freeze last."
+      },
+      {
+        "speaker": "conor",
+        "line": "I'll do midday. Keep the fish going and the fire hot."
+      },
+      {
+        "speaker": "netanyahu",
+        "line": "That leaves evening and night. We need volunteers."
+      },
+      {
+        "speaker": "xi",
+        "line": "Nighttime is hardest. Coldest. We need the strongest person there."
+      },
+      {
+        "speaker": "trump",
+        "line": "I agree. Putin, you're the toughest. How about night watch?"
+      },
+      {
+        "speaker": "xi",
+        "line": "He will not volunteer. We must accept this."
+      },
+      {
+        "speaker": "netanyahu",
+        "line": "Well, we'll work it out as we go. For now, let's be grateful we have a plan."
+      },
+      {
+        "speaker": "trump",
+        "line": "Trust? You'll all trust me. I've never let anyone down."
+      },
+      {
+        "speaker": "conor",
+        "line": "Alright, I'm starting the catch now. Someone needs to prep for dinner."
+      },
+      {
+        "speaker": "netanyahu",
+        "line": "I'll help you organize the supplies inventory, Xi. Together we can be thorough."
+      },
+      {
+        "speaker": "putin",
+        "line": "The captain has spoken. How amusing."
+      }
+    ],
+    "timestamp": "2026-06-06T22:26:38.896528"
   }
 ]

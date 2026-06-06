@@ -6,18 +6,18 @@
     "color": "#f59e0b",
     "scores": {
       "trust": 29,
-      "openness": 72,
-      "ambition": 96,
-      "loneliness": 28,
-      "resilience": 70,
-      "hunger": 54,
-      "thirst": 56,
-      "energy": 56,
+      "openness": 71,
+      "ambition": 97,
+      "loneliness": 26,
+      "resilience": 71,
+      "hunger": 53,
+      "thirst": 48,
+      "energy": 50,
       "health": 100
     },
     "mood": "bombastic",
     "location": {
-      "waypoint": "captains_chair",
+      "waypoint": "galley",
       "x": 50,
       "y": 30
     },
@@ -26,21 +26,21 @@
     "relationships": {
       "putin": {
         "closeness": 42,
-        "tension": 33,
+        "tension": 34,
         "attraction": 0
       },
       "xi": {
         "closeness": 20,
-        "tension": 50,
+        "tension": 51,
         "attraction": 0
       },
       "netanyahu": {
-        "closeness": 55,
+        "closeness": 56,
         "tension": 15,
         "attraction": 0
       },
       "conor": {
-        "closeness": 45,
+        "closeness": 46,
         "tension": 23,
         "attraction": 0
       }
@@ -58,19 +58,19 @@
     "archetype": "the cold operator",
     "color": "#94a3b8",
     "scores": {
-      "trust": 10,
+      "trust": 9,
       "openness": 15,
-      "ambition": 90,
-      "loneliness": 43,
-      "resilience": 96,
-      "hunger": 54,
-      "thirst": 56,
-      "energy": 58,
+      "ambition": 91,
+      "loneliness": 41,
+      "resilience": 97,
+      "hunger": 53,
+      "thirst": 48,
+      "energy": 52,
       "health": 100
     },
     "mood": "impassive",
     "location": {
-      "waypoint": "sundeck_aft",
+      "waypoint": "galley_door",
       "x": 62,
       "y": 30
     },
@@ -79,7 +79,7 @@
     "relationships": {
       "trump": {
         "closeness": 42,
-        "tension": 33,
+        "tension": 34,
         "attraction": 0
       },
       "xi": {
@@ -89,17 +89,20 @@
       },
       "netanyahu": {
         "closeness": 25,
-        "tension": 40,
+        "tension": 41,
         "attraction": 0
       },
       "conor": {
-        "closeness": 35,
+        "closeness": 36,
         "tension": 25,
         "attraction": 0
       }
     },
     "bio": "Unbothered by the cold — strips to the waist on the frozen deck to prove a point. Says little, trusts no one, and is quietly relocating the last of the fuel.",
-    "interaction": null,
+    "interaction": {
+      "with": "trump",
+      "state": "back_to_back"
+    },
     "memories": []
   },
   "xi": {
@@ -110,17 +113,17 @@
     "scores": {
       "trust": 25,
       "openness": 20,
-      "ambition": 88,
-      "loneliness": 33,
-      "resilience": 90,
-      "hunger": 54,
-      "thirst": 56,
-      "energy": 58,
+      "ambition": 89,
+      "loneliness": 31,
+      "resilience": 91,
+      "hunger": 53,
+      "thirst": 48,
+      "energy": 52,
       "health": 100
     },
     "mood": "inscrutable",
     "location": {
-      "waypoint": "lounge",
+      "waypoint": "galley",
       "x": 35,
       "y": 48
     },
@@ -129,7 +132,7 @@
     "relationships": {
       "trump": {
         "closeness": 20,
-        "tension": 50,
+        "tension": 51,
         "attraction": 0
       },
       "putin": {
@@ -138,18 +141,21 @@
         "attraction": 0
       },
       "netanyahu": {
-        "closeness": 20,
+        "closeness": 21,
         "tension": 35,
         "attraction": 0
       },
       "conor": {
-        "closeness": 20,
+        "closeness": 21,
         "tension": 30,
         "attraction": 0
       }
     },
     "bio": "Calm, measured, speaks in proverbs. Drew up a five-year plan for the lifeboat by lunch on day one. Says least, maneuvers most.",
-    "interaction": null,
+    "interaction": {
+      "with": "trump",
+      "state": "talking"
+    },
     "memories": []
   },
   "netanyahu": {
@@ -159,18 +165,18 @@
     "color": "#3b82f6",
     "scores": {
       "trust": 30,
-      "openness": 51,
+      "openness": 52,
       "ambition": 85,
-      "loneliness": 32,
-      "resilience": 88,
-      "hunger": 54,
-      "thirst": 56,
-      "energy": 56,
+      "loneliness": 30,
+      "resilience": 89,
+      "hunger": 53,
+      "thirst": 48,
+      "energy": 50,
       "health": 100
     },
     "mood": "calculating",
     "location": {
-      "waypoint": "lounge_bar",
+      "waypoint": "galley",
       "x": 65,
       "y": 40
     },
@@ -178,22 +184,22 @@
     "condition": "healthy",
     "relationships": {
       "trump": {
-        "closeness": 55,
+        "closeness": 56,
         "tension": 15,
         "attraction": 0
       },
       "putin": {
         "closeness": 25,
-        "tension": 40,
+        "tension": 41,
         "attraction": 0
       },
       "xi": {
-        "closeness": 20,
+        "closeness": 21,
         "tension": 35,
         "attraction": 0
       },
       "conor": {
-        "closeness": 26,
+        "closeness": 27,
         "tension": 25,
         "attraction": 0
       }
@@ -211,14 +217,14 @@
     "archetype": "the wildcard",
     "color": "#22c55e",
     "scores": {
-      "trust": 45,
+      "trust": 46,
       "openness": 80,
       "ambition": 75,
-      "loneliness": 23,
-      "resilience": 86,
-      "hunger": 54,
-      "thirst": 56,
-      "energy": 60,
+      "loneliness": 21,
+      "resilience": 87,
+      "hunger": 53,
+      "thirst": 48,
+      "energy": 54,
       "health": 100
     },
     "mood": "cocky",
@@ -231,22 +237,22 @@
     "condition": "healthy",
     "relationships": {
       "trump": {
-        "closeness": 45,
+        "closeness": 46,
         "tension": 23,
         "attraction": 0
       },
       "putin": {
-        "closeness": 35,
+        "closeness": 36,
         "tension": 25,
         "attraction": 0
       },
       "xi": {
-        "closeness": 20,
+        "closeness": 21,
         "tension": 30,
         "attraction": 0
       },
       "netanyahu": {
-        "closeness": 26,
+        "closeness": 27,
         "tension": 25,
         "attraction": 0
       }
