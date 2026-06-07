@@ -48,7 +48,16 @@
     },
     "bio": "Treats the frozen yacht like a Diddy production — 'this is mine now.' Wants to brand it, throw a party on the ice, remind everyone he built empires.",
     "interaction": null,
-    "memories": []
+    "memories": [],
+    "appearance": {
+      "skin": "#6b4a32",
+      "hair": {
+        "style": "buzz",
+        "color": "#1a1a1a"
+      },
+      "accessory": "sunglasses",
+      "outfit": "#111827"
+    }
   },
   "justin": {
     "name": "Justin Bieber",
@@ -99,7 +108,16 @@
     },
     "bio": "Hoodie up, AirPods in, perpetually over it — swings between checked-out and surprisingly capable. Misses comfort more than fame; chill in a crisis.",
     "interaction": null,
-    "memories": []
+    "memories": [],
+    "appearance": {
+      "skin": "#e8c9a8",
+      "hair": {
+        "style": "short",
+        "color": "#5b3a22"
+      },
+      "accessory": "hood",
+      "outfit": "#a855f7"
+    }
   },
   "kanye": {
     "name": "Kanye West",
@@ -150,7 +168,16 @@
     },
     "bio": "Declares himself the greatest creative alive and the obvious leader. Wants to redesign the lifeboat, rename the yacht, and monologue about vision while everyone freezes.",
     "interaction": null,
-    "memories": []
+    "memories": [],
+    "appearance": {
+      "skin": "#5c3d28",
+      "hair": {
+        "style": "buzz",
+        "color": "#1a1a1a"
+      },
+      "accessory": "none",
+      "outfit": "#ef4444"
+    }
   },
   "taylor": {
     "name": "Taylor Swift",
@@ -207,7 +234,16 @@
         "text": "Took supply control while Diddy postures. This is mine now.",
         "weight": 2
       }
-    ]
+    ],
+    "appearance": {
+      "skin": "#f0d0b0",
+      "hair": {
+        "style": "bangs",
+        "color": "#e8c87a"
+      },
+      "accessory": "none",
+      "outfit": "#ec4899"
+    }
   },
   "selena": {
     "name": "Selena Gomez",
@@ -264,6 +300,15 @@
         "text": "Grounded the chaos with food and respect. Kanye actually listened.",
         "weight": 1
       }
-    ]
+    ],
+    "appearance": {
+      "skin": "#d9a878",
+      "hair": {
+        "style": "long",
+        "color": "#2a1a12"
+      },
+      "accessory": "earrings",
+      "outfit": "#22d3ee"
+    }
   }
 }
