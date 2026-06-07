@@ -6,52 +6,55 @@
     "archetype": "the mogul host",
     "color": "#f59e0b",
     "scores": {
-      "trust": 35,
-      "openness": 68,
-      "ambition": 95,
-      "loneliness": 19,
+      "trust": 33,
+      "openness": 67,
+      "ambition": 96,
+      "loneliness": 17,
       "resilience": 76,
       "hunger": 53,
-      "thirst": 48,
-      "energy": 52,
+      "thirst": 53,
+      "energy": 46,
       "health": 100
     },
-    "mood": "commanding",
+    "mood": "frustrated",
     "condition": "healthy",
     "shelter": "owner's suite",
     "location": {
-      "waypoint": "bridge",
+      "waypoint": "galley",
       "x": 50,
       "y": 30
     },
     "relationships": {
       "justin": {
         "closeness": 25,
-        "tension": 15,
+        "tension": 16,
         "attraction": 0
       },
       "kanye": {
         "closeness": 44,
-        "tension": 34,
+        "tension": 35,
         "attraction": 0
       },
       "taylor": {
-        "closeness": 31,
-        "tension": 20,
+        "closeness": 32,
+        "tension": 21,
         "attraction": 0
       },
       "selena": {
-        "closeness": 31,
-        "tension": 15,
+        "closeness": 32,
+        "tension": 14,
         "attraction": 0
       }
     },
     "bio": "Treats the frozen yacht like a Diddy production — 'this is mine now.' Wants to brand it, throw a party on the ice, remind everyone he built empires.",
-    "interaction": {
-      "with": "kanye",
-      "state": "talking"
-    },
-    "memories": [],
+    "interaction": null,
+    "memories": [
+      {
+        "day": 1,
+        "text": "I admitted Taylor was right. God, I hate that she is.",
+        "weight": 2
+      }
+    ],
     "appearance": {
       "skin": "#6b4a32",
       "hair": {
@@ -70,16 +73,16 @@
     "color": "#a855f7",
     "scores": {
       "trust": 45,
-      "openness": 54,
-      "ambition": 60,
-      "loneliness": 48,
-      "resilience": 65,
+      "openness": 55,
+      "ambition": 59,
+      "loneliness": 47,
+      "resilience": 66,
       "hunger": 53,
-      "thirst": 48,
-      "energy": 52,
+      "thirst": 53,
+      "energy": 46,
       "health": 100
     },
-    "mood": "moody",
+    "mood": "exhausted",
     "condition": "healthy",
     "shelter": "crew quarters",
     "location": {
@@ -90,7 +93,7 @@
     "relationships": {
       "diddy": {
         "closeness": 25,
-        "tension": 15,
+        "tension": 16,
         "attraction": 0
       },
       "kanye": {
@@ -99,13 +102,13 @@
         "attraction": 0
       },
       "taylor": {
-        "closeness": 36,
+        "closeness": 37,
         "tension": 15,
         "attraction": 0
       },
       "selena": {
-        "closeness": 30,
-        "tension": 29,
+        "closeness": 31,
+        "tension": 27,
         "attraction": 0
       }
     },
@@ -129,28 +132,28 @@
     "archetype": "the self-styled genius",
     "color": "#ef4444",
     "scores": {
-      "trust": 22,
-      "openness": 88,
-      "ambition": 98,
-      "loneliness": 37,
+      "trust": 21,
+      "openness": 89,
+      "ambition": 100,
+      "loneliness": 35,
       "resilience": 70,
       "hunger": 53,
-      "thirst": 48,
-      "energy": 52,
+      "thirst": 53,
+      "energy": 46,
       "health": 100
     },
     "mood": "grandiose",
     "condition": "healthy",
     "shelter": "stateroom",
     "location": {
-      "waypoint": "bridge",
+      "waypoint": "galley",
       "x": 40,
       "y": 35
     },
     "relationships": {
       "diddy": {
         "closeness": 44,
-        "tension": 34,
+        "tension": 35,
         "attraction": 0
       },
       "justin": {
@@ -160,20 +163,17 @@
       },
       "taylor": {
         "closeness": 15,
-        "tension": 56,
+        "tension": 58,
         "attraction": 0
       },
       "selena": {
-        "closeness": 26,
-        "tension": 25,
+        "closeness": 28,
+        "tension": 24,
         "attraction": 0
       }
     },
     "bio": "Declares himself the greatest creative alive and the obvious leader. Wants to redesign the lifeboat, rename the yacht, and monologue about vision while everyone freezes.",
-    "interaction": {
-      "with": "diddy",
-      "state": "talking"
-    },
+    "interaction": null,
     "memories": [],
     "appearance": {
       "skin": "#5c3d28",
@@ -192,42 +192,42 @@
     "archetype": "the mastermind",
     "color": "#ec4899",
     "scores": {
-      "trust": 52,
+      "trust": 54,
       "openness": 59,
-      "ambition": 90,
-      "loneliness": 30,
-      "resilience": 89,
+      "ambition": 92,
+      "loneliness": 27,
+      "resilience": 90,
       "hunger": 53,
-      "thirst": 48,
-      "energy": 52,
+      "thirst": 53,
+      "energy": 46,
       "health": 100
     },
     "mood": "composed",
     "condition": "healthy",
     "shelter": "stateroom",
     "location": {
-      "waypoint": "lounge_couch",
+      "waypoint": "galley",
       "x": 35,
       "y": 48
     },
     "relationships": {
       "diddy": {
-        "closeness": 31,
-        "tension": 20,
+        "closeness": 32,
+        "tension": 21,
         "attraction": 0
       },
       "justin": {
-        "closeness": 36,
+        "closeness": 37,
         "tension": 15,
         "attraction": 0
       },
       "kanye": {
         "closeness": 15,
-        "tension": 56,
+        "tension": 58,
         "attraction": 0
       },
       "selena": {
-        "closeness": 73,
+        "closeness": 74,
         "tension": 8,
         "attraction": 0
       }
@@ -238,6 +238,11 @@
       {
         "day": 1,
         "text": "Took supply control while Diddy postures. This is mine now.",
+        "weight": 2
+      },
+      {
+        "day": 1,
+        "text": "Diddy finally conceded—quietly, but he knows. That will echo.",
         "weight": 2
       }
     ],
@@ -258,14 +263,14 @@
     "archetype": "the grounded one",
     "color": "#22d3ee",
     "scores": {
-      "trust": 57,
+      "trust": 58,
       "openness": 71,
       "ambition": 71,
-      "loneliness": 29,
-      "resilience": 86,
+      "loneliness": 26,
+      "resilience": 88,
       "hunger": 53,
-      "thirst": 48,
-      "energy": 52,
+      "thirst": 53,
+      "energy": 46,
       "health": 100
     },
     "mood": "unbothered",
@@ -278,22 +283,22 @@
     },
     "relationships": {
       "diddy": {
-        "closeness": 31,
-        "tension": 15,
+        "closeness": 32,
+        "tension": 14,
         "attraction": 0
       },
       "justin": {
-        "closeness": 30,
-        "tension": 29,
+        "closeness": 31,
+        "tension": 27,
         "attraction": 0
       },
       "kanye": {
-        "closeness": 26,
-        "tension": 25,
+        "closeness": 28,
+        "tension": 24,
         "attraction": 0
       },
       "taylor": {
-        "closeness": 73,
+        "closeness": 74,
         "tension": 8,
         "attraction": 0
       }

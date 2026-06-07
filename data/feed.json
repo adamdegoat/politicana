@@ -457,5 +457,296 @@
       }
     ],
     "timestamp": "2026-06-07T12:32:14.009495"
+  },
+  {
+    "day": 1,
+    "cycle": "evening",
+    "character": "diddy",
+    "action": "Diddy strides into the galley intending to take charge of rationing, only to find his authority subtly but thoroughly undermined.",
+    "thought": "She doesn't even acknowledge my power at all.",
+    "location": {
+      "waypoint": "galley",
+      "x": 50,
+      "y": 30
+    },
+    "shelter": "owner's suite",
+    "mood": "frustrated",
+    "timestamp": "2026-06-07T18:02:26.894685"
+  },
+  {
+    "day": 1,
+    "cycle": "evening",
+    "character": "justin",
+    "action": "Justin shuffles into the galley drawn by warmth and the promise of food, his exhaustion written across his face.",
+    "thought": "Just want it hot and warm and done, man.",
+    "location": {
+      "waypoint": "galley",
+      "x": 60,
+      "y": 40
+    },
+    "shelter": "crew quarters",
+    "mood": "exhausted",
+    "timestamp": "2026-06-07T18:02:26.894685"
+  },
+  {
+    "day": 1,
+    "cycle": "evening",
+    "character": "kanye",
+    "action": "Kanye enters from the sun deck mid-thought, his mind crackling with visions of what the frozen sea could mean.",
+    "thought": "This landscape speaks. Everyone hears it but me.",
+    "location": {
+      "waypoint": "galley",
+      "x": 40,
+      "y": 35
+    },
+    "shelter": "stateroom",
+    "mood": "grandiose",
+    "timestamp": "2026-06-07T18:02:26.894685"
+  },
+  {
+    "day": 1,
+    "cycle": "evening",
+    "character": "taylor",
+    "action": "Taylor drifts into the galley with the calm focus of someone who has already made all the real decisions and knows it.",
+    "thought": "I'm three steps ahead. Always have been.",
+    "location": {
+      "waypoint": "galley",
+      "x": 35,
+      "y": 48
+    },
+    "shelter": "stateroom",
+    "mood": "composed",
+    "timestamp": "2026-06-07T18:02:26.894685"
+  },
+  {
+    "day": 1,
+    "cycle": "evening",
+    "character": "selena",
+    "action": "Selena tends the stove with quiet focus, ladling soup and distributing warmth with the grace of someone holding the group together.",
+    "thought": "Keep them fed, keep them stable, keep breathing.",
+    "location": {
+      "waypoint": "galley",
+      "x": 30,
+      "y": 48
+    },
+    "shelter": "stateroom",
+    "mood": "unbothered",
+    "timestamp": "2026-06-07T18:02:26.894685"
+  },
+  {
+    "day": 1,
+    "cycle": "evening",
+    "type": "interaction",
+    "characters": [
+      "diddy",
+      "justin",
+      "kanye",
+      "taylor",
+      "selena"
+    ],
+    "description": "In the galley at evening as Selena tends the stove, the group converges for dinner—Diddy trying to assert command, Taylor quietly exerting control, Kanye monologuing about art and ice, Justin just wanting warmth, and Selena keeping everyone fed and sane.",
+    "dialogue": [
+      {
+        "speaker": "selena",
+        "line": "Okay, listen. I found decent supplies and I'm making soup. It'll last us two weeks if we're careful."
+      },
+      {
+        "speaker": "diddy",
+        "line": "Soup? Baby, this is a $300 million yacht. We should have caviar, Dom Pérignon—"
+      },
+      {
+        "speaker": "taylor",
+        "line": "We do. Which is exactly why we're rationing them."
+      },
+      {
+        "speaker": "diddy",
+        "line": "Hold up. Who elected you supply manager?"
+      },
+      {
+        "speaker": "taylor",
+        "line": "You did when you grabbed the captain's chair and forgot about logistics."
+      },
+      {
+        "speaker": "selena",
+        "line": "I counted everything. The gourmet stuff is real, but it's limited. Soup stretches it."
+      },
+      {
+        "speaker": "kanye",
+        "line": "I've been meditating on food. What if we created an entirely new culinary paradigm based on ice and silence and minimalism?"
+      },
+      {
+        "speaker": "justin",
+        "line": "Is it hot?"
+      },
+      {
+        "speaker": "diddy",
+        "line": "Kanye, man, we're talking about yacht operations—"
+      },
+      {
+        "speaker": "kanye",
+        "line": "This boat, this frozen sea—it's my canvas. We're creating ART, not just surviving."
+      },
+      {
+        "speaker": "taylor",
+        "line": "We're trying to not freeze to death."
+      },
+      {
+        "speaker": "kanye",
+        "line": "Same thing, really. Discomfort births genius."
+      },
+      {
+        "speaker": "selena",
+        "line": "Kanye, sit. You need to eat."
+      },
+      {
+        "speaker": "justin",
+        "line": "I mean, he's kind of right. Surviving is pretty creative when you think about it."
+      },
+      {
+        "speaker": "diddy",
+        "line": "This is not how operations work. When I'm on a set, every dollar is accounted for."
+      },
+      {
+        "speaker": "taylor",
+        "line": "Which is why we need someone actually tracking numbers instead of posturing at the helm."
+      },
+      {
+        "speaker": "selena",
+        "line": "Guys, argue strategy tomorrow. Eat now."
+      },
+      {
+        "speaker": "kanye",
+        "line": "The soup is a metaphor for our collective struggle against the void."
+      },
+      {
+        "speaker": "justin",
+        "line": "It's really just soup, bro."
+      },
+      {
+        "speaker": "diddy",
+        "line": "I'm not starting a thing. But in any operation, the person in charge—"
+      },
+      {
+        "speaker": "taylor",
+        "line": "—would have a plan. I made one. Rationing, timing, fishing. You didn't even ask."
+      },
+      {
+        "speaker": "selena",
+        "line": "Stop. You're both hungry and exhausted. Here."
+      },
+      {
+        "speaker": "kanye",
+        "line": "Hunger sharpens the mind. We're more alive than we've ever been."
+      },
+      {
+        "speaker": "justin",
+        "line": "I'm just tired, man."
+      },
+      {
+        "speaker": "diddy",
+        "line": "This is actually good."
+      },
+      {
+        "speaker": "taylor",
+        "line": "Don't sound shocked that competence exists."
+      },
+      {
+        "speaker": "selena",
+        "line": "I handle the galley. Diddy, you coordinate command. We all keep the stove burning."
+      },
+      {
+        "speaker": "kanye",
+        "line": "I'm handling the spiritual dimensions of survival. Non-negotiable."
+      },
+      {
+        "speaker": "justin",
+        "line": "Who actually watches the stove at night?"
+      },
+      {
+        "speaker": "taylor",
+        "line": "We rotate. Four-hour shifts."
+      },
+      {
+        "speaker": "diddy",
+        "line": "I'll organize the schedule."
+      },
+      {
+        "speaker": "taylor",
+        "line": "Already done. I'm putting it up."
+      },
+      {
+        "speaker": "selena",
+        "line": "You two can bicker about authority tomorrow. Tonight: eat, get warm, sleep."
+      },
+      {
+        "speaker": "kanye",
+        "line": "What if the stove is a metaphor for the human heart?"
+      },
+      {
+        "speaker": "justin",
+        "line": "What if it's just fire that keeps us from freezing?"
+      },
+      {
+        "speaker": "selena",
+        "line": "Both true. Now finish."
+      },
+      {
+        "speaker": "taylor",
+        "line": "Tomorrow we need fuel and food. Two of us should scout the ice."
+      },
+      {
+        "speaker": "diddy",
+        "line": "Unprepared? No."
+      },
+      {
+        "speaker": "taylor",
+        "line": "Which is why we prep. Ropes, short runs, first light."
+      },
+      {
+        "speaker": "selena",
+        "line": "I'll go. Whoever else is ready."
+      },
+      {
+        "speaker": "kanye",
+        "line": "I'll go. The ice calls to me."
+      },
+      {
+        "speaker": "justin",
+        "line": "The ice calls everyone. That's just the wind."
+      },
+      {
+        "speaker": "diddy",
+        "line": "If you've got a system, we use it. We survive using the system."
+      },
+      {
+        "speaker": "taylor",
+        "line": "That's the first intelligent thing you've said today."
+      },
+      {
+        "speaker": "selena",
+        "line": "Truce?"
+      },
+      {
+        "speaker": "diddy",
+        "line": "Not a truce. An understanding."
+      },
+      {
+        "speaker": "taylor",
+        "line": "Close enough."
+      },
+      {
+        "speaker": "kanye",
+        "line": "The truce is a construct designed to suppress individual vision."
+      },
+      {
+        "speaker": "justin",
+        "line": "Or it's us not killing each other over dinner. That's the real arrangement."
+      },
+      {
+        "speaker": "selena",
+        "line": "Eat before it gets cold."
+      }
+    ],
+    "timestamp": "2026-06-07T18:02:26.894685"
   }
 ]
