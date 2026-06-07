@@ -1,25 +1,33 @@
 {
   "world": "politicana",
   "poll": {
-    "id": "2026-06-07",
+    "id": "2026-06-08",
     "closes": "tonight",
-    "question": "Fuel's running low. Hot meals for morale (Selena) or rationed warmth for survival (Diddy)? Who's thinking straight?",
+    "question": "Fuel's running low. Diddy demands a vote to ration the stove—command, order, control. Kanye refuses: 'Voting stifles genius. The landscape speaks.' Selena tends the flame",
     "options": [
       {
-        "id": "selena_morale",
-        "label": "Hot Meals",
-        "desc": "Feed them first; morale is survival."
+        "id": "diddy_command",
+        "label": "Diddy's Command",
+        "desc": "Democracy votes. Rationing. Hierarchy holds the line."
       },
       {
-        "id": "diddy_survival",
-        "label": "Warmth First",
-        "desc": "You don't eat frozen—heat beats hunger."
+        "id": "kanye_vision",
+        "label": "Kanye's Vision",
+        "desc": "Burn free. Trust the fire. Morale first."
       },
       {
-        "id": "taylor_balance",
-        "label": "Taylor's Math",
-        "desc": "Smart rationing—do both with the numbers."
+        "id": "selena_hands",
+        "label": "Selena's Hands",
+        "desc": "The one tending it decides. Quiet wins."
       }
     ]
+  },
+  "in_play": {
+    "id": "selena_morale",
+    "label": "Hot Meals",
+    "desc": "Feed them first; morale is survival.",
+    "decided": "2026-06-08",
+    "votes": 0,
+    "tally": {}
   }
 }

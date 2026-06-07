@@ -1,10 +1,10 @@
 {
-  "day": 1,
-  "cycle": "night",
+  "day": 2,
+  "cycle": "morning",
   "weather": "clear",
   "pending_events": [],
   "started": true,
-  "pulse": "Diddy clings to his captain's chair while Taylor quietly controls the food; Kanye monologues to the ice; Justin finds unexpected shelter in Selena's calm.",
+  "pulse": "Selena's tending the stove; Diddy wants credit; Kanye's communing with ice; Taylor's calculating survival.",
   "structures": [
     {
       "id": "ship_stove",
@@ -16,31 +16,36 @@
       "builder": "",
       "day": 1,
       "label": "Ship's Stove",
-      "condition": 88
+      "condition": 85
     }
   ],
   "resources": {
+    "food": 4,
+    "water": 66,
+    "wood": 43,
+    "medicine": 20
+  },
+  "resources_prev": {
     "food": 13,
     "water": 70,
     "wood": 45,
     "medicine": 20
   },
-  "resources_prev": {
-    "food": 21,
-    "water": 59,
-    "wood": 41,
-    "medicine": 20
-  },
   "discoveries": [],
-  "last_cycle_key": "2026-06-07:night",
+  "last_cycle_key": "2026-06-08:morning",
   "camp_climate": "steady",
   "fire": {
     "lit": true,
-    "fuel": 2
+    "fuel": 8
   },
-  "scene": "By nightfall, Selena had fed everyone and the stove held firm—but Taylor had quietly moved all the supplies, leaving Diddy in the owner's suite realizing his command was just a nameplate, while Justin warmed himself beside Selena's steady fire and Kanye talked to the stars.",
+  "scene": "Selena keeps the stove alive through the night. Justin seeks warmth; Diddy seeks control. Kanye preaches to the ice from the sun deck; Taylor checks fuel in the shadows.",
   "day_summaries": {
     "1": "Day 1: Diddy seized the captain's chair at midday, but Taylor quietly moved the food supplies and controlled the rationing—by evening he felt the shift. Kanye declared himself a visionary while Justin, exhausted and hollow, found unexpected human warmth with Selena in the galley. The stove still burned, but the real battle was over who would actually lead. By night, an uneasy balance held, and everyone pretended they weren't freezing."
   },
-  "last_run_date": "2026-06-07"
+  "last_run_date": "2026-06-08",
+  "lean": {
+    "id": "selena_morale",
+    "label": "Hot Meals",
+    "desc": "Feed them first; morale is survival."
+  }
 }

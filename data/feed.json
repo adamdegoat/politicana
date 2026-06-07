@@ -928,5 +928,225 @@
       }
     ],
     "timestamp": "2026-06-07T23:01:50.045257"
+  },
+  {
+    "day": 2,
+    "cycle": "morning",
+    "character": "diddy",
+    "action": "Wakes in the owner's suite and heads to the galley, drawn by the smell of broth.",
+    "thought": "I built empires. Why am I not running this?",
+    "location": {
+      "waypoint": "galley",
+      "x": 50,
+      "y": 30
+    },
+    "shelter": "owner's suite",
+    "mood": "agitated",
+    "timestamp": "2026-06-08T07:03:08.218404"
+  },
+  {
+    "day": 2,
+    "cycle": "morning",
+    "character": "justin",
+    "action": "Shuffles to the galley seeking warmth, half-asleep and exhausted.",
+    "thought": "Please let the stove still be burning.",
+    "location": {
+      "waypoint": "galley",
+      "x": 60,
+      "y": 40
+    },
+    "shelter": "crew quarters",
+    "mood": "weary",
+    "timestamp": "2026-06-08T07:03:08.218404"
+  },
+  {
+    "day": 2,
+    "cycle": "morning",
+    "character": "kanye",
+    "action": "Wanders to the sun deck, ignoring the cold, communing with the frozen landscape.",
+    "thought": "The ice speaks. Only I truly hear it.",
+    "location": {
+      "waypoint": "sundeck_aft",
+      "x": 40,
+      "y": 35
+    },
+    "shelter": "stateroom",
+    "mood": "grandiose",
+    "timestamp": "2026-06-08T07:03:08.218404"
+  },
+  {
+    "day": 2,
+    "cycle": "morning",
+    "character": "taylor",
+    "action": "Checks the fuel cans and stove condition in her mind, calculating survival ratios.",
+    "thought": "Numbers favor us. I can manage this.",
+    "location": {
+      "waypoint": "lounge",
+      "x": 35,
+      "y": 48
+    },
+    "shelter": "stateroom",
+    "mood": "composed",
+    "timestamp": "2026-06-08T07:03:08.218404"
+  },
+  {
+    "day": 2,
+    "cycle": "morning",
+    "character": "selena",
+    "action": "Already awake, tending the stove in the galley, warming broth and melting ice.",
+    "thought": "Keep the fire alive. Keep them fed. Breathe.",
+    "location": {
+      "waypoint": "galley",
+      "x": 30,
+      "y": 48
+    },
+    "shelter": "stateroom",
+    "mood": "grounded",
+    "timestamp": "2026-06-08T07:03:08.218404"
+  },
+  {
+    "day": 2,
+    "cycle": "morning",
+    "type": "interaction",
+    "characters": [
+      "justin",
+      "selena"
+    ],
+    "description": "Early morning in the galley: Selena has kept the stove burning through the night. Justin arrives seeking warmth; Diddy arrives moments later wanting to take charge.",
+    "dialogue": [
+      {
+        "speaker": "justin",
+        "line": "The stove's still going. Thank god."
+      },
+      {
+        "speaker": "selena",
+        "line": "Barely. It's been hungry all night. But yeah, still alive."
+      },
+      {
+        "speaker": "justin",
+        "line": "You didn't sleep, did you?"
+      },
+      {
+        "speaker": "selena",
+        "line": "I kept watch. That's all that matters."
+      },
+      {
+        "speaker": "justin",
+        "line": "That's... yeah. I get it."
+      },
+      {
+        "speaker": "selena",
+        "line": "There's broth warming. It's not much but it's hot."
+      },
+      {
+        "speaker": "justin",
+        "line": "You're a saint. My fingers feel like ice."
+      },
+      {
+        "speaker": "selena",
+        "line": "Wrap them around the cup."
+      },
+      {
+        "speaker": "diddy",
+        "line": "Good morning, good morning! What are we working with?"
+      },
+      {
+        "speaker": "selena",
+        "line": "The galley's warm. The goal is keeping everyone fed."
+      },
+      {
+        "speaker": "diddy",
+        "line": "For sure. But we should make this a production, yeah? Hot breakfast is marketing gold."
+      },
+      {
+        "speaker": "justin",
+        "line": "It's already hot breakfast. She's doing it."
+      },
+      {
+        "speaker": "diddy",
+        "line": "I know, I know, but the *presentation*. People need to feel the care."
+      },
+      {
+        "speaker": "selena",
+        "line": "They'll feel the warmth. That's the care."
+      },
+      {
+        "speaker": "diddy",
+        "line": "Right, right. So what's the menu? What do we have?"
+      },
+      {
+        "speaker": "selena",
+        "line": "Broth and canned goods. We're rationing."
+      },
+      {
+        "speaker": "diddy",
+        "line": "Okay, okay. Smart. How much food do we have left total?"
+      },
+      {
+        "speaker": "selena",
+        "line": "Thirteen units. Not a lot. Maybe three days if we're careful."
+      },
+      {
+        "speaker": "diddy",
+        "line": "Okay. Okay, that's... we'll figure it out."
+      },
+      {
+        "speaker": "justin",
+        "line": "Fish would help. Someone could ice-fish today."
+      },
+      {
+        "speaker": "diddy",
+        "line": "Yeah, yeah. Smart. Maybe that's the move."
+      },
+      {
+        "speaker": "selena",
+        "line": "The stove needs watching. I can't leave it long."
+      },
+      {
+        "speaker": "diddy",
+        "line": "Then I'll help with the stove. You show me how."
+      },
+      {
+        "speaker": "selena",
+        "line": "You stir it every few minutes. If the flame gets low, add wood."
+      },
+      {
+        "speaker": "diddy",
+        "line": "Got it. Stir, wood, got it."
+      },
+      {
+        "speaker": "justin",
+        "line": "He's trying."
+      },
+      {
+        "speaker": "selena",
+        "line": "Everyone tries in the cold. I'll be back."
+      },
+      {
+        "speaker": "diddy",
+        "line": "How are you feeling, Justin? You look rough."
+      },
+      {
+        "speaker": "justin",
+        "line": "Cold. Tired. You know, normal."
+      },
+      {
+        "speaker": "diddy",
+        "line": "We'll get through this. We're a team."
+      },
+      {
+        "speaker": "justin",
+        "line": "Yeah. We'll see."
+      },
+      {
+        "speaker": "diddy",
+        "line": "I'm serious. Nobody gets left behind on my watch."
+      },
+      {
+        "speaker": "justin",
+        "line": "It's not your watch though."
+      }
+    ],
+    "timestamp": "2026-06-08T07:03:08.218404"
   }
 ]
