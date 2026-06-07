@@ -6,28 +6,28 @@
     "archetype": "the mogul host",
     "color": "#f59e0b",
     "scores": {
-      "trust": 33,
-      "openness": 67,
-      "ambition": 96,
-      "loneliness": 17,
+      "trust": 31,
+      "openness": 66,
+      "ambition": 97,
+      "loneliness": 21,
       "resilience": 76,
       "hunger": 53,
-      "thirst": 53,
-      "energy": 46,
+      "thirst": 45,
+      "energy": 82,
       "health": 100
     },
-    "mood": "frustrated",
+    "mood": "agitated",
     "condition": "healthy",
     "shelter": "owner's suite",
     "location": {
-      "waypoint": "galley",
+      "waypoint": "captains_chair",
       "x": 50,
       "y": 30
     },
     "relationships": {
       "justin": {
-        "closeness": 25,
-        "tension": 16,
+        "closeness": 24,
+        "tension": 17,
         "attraction": 0
       },
       "kanye": {
@@ -36,8 +36,8 @@
         "attraction": 0
       },
       "taylor": {
-        "closeness": 32,
-        "tension": 21,
+        "closeness": 31,
+        "tension": 23,
         "attraction": 0
       },
       "selena": {
@@ -52,6 +52,11 @@
       {
         "day": 1,
         "text": "I admitted Taylor was right. God, I hate that she is.",
+        "weight": 2
+      },
+      {
+        "day": 1,
+        "text": "Taylor moved supplies without asking. She's running something.",
         "weight": 2
       }
     ],
@@ -72,17 +77,17 @@
     "archetype": "the reluctant prince",
     "color": "#a855f7",
     "scores": {
-      "trust": 45,
-      "openness": 55,
+      "trust": 47,
+      "openness": 57,
       "ambition": 59,
-      "loneliness": 47,
-      "resilience": 66,
+      "loneliness": 43,
+      "resilience": 67,
       "hunger": 53,
-      "thirst": 53,
-      "energy": 46,
+      "thirst": 45,
+      "energy": 82,
       "health": 100
     },
-    "mood": "exhausted",
+    "mood": "weary",
     "condition": "healthy",
     "shelter": "crew quarters",
     "location": {
@@ -92,8 +97,8 @@
     },
     "relationships": {
       "diddy": {
-        "closeness": 25,
-        "tension": 16,
+        "closeness": 24,
+        "tension": 17,
         "attraction": 0
       },
       "kanye": {
@@ -107,14 +112,23 @@
         "attraction": 0
       },
       "selena": {
-        "closeness": 31,
-        "tension": 27,
+        "closeness": 34,
+        "tension": 25,
         "attraction": 0
       }
     },
     "bio": "Hoodie up, AirPods in, perpetually over it — swings between checked-out and surprisingly capable. Misses comfort more than fame; chill in a crisis.",
-    "interaction": null,
-    "memories": [],
+    "interaction": {
+      "with": "selena",
+      "state": "comforting"
+    },
+    "memories": [
+      {
+        "day": 1,
+        "text": "Selena reminded me it's okay to fall apart quietly. That felt true.",
+        "weight": 2
+      }
+    ],
     "appearance": {
       "skin": "#e8c9a8",
       "hair": {
@@ -133,20 +147,20 @@
     "color": "#ef4444",
     "scores": {
       "trust": 21,
-      "openness": 89,
+      "openness": 90,
       "ambition": 100,
-      "loneliness": 35,
-      "resilience": 70,
+      "loneliness": 39,
+      "resilience": 69,
       "hunger": 53,
-      "thirst": 53,
-      "energy": 46,
+      "thirst": 45,
+      "energy": 82,
       "health": 100
     },
     "mood": "grandiose",
     "condition": "healthy",
     "shelter": "stateroom",
     "location": {
-      "waypoint": "galley",
+      "waypoint": "sundeck_aft",
       "x": 40,
       "y": 35
     },
@@ -192,28 +206,28 @@
     "archetype": "the mastermind",
     "color": "#ec4899",
     "scores": {
-      "trust": 54,
+      "trust": 55,
       "openness": 59,
-      "ambition": 92,
-      "loneliness": 27,
-      "resilience": 90,
+      "ambition": 93,
+      "loneliness": 30,
+      "resilience": 91,
       "hunger": 53,
-      "thirst": 53,
-      "energy": 46,
+      "thirst": 45,
+      "energy": 82,
       "health": 100
     },
     "mood": "composed",
     "condition": "healthy",
     "shelter": "stateroom",
     "location": {
-      "waypoint": "galley",
+      "waypoint": "lounge",
       "x": 35,
       "y": 48
     },
     "relationships": {
       "diddy": {
-        "closeness": 32,
-        "tension": 21,
+        "closeness": 31,
+        "tension": 23,
         "attraction": 0
       },
       "justin": {
@@ -227,7 +241,7 @@
         "attraction": 0
       },
       "selena": {
-        "closeness": 74,
+        "closeness": 75,
         "tension": 8,
         "attraction": 0
       }
@@ -263,17 +277,17 @@
     "archetype": "the grounded one",
     "color": "#22d3ee",
     "scores": {
-      "trust": 58,
-      "openness": 71,
+      "trust": 59,
+      "openness": 72,
       "ambition": 71,
-      "loneliness": 26,
-      "resilience": 88,
+      "loneliness": 23,
+      "resilience": 89,
       "hunger": 53,
-      "thirst": 53,
-      "energy": 46,
+      "thirst": 45,
+      "energy": 82,
       "health": 100
     },
-    "mood": "unbothered",
+    "mood": "grounded",
     "condition": "healthy",
     "shelter": "stateroom",
     "location": {
@@ -288,8 +302,8 @@
         "attraction": 0
       },
       "justin": {
-        "closeness": 31,
-        "tension": 27,
+        "closeness": 34,
+        "tension": 25,
         "attraction": 0
       },
       "kanye": {
@@ -298,18 +312,26 @@
         "attraction": 0
       },
       "taylor": {
-        "closeness": 74,
+        "closeness": 75,
         "tension": 8,
         "attraction": 0
       }
     },
     "bio": "Emotionally intelligent, dry-humored, unbothered — the one who actually copes and quietly mediates. Businesswoman calm.",
-    "interaction": null,
+    "interaction": {
+      "with": "justin",
+      "state": "comforting"
+    },
     "memories": [
       {
         "day": 1,
         "text": "Grounded the chaos with food and respect. Kanye actually listened.",
         "weight": 1
+      },
+      {
+        "day": 1,
+        "text": "Justin needed someone to let him be cold and scared. That mattered.",
+        "weight": 2
       }
     ],
     "appearance": {

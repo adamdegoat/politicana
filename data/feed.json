@@ -748,5 +748,185 @@
       }
     ],
     "timestamp": "2026-06-07T18:02:26.894685"
+  },
+  {
+    "day": 1,
+    "cycle": "night",
+    "character": "diddy",
+    "action": "Returns to the owner's suite as night falls, pacing between the window and the captain's chair, replaying the day over and over.",
+    "thought": "She didn't ask. She just moved them.",
+    "location": {
+      "waypoint": "captains_chair",
+      "x": 50,
+      "y": 30
+    },
+    "shelter": "owner's suite",
+    "mood": "agitated",
+    "timestamp": "2026-06-07T23:01:50.045257"
+  },
+  {
+    "day": 1,
+    "cycle": "night",
+    "character": "justin",
+    "action": "Leaves his bunk around midnight, too cold to sleep, and follows the faint warmth toward the galley.",
+    "thought": "So cold. So tired. So completely lost.",
+    "location": {
+      "waypoint": "galley",
+      "x": 60,
+      "y": 40
+    },
+    "shelter": "crew quarters",
+    "mood": "weary",
+    "timestamp": "2026-06-07T23:01:50.045257"
+  },
+  {
+    "day": 1,
+    "cycle": "night",
+    "character": "kanye",
+    "action": "Stands on the aft sun deck in the Arctic night, arms spread, talking aloud about the sublime terror of ice and human limits.",
+    "thought": "This landscape speaks. Only I hear it.",
+    "location": {
+      "waypoint": "sundeck_aft",
+      "x": 40,
+      "y": 35
+    },
+    "shelter": "stateroom",
+    "mood": "grandiose",
+    "timestamp": "2026-06-07T23:01:50.045257"
+  },
+  {
+    "day": 1,
+    "cycle": "night",
+    "character": "taylor",
+    "action": "Lies in her bunk in the stateroom, lamplight off, mentally cataloging the supplies she moved and tomorrow's rationing plan.",
+    "thought": "Quiet wins every time. Always have.",
+    "location": {
+      "waypoint": "lounge",
+      "x": 35,
+      "y": 48
+    },
+    "shelter": "stateroom",
+    "mood": "composed",
+    "timestamp": "2026-06-07T23:01:50.045257"
+  },
+  {
+    "day": 1,
+    "cycle": "night",
+    "character": "selena",
+    "action": "Tends the stove in the galley, keeping the fire burning, and looks up when Justin shuffles in from the darkness.",
+    "thought": "He's breaking. I need to help.",
+    "location": {
+      "waypoint": "galley",
+      "x": 30,
+      "y": 48
+    },
+    "shelter": "stateroom",
+    "mood": "grounded",
+    "timestamp": "2026-06-07T23:01:50.045257"
+  },
+  {
+    "day": 1,
+    "cycle": "night",
+    "type": "interaction",
+    "characters": [
+      "justin",
+      "selena"
+    ],
+    "description": "In the galley late at night, Justin comes looking for warmth and finds Selena tending the fire, the two of them talking quietly as the rest of the yacht sleeps.",
+    "dialogue": [
+      {
+        "speaker": "justin",
+        "line": "It's insane how cold it is."
+      },
+      {
+        "speaker": "selena",
+        "line": "Yeah, that's the Arctic for you. Very committed to the bit."
+      },
+      {
+        "speaker": "justin",
+        "line": "Is that warm water?"
+      },
+      {
+        "speaker": "selena",
+        "line": "Warm-ish. We're melting ice on the stove. It's not luxury, but it helps."
+      },
+      {
+        "speaker": "justin",
+        "line": "Can I have some?"
+      },
+      {
+        "speaker": "selena",
+        "line": "Of course."
+      },
+      {
+        "speaker": "justin",
+        "line": "How are you so calm about all this?"
+      },
+      {
+        "speaker": "selena",
+        "line": "Panicking doesn't keep you warm. Sitting by a fire does."
+      },
+      {
+        "speaker": "justin",
+        "line": "That's pretty smart."
+      },
+      {
+        "speaker": "selena",
+        "line": "Basic survival, really. Not smart. Just necessary."
+      },
+      {
+        "speaker": "justin",
+        "line": "Diddy's been weird all evening. Made a big speech, now he's just angry."
+      },
+      {
+        "speaker": "selena",
+        "line": "He thought yelling meant people would listen. They didn't."
+      },
+      {
+        "speaker": "justin",
+        "line": "Who's actually in charge, then?"
+      },
+      {
+        "speaker": "selena",
+        "line": "Nobody. Which is the problem and also the only thing keeping us alive."
+      },
+      {
+        "speaker": "justin",
+        "line": "I'm scared."
+      },
+      {
+        "speaker": "selena",
+        "line": "I know. Me too."
+      },
+      {
+        "speaker": "justin",
+        "line": "You don't look scared."
+      },
+      {
+        "speaker": "selena",
+        "line": "I'm terrified. I'm just doing it while making tea."
+      },
+      {
+        "speaker": "justin",
+        "line": "That's actually kind of inspiring."
+      },
+      {
+        "speaker": "selena",
+        "line": "It's boring, but thanks. Drink the water before it gets cold."
+      },
+      {
+        "speaker": "justin",
+        "line": "Do you think we're getting out of here?"
+      },
+      {
+        "speaker": "selena",
+        "line": "Not tonight. That's all I promise."
+      },
+      {
+        "speaker": "justin",
+        "line": "Okay. That's actually enough."
+      }
+    ],
+    "timestamp": "2026-06-07T23:01:50.045257"
   }
 ]
