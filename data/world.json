@@ -1,10 +1,10 @@
 {
   "day": 1,
-  "cycle": "morning",
+  "cycle": "midday",
   "weather": "clear",
   "pending_events": [],
   "started": true,
-  "pulse": "Diddy and Kanye both claim command while Taylor quietly secures supply control. Selena becomes the only one anyone trusts.",
+  "pulse": "Diddy claims command; Kanye refuses hierarchy; Taylor quietly running supplies—nobody's noticed the real power yet.",
   "structures": [
     {
       "id": "ship_stove",
@@ -16,29 +16,29 @@
       "builder": "",
       "day": 1,
       "label": "Ship's Stove",
-      "condition": 97
+      "condition": 94
     }
   ],
   "resources": {
+    "food": 32,
+    "water": 66,
+    "wood": 39,
+    "medicine": 20
+  },
+  "resources_prev": {
     "food": 41,
     "water": 53,
     "wood": 37,
     "medicine": 20
   },
-  "resources_prev": {
-    "food": 40,
-    "water": 45,
-    "wood": 35,
-    "medicine": 20
-  },
   "discoveries": [],
-  "last_cycle_key": "2026-06-07:morning",
+  "last_cycle_key": "2026-06-07:midday",
   "camp_climate": "steady",
   "fire": {
     "lit": true,
-    "fuel": 38
+    "fuel": 26
   },
-  "scene": "At dawn in the galley, Diddy seized authority and Kanye declared visionary rights, but Taylor had already drawn up the fuel chart. Everyone had a role by breakfast—whether they wanted it or not.",
+  "scene": "Diddy and Kanye clashed over command on the bridge; Kanye stormed to the sun deck, Diddy sits fuming at the captain's chair, Taylor finishes her fuel calculations, Selena keeps Justin warm in the galley.",
   "day_summaries": {},
   "last_run_date": "2026-06-07"
 }

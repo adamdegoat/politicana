@@ -257,5 +257,205 @@
       }
     ],
     "timestamp": "2026-06-07T09:02:31.749149"
+  },
+  {
+    "day": 1,
+    "cycle": "midday",
+    "character": "diddy",
+    "action": "Diddy marches to the captain's chair and plants himself there like he owns it, surveying the frozen expanse with the confidence of a man who has never actually captained anything.",
+    "thought": "If I don't lead, everything crumbles.",
+    "location": {
+      "waypoint": "bridge",
+      "x": 50,
+      "y": 30
+    },
+    "shelter": "owner's suite",
+    "mood": "commanding",
+    "timestamp": "2026-06-07T12:32:14.009495"
+  },
+  {
+    "day": 1,
+    "cycle": "midday",
+    "character": "justin",
+    "action": "Justin nurses a mug of the yacht's bitter coffee, slouched on a galley stool, slowly thawing enough to feel his fingers again.",
+    "thought": "How is it still this freezing?",
+    "location": {
+      "waypoint": "galley",
+      "x": 60,
+      "y": 40
+    },
+    "shelter": "crew quarters",
+    "mood": "moody",
+    "timestamp": "2026-06-07T12:32:14.009495"
+  },
+  {
+    "day": 1,
+    "cycle": "midday",
+    "character": "kanye",
+    "action": "Kanye paces the bridge beside Diddy, gesticulating wildly, explaining to no one in particular how the frozen yacht is a metaphor for artistic constraint and genius vision.",
+    "thought": "They don't see what I see.",
+    "location": {
+      "waypoint": "bridge",
+      "x": 40,
+      "y": 35
+    },
+    "shelter": "stateroom",
+    "mood": "grandiose",
+    "timestamp": "2026-06-07T12:32:14.009495"
+  },
+  {
+    "day": 1,
+    "cycle": "midday",
+    "character": "taylor",
+    "action": "Taylor spreads out a tattered shipping manifest on the lounge table and begins quietly calculating fuel consumption, food rationing, and medical reserves with practiced precision.",
+    "thought": "Diddy has no idea I'm running this.",
+    "location": {
+      "waypoint": "lounge_couch",
+      "x": 35,
+      "y": 48
+    },
+    "shelter": "stateroom",
+    "mood": "composed",
+    "timestamp": "2026-06-07T12:32:14.009495"
+  },
+  {
+    "day": 1,
+    "cycle": "midday",
+    "character": "selena",
+    "action": "Selena stirs a pot of melted ice mixed with canned broth, her movements efficient, watching Justin warm his hands on the steam rising from the pot.",
+    "thought": "Food keeps them stable and sane.",
+    "location": {
+      "waypoint": "galley",
+      "x": 30,
+      "y": 48
+    },
+    "shelter": "stateroom",
+    "mood": "unbothered",
+    "timestamp": "2026-06-07T12:32:14.009495"
+  },
+  {
+    "day": 1,
+    "cycle": "midday",
+    "type": "interaction",
+    "characters": [
+      "diddy",
+      "kanye"
+    ],
+    "description": "On the bridge at midday, Diddy seizes the captain's chair and demands command while Kanye insists that hierarchy stifles genius—the clash escalates until Kanye storms away to the sun deck.",
+    "dialogue": [
+      {
+        "speaker": "diddy",
+        "line": "I didn't build Bad Boy by letting chaos run things. This ship needs structure and leadership."
+      },
+      {
+        "speaker": "kanye",
+        "line": "The ship is speaking to me. Every frozen inch is a canvas for genius."
+      },
+      {
+        "speaker": "diddy",
+        "line": "That's poetic. But we also need fuel rationed, food managed. That takes leadership."
+      },
+      {
+        "speaker": "kanye",
+        "line": "Who made you the leader? I don't remember voting."
+      },
+      {
+        "speaker": "diddy",
+        "line": "Because someone has to. I have the track record."
+      },
+      {
+        "speaker": "kanye",
+        "line": "You have a record label. This is completely different."
+      },
+      {
+        "speaker": "diddy",
+        "line": "I built an empire from nothing. I can handle a frozen yacht."
+      },
+      {
+        "speaker": "kanye",
+        "line": "You're trying to control us—put everyone in boxes so you feel safe."
+      },
+      {
+        "speaker": "diddy",
+        "line": "I'm trying to keep us alive. That's controlling?"
+      },
+      {
+        "speaker": "kanye",
+        "line": "Using survival as an excuse to dominate—that's manipulation, baby."
+      },
+      {
+        "speaker": "diddy",
+        "line": "You're exhausted. The cold is getting to you."
+      },
+      {
+        "speaker": "kanye",
+        "line": "Don't gaslight me. I'm seeing clearly for the first time."
+      },
+      {
+        "speaker": "diddy",
+        "line": "Brilliant doesn't keep the stove lit or people fed, Ye."
+      },
+      {
+        "speaker": "kanye",
+        "line": "Then I'll do it myself. I don't need your control."
+      },
+      {
+        "speaker": "diddy",
+        "line": "That's not how survival works."
+      },
+      {
+        "speaker": "kanye",
+        "line": "Then tell me how, because I'm not taking orders from you."
+      },
+      {
+        "speaker": "diddy",
+        "line": "Look, I respect you. But someone needs to be in charge right now."
+      },
+      {
+        "speaker": "kanye",
+        "line": "It can't be you. I don't trust you."
+      },
+      {
+        "speaker": "diddy",
+        "line": "Why not?"
+      },
+      {
+        "speaker": "kanye",
+        "line": "If I take orders from someone I don't trust, I surrender my power."
+      },
+      {
+        "speaker": "diddy",
+        "line": "This isn't about power. It's about staying alive."
+      },
+      {
+        "speaker": "kanye",
+        "line": "Everything is power. You know that as well as I do."
+      },
+      {
+        "speaker": "diddy",
+        "line": "Ye, stay here. We can figure this out together."
+      },
+      {
+        "speaker": "kanye",
+        "line": "I'm going to the sun deck. I need to think."
+      },
+      {
+        "speaker": "diddy",
+        "line": "It's freezing out there."
+      },
+      {
+        "speaker": "kanye",
+        "line": "So it is in here."
+      },
+      {
+        "speaker": "diddy",
+        "line": "Come back in an hour."
+      },
+      {
+        "speaker": "kanye",
+        "line": "Don't count on it."
+      }
+    ],
+    "timestamp": "2026-06-07T12:32:14.009495"
   }
 ]
