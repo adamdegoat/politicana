@@ -2163,9 +2163,9 @@ function hairSVG(style, hc){
 
 // Accessories — front layer (over hair/face where appropriate).
 // `outfit` lets the hood/cap match the character's top.
-function accessorySVG(acc, hc, outfit){
-  const COL_HOOD = outfit || '#374151'
-  const COL_CAP  = outfit || '#1f2937'
+function accessorySVG(acc, hc, outfit, accColor){
+  const COL_HOOD = accColor || outfit || '#374151'
+  const COL_CAP  = accColor || outfit || '#1f2937'
   switch(acc){
     case 'sunglasses':
       return `<g>
@@ -2180,15 +2180,16 @@ function accessorySVG(acc, hc, outfit){
         <path d="M -16 -55 C -18 -74 -10 -90 0 -90 C 10 -90 18 -74 16 -55 C 13 -58 11 -60 9 -61 C 11 -67 9 -73 4 -74.5 C 2 -78 -2 -78 -4 -74.5 C -9 -73 -11 -67 -9 -61 C -11 -60 -13 -58 -16 -55 Z" fill="${COL_HOOD}"/>
         <path d="M -14 -58 C -15 -74 -8.5 -86 0 -86 C 8.5 -86 15 -74 14 -58" fill="none" stroke="#00000026" stroke-width="1"/>
       </g>`
-    case 'cap': // baseball cap: dome + forward brim
+    case 'cap': // baseball cap: rounded crown hugging the head + forward brim
       return `<g>
-        <path d="M -11.5 -78 C -11 -88 11 -88 11.5 -78 C 8 -82 -8 -82 -11.5 -78 Z" fill="${COL_CAP}"/>
-        <path d="M -11.5 -78 L -16 -76 C -14 -73.5 -8 -74.5 -2 -77 Z" fill="${COL_CAP}"/>
+        <path d="M -11.8 -75 C -12.5 -90 12.5 -90 11.8 -75 C 8 -78 -8 -78 -11.8 -75 Z" fill="${COL_CAP}"/>
+        <path d="M -11.8 -75.5 L -18 -73.5 C -16.5 -70.5 -8.5 -71.5 -2.5 -74.5 Z" fill="${COL_CAP}"/>
+        <path d="M -10 -78 C -6 -86 6 -86 10 -78" fill="none" stroke="#00000022" stroke-width="1"/>
       </g>`
-    case 'beanie': // knitted cap with a fold band
+    case 'beanie': // knitted cap pulled low over the crown + fold band
       return `<g>
-        <path d="M -12 -76 C -12 -89 12 -89 12 -76 Z" fill="${COL_CAP}"/>
-        <rect x="-12" y="-77" width="24" height="3.5" rx="1.7" fill="${COL_CAP}" stroke="#00000022" stroke-width=".6"/>
+        <path d="M -12.2 -73.5 C -12.5 -90 12.5 -90 12.2 -73.5 Z" fill="${COL_CAP}"/>
+        <rect x="-12.2" y="-75.5" width="24.4" height="4" rx="2" fill="${COL_CAP}" stroke="#00000026" stroke-width=".7"/>
       </g>`
     case 'headphones': // band over the crown + ear cups
       return `<g>
@@ -2214,10 +2215,11 @@ function makeGenericCharSVG(cid, color, skin) {
   const hairStyle = (ap.hair && ap.hair.style) || 'short'
   const acc = ap.accessory || 'none'
   const outfit = ap.outfit || color
+  const accColor = ap.accColor || ''
   const hair = hairSVG(hairStyle, hc)
-  const accFront = accessorySVG(acc, hc, outfit)
-  // hood replaces the hair-on-top look; keep front hair only if not hooded
-  const hairFront = acc === 'hood' ? '' : hair.front
+  const accFront = accessorySVG(acc, hc, outfit, accColor)
+  // headwear replaces the hair-on-top look; keep front hair only when bare-headed
+  const hairFront = (acc === 'hood' || acc === 'cap' || acc === 'beanie') ? '' : hair.front
   // soft skin shade (a touch darker) for cheek/jaw AO
   const shade = '#00000016'
   return `<svg class="char-svg" id="svg-${cid}" width="19" height="45" viewBox="-20 -92 40 96" xmlns="http://www.w3.org/2000/svg">
