@@ -3,22 +3,22 @@
   "poll": {
     "id": "2026-06-07",
     "closes": "tonight",
-    "question": "The fuel lasts 40 days if Vladimir controls the stove. Donald insists on breakfast protocol. Morale or math—who decides?",
+    "question": "Fuel's running low. Hot meals for morale (Selena) or rationed warmth for survival (Diddy)? Who's thinking straight?",
     "options": [
       {
-        "id": "vladimir_math",
-        "label": "Vladimir's authority",
-        "desc": "The math becomes law."
+        "id": "selena_morale",
+        "label": "Hot Meals",
+        "desc": "Feed them first; morale is survival."
       },
       {
-        "id": "donald_ceremony",
-        "label": "Donald's protocol",
-        "desc": "Ceremony feeds the soul."
+        "id": "diddy_survival",
+        "label": "Warmth First",
+        "desc": "You don't eat frozen—heat beats hunger."
       },
       {
-        "id": "bibi_balance",
-        "label": "Bibi's compromise",
-        "desc": "The balance holds. For now."
+        "id": "taylor_balance",
+        "label": "Taylor's Math",
+        "desc": "Smart rationing—do both with the numbers."
       }
     ]
   }
