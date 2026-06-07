@@ -1631,19 +1631,18 @@ function separateChars(positions) {
   for(let iter=0; iter<25; iter++) {
     for(let i=0; i<positions.length; i++) {
       for(let j=i+1; j<positions.length; j++) {
+        if (Math.abs(positions[j].py - positions[i].py) > 45) continue   // different decks — never shove across rows
         const isPair = interacting.has([positions[i].id,positions[j].id].sort().join('_'))
         const minDist = isPair ? SEAT : MIN
         const dx=positions[j].px - positions[i].px
-        const dy=positions[j].py - positions[i].py
-        const dist=Math.sqrt(dx*dx+dy*dy)
-        if(dist < minDist) {
-          const push=(minDist-(dist||0))/2
-          // on a near-identical point, seat couples horizontally (side-by-side on the log);
-          // everyone else scatters on a deterministic angle
-          const nx=dist>0.5?dx/dist:(isPair?1:Math.cos(i*2.4))
-          const ny=dist>0.5?dy/dist:(isPair?0:Math.sin(i*2.4))
-          positions[i].px -= nx*push; positions[i].py -= ny*push
-          positions[j].px += nx*push; positions[j].py += ny*push
+        const adist=Math.abs(dx)
+        if(adist < minDist) {
+          // separate HORIZONTALLY only — never vertically — so each figure keeps its waypoint's
+          // deck height and its feet can't slide off the deck onto the hull when several cluster.
+          const push=(minDist-adist)/2
+          const dir=adist>0.5?(dx>0?1:-1):(isPair?1:(Math.cos(i*2.4)>=0?1:-1))
+          positions[i].px -= dir*push
+          positions[j].px += dir*push
         }
       }
     }
