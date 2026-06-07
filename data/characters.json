@@ -1,352 +1,269 @@
 {
-  "trump": {
-    "name": "Donald Trump",
-    "age": 78,
-    "archetype": "the self-declared captain",
+  "diddy": {
+    "name": "Sean Combs",
+    "callname": "Diddy",
+    "age": 55,
+    "archetype": "the mogul host",
     "color": "#f59e0b",
     "scores": {
-      "trust": 28,
-      "openness": 72,
-      "ambition": 100,
-      "loneliness": 26,
-      "resilience": 71,
-      "hunger": 53,
-      "thirst": 53,
-      "energy": 82,
+      "trust": 35,
+      "openness": 69,
+      "ambition": 94,
+      "loneliness": 22,
+      "resilience": 76,
+      "hunger": 54,
+      "thirst": 56,
+      "energy": 64,
       "health": 100
     },
-    "mood": "triumphant",
+    "mood": "commanding",
+    "condition": "healthy",
+    "shelter": "owner's suite",
     "location": {
-      "waypoint": "galley",
+      "waypoint": "captains_chair",
       "x": 50,
       "y": 30
     },
-    "shelter": "owner's suite",
-    "condition": "healthy",
     "relationships": {
-      "putin": {
-        "closeness": 43,
-        "tension": 37,
+      "justin": {
+        "closeness": 25,
+        "tension": 15,
         "attraction": 0
       },
-      "xi": {
-        "closeness": 22,
-        "tension": 49,
-        "attraction": 0
-      },
-      "netanyahu": {
-        "closeness": 61,
-        "tension": 14,
-        "attraction": 0
-      },
-      "conor": {
+      "kanye": {
         "closeness": 46,
-        "tension": 24,
+        "tension": 31,
+        "attraction": 0
+      },
+      "taylor": {
+        "closeness": 31,
+        "tension": 20,
+        "attraction": 0
+      },
+      "selena": {
+        "closeness": 31,
+        "tension": 15,
         "attraction": 0
       }
     },
-    "bio": "Declared himself captain within ninety seconds of running aground. Wants to rename the yacht and bill the ocean for the damage. Everything is the best or the worst, never in between.",
+    "bio": "Treats the frozen yacht like a Diddy production — 'this is mine now.' Wants to brand it, throw a party on the ice, remind everyone he built empires.",
     "interaction": null,
-    "memories": [
-      {
-        "day": 1,
-        "text": "Vladimir refuses to acknowledge my authority. He won't accept it.",
-        "weight": 2
-      },
-      {
-        "day": 1,
-        "text": "McGregor laughed at my orders. Vladimir doesn't acknowledge me.",
-        "weight": 2
-      },
-      {
-        "day": 1,
-        "text": "Got them to accept my protocol. Six o'clock dinner. Order begins.",
-        "weight": 2
-      }
-    ],
-    "callname": "Donald"
+    "memories": []
   },
-  "putin": {
-    "name": "Vladimir Putin",
-    "age": 72,
-    "archetype": "the cold operator",
-    "color": "#94a3b8",
+  "justin": {
+    "name": "Justin Bieber",
+    "callname": "Justin",
+    "age": 31,
+    "archetype": "the reluctant prince",
+    "color": "#a855f7",
     "scores": {
-      "trust": 11,
-      "openness": 15,
-      "ambition": 91,
-      "loneliness": 40,
-      "resilience": 97,
-      "hunger": 53,
-      "thirst": 53,
-      "energy": 82,
+      "trust": 45,
+      "openness": 54,
+      "ambition": 60,
+      "loneliness": 44,
+      "resilience": 64,
+      "hunger": 54,
+      "thirst": 56,
+      "energy": 64,
       "health": 100
     },
-    "mood": "impassive",
+    "mood": "moody",
+    "condition": "healthy",
+    "shelter": "crew quarters",
     "location": {
       "waypoint": "galley",
-      "x": 80,
+      "x": 60,
       "y": 40
     },
-    "shelter": "the open deck",
-    "condition": "healthy",
     "relationships": {
-      "trump": {
-        "closeness": 43,
-        "tension": 37,
+      "diddy": {
+        "closeness": 25,
+        "tension": 15,
         "attraction": 0
       },
-      "xi": {
-        "closeness": 53,
-        "tension": 24,
+      "kanye": {
+        "closeness": 30,
+        "tension": 20,
         "attraction": 0
       },
-      "netanyahu": {
-        "closeness": 28,
-        "tension": 40,
+      "taylor": {
+        "closeness": 36,
+        "tension": 15,
         "attraction": 0
       },
-      "conor": {
-        "closeness": 44,
-        "tension": 23,
+      "selena": {
+        "closeness": 29,
+        "tension": 30,
         "attraction": 0
       }
     },
-    "bio": "Unbothered by the cold — strips to the waist on the frozen deck to prove a point. Says little, trusts no one, and is quietly relocating the last of the fuel.",
+    "bio": "Hoodie up, AirPods in, perpetually over it — swings between checked-out and surprisingly capable. Misses comfort more than fame; chill in a crisis.",
     "interaction": null,
-    "memories": [
-      {
-        "day": 1,
-        "text": "Donald thinks a title makes him captain. Let him learn.",
-        "weight": 2
-      },
-      {
-        "day": 1,
-        "text": "McGregor is the only one who truly works. We have aligned.",
-        "weight": 2
-      },
-      {
-        "day": 2,
-        "text": "McGregor defies him openly. Donald's authority is fragile underneath the bravado.",
-        "weight": 2
-      }
-    ],
-    "callname": "Vladimir"
+    "memories": []
   },
-  "xi": {
-    "name": "Xi Jinping",
-    "age": 71,
-    "archetype": "the patient strategist",
+  "kanye": {
+    "name": "Kanye West",
+    "callname": "Kanye",
+    "age": 47,
+    "archetype": "the self-styled genius",
     "color": "#ef4444",
     "scores": {
-      "trust": 25,
-      "openness": 20,
-      "ambition": 89,
-      "loneliness": 39,
-      "resilience": 91,
-      "hunger": 53,
-      "thirst": 53,
-      "energy": 82,
+      "trust": 24,
+      "openness": 86,
+      "ambition": 97,
+      "loneliness": 38,
+      "resilience": 70,
+      "hunger": 54,
+      "thirst": 56,
+      "energy": 64,
       "health": 100
     },
-    "mood": "contemplative",
+    "mood": "grandiose",
+    "condition": "healthy",
+    "shelter": "stateroom",
     "location": {
-      "waypoint": "stateroom",
+      "waypoint": "sundeck_aft",
+      "x": 40,
+      "y": 35
+    },
+    "relationships": {
+      "diddy": {
+        "closeness": 46,
+        "tension": 31,
+        "attraction": 0
+      },
+      "justin": {
+        "closeness": 30,
+        "tension": 20,
+        "attraction": 0
+      },
+      "taylor": {
+        "closeness": 15,
+        "tension": 56,
+        "attraction": 0
+      },
+      "selena": {
+        "closeness": 26,
+        "tension": 25,
+        "attraction": 0
+      }
+    },
+    "bio": "Declares himself the greatest creative alive and the obvious leader. Wants to redesign the lifeboat, rename the yacht, and monologue about vision while everyone freezes.",
+    "interaction": null,
+    "memories": []
+  },
+  "taylor": {
+    "name": "Taylor Swift",
+    "callname": "Taylor",
+    "age": 35,
+    "archetype": "the mastermind",
+    "color": "#ec4899",
+    "scores": {
+      "trust": 51,
+      "openness": 59,
+      "ambition": 90,
+      "loneliness": 27,
+      "resilience": 89,
+      "hunger": 54,
+      "thirst": 56,
+      "energy": 64,
+      "health": 100
+    },
+    "mood": "composed",
+    "condition": "healthy",
+    "shelter": "stateroom",
+    "location": {
+      "waypoint": "lounge_couch",
       "x": 35,
       "y": 48
     },
-    "shelter": "stateroom",
-    "condition": "healthy",
     "relationships": {
-      "trump": {
-        "closeness": 22,
-        "tension": 49,
+      "diddy": {
+        "closeness": 31,
+        "tension": 20,
         "attraction": 0
       },
-      "putin": {
-        "closeness": 53,
-        "tension": 24,
+      "justin": {
+        "closeness": 36,
+        "tension": 15,
         "attraction": 0
       },
-      "netanyahu": {
-        "closeness": 23,
-        "tension": 34,
+      "kanye": {
+        "closeness": 15,
+        "tension": 56,
         "attraction": 0
       },
-      "conor": {
-        "closeness": 22,
-        "tension": 29,
+      "selena": {
+        "closeness": 72,
+        "tension": 8,
         "attraction": 0
       }
     },
-    "bio": "Calm, measured, speaks in proverbs. Drew up a five-year plan for the lifeboat by lunch on day one. Says least, maneuvers most.",
+    "bio": "Sharp, organized, secretly running everything; keeps receipts, handles logistics, already writing a song about it. An old feud with Kanye simmers under the politeness.",
     "interaction": null,
     "memories": [
       {
         "day": 1,
-        "text": "The cold will decide who leads, not titles or ego.",
+        "text": "Took supply control while Diddy postures. This is mine now.",
         "weight": 2
-      },
-      {
-        "day": 1,
-        "text": "The cold will decide everything. Not dinners or speeches.",
-        "weight": 1
       }
-    ],
-    "callname": "Jinping"
+    ]
   },
-  "netanyahu": {
-    "name": "Benjamin Netanyahu",
-    "age": 75,
-    "archetype": "the survivor",
-    "color": "#3b82f6",
+  "selena": {
+    "name": "Selena Gomez",
+    "callname": "Selena",
+    "age": 32,
+    "archetype": "the grounded one",
+    "color": "#22d3ee",
     "scores": {
-      "trust": 30,
-      "openness": 51,
-      "ambition": 84,
-      "loneliness": 30,
-      "resilience": 88,
-      "hunger": 53,
-      "thirst": 53,
-      "energy": 82,
+      "trust": 56,
+      "openness": 71,
+      "ambition": 70,
+      "loneliness": 27,
+      "resilience": 86,
+      "hunger": 54,
+      "thirst": 56,
+      "energy": 64,
       "health": 100
     },
-    "mood": "anxious",
-    "location": {
-      "waypoint": "galley",
-      "x": 65,
-      "y": 40
-    },
+    "mood": "unbothered",
+    "condition": "healthy",
     "shelter": "stateroom",
-    "condition": "healthy",
-    "relationships": {
-      "trump": {
-        "closeness": 61,
-        "tension": 14,
-        "attraction": 0
-      },
-      "putin": {
-        "closeness": 28,
-        "tension": 40,
-        "attraction": 0
-      },
-      "xi": {
-        "closeness": 23,
-        "tension": 34,
-        "attraction": 0
-      },
-      "conor": {
-        "closeness": 28,
-        "tension": 23,
-        "attraction": 0
-      }
-    },
-    "bio": "The ultimate political survivor — smooth, speechy, security-obsessed. Wants to fortify the deck and gives press conferences to the circling seagulls.",
-    "interaction": null,
-    "memories": [
-      {
-        "day": 1,
-        "text": "Donald and Vladimir clashing already. I'll have to mediate.",
-        "weight": 2
-      },
-      {
-        "day": 1,
-        "text": "Fed them when they fought. That's all the power I have.",
-        "weight": 2
-      },
-      {
-        "day": 1,
-        "text": "Kept Donald and Conor from exploding. Mediation matters. But how long can it hold?",
-        "weight": 2
-      },
-      {
-        "day": 1,
-        "text": "Fed them but their alliance is breaking apart beyond me.",
-        "weight": 2
-      },
-      {
-        "day": 2,
-        "text": "The peace held for breakfast. But I feel it cracking. How long?",
-        "weight": 2
-      }
-    ],
-    "callname": "Bibi"
-  },
-  "conor": {
-    "name": "Conor McGregor",
-    "age": 36,
-    "archetype": "the wildcard",
-    "color": "#22c55e",
-    "scores": {
-      "trust": 48,
-      "openness": 81,
-      "ambition": 75,
-      "loneliness": 12,
-      "resilience": 89,
-      "hunger": 53,
-      "thirst": 53,
-      "energy": 82,
-      "health": 100
-    },
-    "mood": "focused",
     "location": {
       "waypoint": "galley",
-      "x": 20,
-      "y": 62
+      "x": 30,
+      "y": 48
     },
-    "shelter": "crew quarters",
-    "condition": "healthy",
     "relationships": {
-      "trump": {
-        "closeness": 46,
-        "tension": 24,
+      "diddy": {
+        "closeness": 31,
+        "tension": 15,
         "attraction": 0
       },
-      "putin": {
-        "closeness": 44,
-        "tension": 23,
+      "justin": {
+        "closeness": 29,
+        "tension": 30,
         "attraction": 0
       },
-      "xi": {
-        "closeness": 22,
-        "tension": 29,
+      "kanye": {
+        "closeness": 26,
+        "tension": 25,
         "attraction": 0
       },
-      "netanyahu": {
-        "closeness": 28,
-        "tension": 23,
+      "taylor": {
+        "closeness": 72,
+        "tension": 8,
         "attraction": 0
       }
     },
-    "bio": "The only one who'll actually fish, haul, or fight the cold. Zero respect for 'the suits', mocks them all, stirs trouble — and somehow keeps the camp alive.",
+    "bio": "Emotionally intelligent, dry-humored, unbothered — the one who actually copes and quietly mediates. Businesswoman calm.",
     "interaction": null,
     "memories": [
       {
         "day": 1,
-        "text": "None of them know what they're doing. Thank fuck for that.",
-        "weight": 2
-      },
-      {
-        "day": 1,
-        "text": "I froze. They debated rules. I'm the only one who works.",
-        "weight": 2
-      },
-      {
-        "day": 1,
-        "text": "Fine. Six o'clock. As long as the work gets done, I don't care about his schedule.",
+        "text": "Grounded the chaos with food and respect. Kanye actually listened.",
         "weight": 1
-      },
-      {
-        "day": 1,
-        "text": "Vladimir sees what needs doing. No bullshit, just survival.",
-        "weight": 2
-      },
-      {
-        "day": 2,
-        "text": "Vladimir understands what matters—work, fuel, staying alive. He's the real leader.",
-        "weight": 2
       }
-    ],
-    "callname": "McGregor"
+    ]
   }
 }

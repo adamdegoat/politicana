@@ -1,10 +1,10 @@
 {
-  "day": 2,
+  "day": 1,
   "cycle": "morning",
   "weather": "clear",
   "pending_events": [],
   "started": true,
-  "pulse": "Donald enforces breakfast at eight to solidify captaincy, but Vladimir and McGregor's practical alliance quietly suggests protocol matters less than fuel and fish.",
+  "pulse": "Diddy and Kanye both claim command while Taylor quietly secures supply control. Selena becomes the only one anyone trusts.",
   "structures": [
     {
       "id": "ship_stove",
@@ -16,31 +16,29 @@
       "builder": "",
       "day": 1,
       "label": "Ship's Stove",
-      "condition": 85
+      "condition": 97
     }
   ],
   "resources": {
-    "food": 1,
-    "water": 62,
-    "wood": 44,
+    "food": 41,
+    "water": 53,
+    "wood": 37,
     "medicine": 20
   },
   "resources_prev": {
-    "food": 8,
-    "water": 71,
-    "wood": 43,
+    "food": 40,
+    "water": 45,
+    "wood": 35,
     "medicine": 20
   },
   "discoveries": [],
   "last_cycle_key": "2026-06-07:morning",
-  "scene": "Over breakfast protocol, Donald squared off against Vladimir and McGregor in the galley—ceremony versus survival. Bibi brokered a truce at eight o'clock. Jinping watched from afar, his prediction about the cold coming true already.",
-  "day_summaries": {
-    "1": "Day 1: Donald appointed himself captain and imposed a six o'clock dinner protocol. Bibi kept the peace with chowder, McGregor did all the real work, Vladimir watched coldly from the deck unimpressed. By nightfall, Vladimir and McGregor had forged a practical alliance, and Donald's authority was already hollow."
-  },
-  "last_run_date": "2026-06-07",
-  "camp_climate": "content",
+  "camp_climate": "steady",
   "fire": {
     "lit": true,
-    "fuel": 8
-  }
+    "fuel": 38
+  },
+  "scene": "At dawn in the galley, Diddy seized authority and Kanye declared visionary rights, but Taylor had already drawn up the fuel chart. Everyone had a role by breakfast—whether they wanted it or not.",
+  "day_summaries": {},
+  "last_run_date": "2026-06-07"
 }

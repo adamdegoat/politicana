@@ -2,1064 +2,260 @@
   {
     "day": 1,
     "cycle": "morning",
-    "character": "trump",
-    "action": "He wakes in the owner's suite and storms to the bridge, announcing himself captain to the empty helm.",
-    "thought": "I'm still in charge, right?",
+    "character": "diddy",
+    "action": "Woke in the owner's suite, swept to the captain's chair to survey the frozen sea, then headed to the galley sensing that command was needed.",
+    "thought": "I built empires from nothing, baby.",
     "location": {
       "waypoint": "captains_chair",
       "x": 50,
       "y": 30
     },
     "shelter": "owner's suite",
-    "mood": "bombastic",
-    "timestamp": "2026-06-06T23:09:17.835565"
+    "mood": "commanding",
+    "timestamp": "2026-06-07T09:02:31.749149"
   },
   {
     "day": 1,
     "cycle": "morning",
-    "character": "putin",
-    "action": "He emerges from the frozen deck, strips off his outer layer without flinching, and heads inside to check the stove.",
-    "thought": "Let him play captain. Ice doesn't care.",
+    "character": "justin",
+    "action": "Stumbled to the galley half-asleep, boiled water for tea with numb fingers, and tried very hard not to look terrified of the endless ice outside.",
+    "thought": "This is not how any of this goes.",
     "location": {
-      "waypoint": "deck_rail",
-      "x": 80,
+      "waypoint": "galley",
+      "x": 60,
       "y": 40
     },
-    "shelter": "the open deck",
-    "mood": "impassive",
-    "timestamp": "2026-06-06T23:09:17.835565"
+    "shelter": "crew quarters",
+    "mood": "moody",
+    "timestamp": "2026-06-07T09:02:31.749149"
   },
   {
     "day": 1,
     "cycle": "morning",
-    "character": "xi",
-    "action": "He wakes on his bunk in the stateroom, thinks quietly about the food supplies, and heads to the lounge to observe.",
-    "thought": "Strategy requires patience and clear thinking.",
+    "character": "kanye",
+    "action": "Paced the sun deck in pre-dawn darkness, gesturing wildly at the frozen landscape, already seeing it as a blank canvas awaiting his genius.",
+    "thought": "This frozen sea is my muse.",
+    "location": {
+      "waypoint": "sundeck_aft",
+      "x": 40,
+      "y": 35
+    },
+    "shelter": "stateroom",
+    "mood": "grandiose",
+    "timestamp": "2026-06-07T09:02:31.749149"
+  },
+  {
+    "day": 1,
+    "cycle": "morning",
+    "character": "taylor",
+    "action": "Sat in the lounge with a notebook, sketching fuel schedules, food rationing, water management, and all the unglamorous math that might keep them alive.",
+    "thought": "Someone has to actually plan this.",
     "location": {
       "waypoint": "lounge_couch",
       "x": 35,
       "y": 48
     },
     "shelter": "stateroom",
-    "mood": "inscrutable",
-    "timestamp": "2026-06-06T23:09:17.835565"
+    "mood": "composed",
+    "timestamp": "2026-06-07T09:02:31.749149"
   },
   {
     "day": 1,
     "cycle": "morning",
-    "character": "netanyahu",
-    "action": "He's already awake, mentally planning the day's priorities, and moves to the galley to organize supplies and take notes.",
-    "thought": "Order prevents chaos. Chaos kills us.",
+    "character": "selena",
+    "action": "Moved through the galley with quiet purpose, heating water, stirring oatmeal, grounding the morning in the simple act of feeding people who were falling apart.",
+    "thought": "Okay. Stay centered, stay smart.",
     "location": {
       "waypoint": "galley",
-      "x": 65,
-      "y": 40
-    },
-    "shelter": "stateroom",
-    "mood": "calculating",
-    "timestamp": "2026-06-06T23:09:17.835565"
-  },
-  {
-    "day": 1,
-    "cycle": "morning",
-    "character": "conor",
-    "action": "He's out on the ice before sunrise, checking the fishing rig and gathering driftwood, soaked and grinning.",
-    "thought": "Someone's gotta do the real work.",
-    "location": {
-      "waypoint": "fishing_hole",
-      "x": 20,
-      "y": 62
-    },
-    "shelter": "crew quarters",
-    "mood": "cocky",
-    "timestamp": "2026-06-06T23:09:17.835565"
-  },
-  {
-    "day": 1,
-    "cycle": "morning",
-    "type": "interaction",
-    "characters": [
-      "trump",
-      "putin",
-      "netanyahu",
-      "xi",
-      "conor"
-    ],
-    "description": "In the galley at dawn, all five gather around the stove and the food. Donald tries to assert command. Vladimir refuses it. Bibi proposes a system. Jinping observes. McGregor offers to work and leaves.",
-    "dialogue": [
-      {
-        "speaker": "trump",
-        "line": "Gentlemen, I've taken stock of the situation. As captain, I'll oversee all operations."
-      },
-      {
-        "speaker": "putin",
-        "line": "You have already given yourself a promotion. Congratulations."
-      },
-      {
-        "speaker": "netanyahu",
-        "line": "Before we discuss hierarchy, we should inventory the yacht properly. I'll make a list."
-      },
-      {
-        "speaker": "trump",
-        "line": "I've already inventoried. Food, water, fuel—I have a system."
-      },
-      {
-        "speaker": "putin",
-        "line": "Your system is breakfast in the captain's suite while others freeze. That is not leadership."
-      },
-      {
-        "speaker": "xi",
-        "line": "Order must serve survival, not ego. What burns the stove today?"
-      },
-      {
-        "speaker": "trump",
-        "line": "We ration carefully. Two wood-units per day to keep the fire steady."
-      },
-      {
-        "speaker": "conor",
-        "line": "Two units? I've already found driftwood on the floe. Fifteen more, maybe twenty if I haul it."
-      },
-      {
-        "speaker": "putin",
-        "line": "Then the problem is not fuel. It is discipline."
-      },
-      {
-        "speaker": "trump",
-        "line": "Discipline starts with a clear captain. Everyone answers to me."
-      },
-      {
-        "speaker": "putin",
-        "line": "I will heat the stove. I will eat. The rest is your problem."
-      },
-      {
-        "speaker": "netanyahu",
-        "line": "What if we establish a council? Each man responsible for one domain—navigation, supply, heat, security."
-      },
-      {
-        "speaker": "xi",
-        "line": "And argue every day about borders? No. One voice gives orders. The question is whose."
-      },
-      {
-        "speaker": "conor",
-        "line": "Not his. He doesn't even know where the lifeboats are."
-      },
-      {
-        "speaker": "trump",
-        "line": "I know exactly where the lifeboats are. I own this yacht."
-      },
-      {
-        "speaker": "putin",
-        "line": "The starboard lifeboat is sealed with ice. The port one is half-flooded. You will learn."
-      },
-      {
-        "speaker": "netanyahu",
-        "line": "Gentlemen, panic is not survival. We can vote on a command structure when we've all—"
-      },
-      {
-        "speaker": "xi",
-        "line": "A yacht does not need five captains. It needs four workers and one coordinator."
-      },
-      {
-        "speaker": "conor",
-        "line": "I volunteer to be one of the four. I'll catch fish, haul ice, keep us fed. You lot sort out rank."
-      },
-      {
-        "speaker": "trump",
-        "line": "McGregor's right. I'll LEAD, and the rest work. That's how I built everything."
-      },
-      {
-        "speaker": "putin",
-        "line": "I have told you: I do not follow. I cooperate. There is a difference."
-      },
-      {
-        "speaker": "netanyahu",
-        "line": "Let me propose: rotation. Each man leads for three days, then passes command to the next."
-      },
-      {
-        "speaker": "xi",
-        "line": "Rotation works only if the men agree to follow. Do you agree, Vladimir?"
-      },
-      {
-        "speaker": "putin",
-        "line": "I agree to stay alive. How I stay alive is my choice."
-      },
-      {
-        "speaker": "trump",
-        "line": "That's the problem right there. Everyone's going to do whatever they want."
-      },
-      {
-        "speaker": "conor",
-        "line": "Yeah? Then we fail together. Or we work, and we don't. I'm fixing the fishing rig. Anyone want food, help or shut up."
-      },
-      {
-        "speaker": "netanyahu",
-        "line": "Fair division of the catch?"
-      },
-      {
-        "speaker": "conor",
-        "line": "The fish don't care about fairness. Neither do I."
-      },
-      {
-        "speaker": "xi",
-        "line": "In a siege, the strongest commands. Are we in a siege?"
-      },
-      {
-        "speaker": "putin",
-        "line": "We are always in a siege. The cold is the enemy. The man who fights it best will lead."
-      },
-      {
-        "speaker": "trump",
-        "line": "I didn't get where I am by sitting on my hands—"
-      },
-      {
-        "speaker": "putin",
-        "line": "You got where you are in a tower in New York. Here, you are on ice. Here, everything is new."
-      },
-      {
-        "speaker": "netanyahu",
-        "line": "Fine. A trial: who can actually keep us alive? Let's reconvene at dinner. By then we'll see who brought food, water, heat."
-      },
-      {
-        "speaker": "xi",
-        "line": "Agreed. Three days of work before we choose a captain."
-      },
-      {
-        "speaker": "trump",
-        "line": "I don't need to earn it. I already AM captain."
-      },
-      {
-        "speaker": "putin",
-        "line": "Then prove it. Or stop saying it."
-      },
-      {
-        "speaker": "netanyahu",
-        "line": "I think we're about to find out."
-      },
-      {
-        "speaker": "xi",
-        "line": "A wise man knows when to lead and when to listen."
-      },
-      {
-        "speaker": "trump",
-        "line": "Tremendous. Absolutely tremendous. I'm still in charge here..."
-      }
-    ],
-    "timestamp": "2026-06-06T23:09:17.835565"
-  },
-  {
-    "day": 1,
-    "cycle": "midday",
-    "character": "trump",
-    "action": "Descends from the bridge with his written schedule, determined to establish meal protocols in the galley.",
-    "thought": "I'm in control here. They'll see it.",
-    "location": {
-      "waypoint": "galley",
-      "x": 50,
-      "y": 30
-    },
-    "shelter": "owner's suite",
-    "mood": "imperious",
-    "timestamp": "2026-06-06T23:12:14.161124"
-  },
-  {
-    "day": 1,
-    "cycle": "midday",
-    "character": "putin",
-    "action": "Strips his heavy coat on the frozen deck, hauling split wood from the railings with methodical efficiency.",
-    "thought": "I'll let him talk. The ice waits.",
-    "location": {
-      "waypoint": "deck_rail",
-      "x": 80,
-      "y": 40
-    },
-    "shelter": "the open deck",
-    "mood": "impassive",
-    "timestamp": "2026-06-06T23:12:14.161124"
-  },
-  {
-    "day": 1,
-    "cycle": "midday",
-    "character": "xi",
-    "action": "Sits quietly in the lounge reviewing the ship's manifest, noting who works and who merely talks.",
-    "thought": "I observe. The cold will teach them.",
-    "location": {
-      "waypoint": "lounge_couch",
-      "x": 35,
+      "x": 30,
       "y": 48
     },
     "shelter": "stateroom",
-    "mood": "inscrutable",
-    "timestamp": "2026-06-06T23:12:14.161124"
+    "mood": "unbothered",
+    "timestamp": "2026-06-07T09:02:31.749149"
   },
   {
     "day": 1,
-    "cycle": "midday",
-    "character": "netanyahu",
-    "action": "Stands by the stove managing rations, balancing McGregor's exhaustion against Donald's protocols with practiced ease.",
-    "thought": "If I keep them fed, maybe they'll listen.",
-    "location": {
-      "waypoint": "galley",
-      "x": 65,
-      "y": 40
-    },
-    "shelter": "stateroom",
-    "mood": "calculating",
-    "timestamp": "2026-06-06T23:12:14.161124"
-  },
-  {
-    "day": 1,
-    "cycle": "midday",
-    "character": "conor",
-    "action": "Stumbles back to the yacht soaking wet and shaking, heading straight for the stove and hot food.",
-    "thought": "I work. They talk. That's all that matters.",
-    "location": {
-      "waypoint": "galley",
-      "x": 20,
-      "y": 62
-    },
-    "shelter": "crew quarters",
-    "mood": "frustrated",
-    "timestamp": "2026-06-06T23:12:14.161124"
-  },
-  {
-    "day": 1,
-    "cycle": "midday",
-    "type": "interaction",
-    "characters": [
-      "trump",
-      "netanyahu",
-      "conor"
-    ],
-    "description": "Midday in the galley: McGregor returns soaked from the ice demanding food while Donald insists on his schedule, and Bibi mediates with chowder and practicality.",
-    "dialogue": [
-      {
-        "speaker": "trump",
-        "line": "Everyone needs to hear the revised daily schedule. I've planned—"
-      },
-      {
-        "speaker": "netanyahu",
-        "line": "In a moment. McGregor's just come back. He's been working since dawn."
-      },
-      {
-        "speaker": "conor",
-        "line": "Working and freezing. Is there food, or are we rationing hope?"
-      },
-      {
-        "speaker": "trump",
-        "line": "Of course there's food! I'm establishing a system for designated meals—"
-      },
-      {
-        "speaker": "conor",
-        "line": "Designated times? There's no time out there, just ice and nothing biting."
-      },
-      {
-        "speaker": "netanyahu",
-        "line": "He's right, Donald. Let him eat something warm. Then we'll talk schedules."
-      },
-      {
-        "speaker": "trump",
-        "line": "I'm not trying to starve him! I'm creating order! Without structure, chaos wins!"
-      },
-      {
-        "speaker": "conor",
-        "line": "We're already in chaos. You're just adding talking to it."
-      },
-      {
-        "speaker": "netanyahu",
-        "line": "Sit by the stove. I'll bring you something warm."
-      },
-      {
-        "speaker": "trump",
-        "line": "Yes! But everyone sits in their assigned seats! I've numbered the stools—"
-      },
-      {
-        "speaker": "conor",
-        "line": "Jesus."
-      },
-      {
-        "speaker": "netanyahu",
-        "line": "Donald, does it matter where we sit?"
-      },
-      {
-        "speaker": "trump",
-        "line": "It matters for dignity! For respect! For—"
-      },
-      {
-        "speaker": "conor",
-        "line": "Vladimir's probably gathering fuel instead of listening to this mess."
-      },
-      {
-        "speaker": "trump",
-        "line": "Exactly! He's supposed to FOLLOW my orders—wait, how do you know he's gathering fuel?"
-      },
-      {
-        "speaker": "conor",
-        "line": "Saw him on deck pulling wood off railings. Didn't ask permission from anyone."
-      },
-      {
-        "speaker": "trump",
-        "line": "He NEEDS to ask permission! He's undermining—"
-      },
-      {
-        "speaker": "netanyahu",
-        "line": "He's helping us survive. We need that wood."
-      },
-      {
-        "speaker": "trump",
-        "line": "I know we need wood! I DELEGATED the gathering to—"
-      },
-      {
-        "speaker": "conor",
-        "line": "What is he in charge of, exactly?"
-      },
-      {
-        "speaker": "netanyahu",
-        "line": "Right now? Lunch."
-      },
-      {
-        "speaker": "trump",
-        "line": "I'm not 'in charge of lunch.' I'm establishing procurement protocols—"
-      },
-      {
-        "speaker": "conor",
-        "line": "Boss, I'm hungry. Can protocol wait until I'm warm?"
-      },
-      {
-        "speaker": "trump",
-        "line": "Fine. Yes. Eat."
-      },
-      {
-        "speaker": "netanyahu",
-        "line": "Here. Fish chowder."
-      },
-      {
-        "speaker": "conor",
-        "line": "Where'd you get fish? I didn't catch anything."
-      },
-      {
-        "speaker": "netanyahu",
-        "line": "Stores. There's more in the hold."
-      },
-      {
-        "speaker": "trump",
-        "line": "See! System working! Food storage equals survival! Obviously planned—"
-      },
-      {
-        "speaker": "conor",
-        "line": "This is actually good."
-      },
-      {
-        "speaker": "trump",
-        "line": "It is? I mean, yes. It's excellent. Who made it?"
-      },
-      {
-        "speaker": "netanyahu",
-        "line": "You did. Three hours ago, before you went to bridge."
-      },
-      {
-        "speaker": "trump",
-        "line": "I did? Well, obviously. Tremendous. Truly tremendous."
-      },
-      {
-        "speaker": "conor",
-        "line": "Can he hear himself?"
-      },
-      {
-        "speaker": "netanyahu",
-        "line": "No. It helps."
-      }
-    ],
-    "timestamp": "2026-06-06T23:12:14.161124"
-  },
-  {
-    "day": 1,
-    "cycle": "evening",
-    "character": "trump",
-    "action": "Paces the galley, gesturing emphatically, trying to impose order on the evening meal.",
-    "thought": "My authority is finally taking root tonight.",
-    "location": {
-      "waypoint": "galley",
-      "x": 50,
-      "y": 30
-    },
-    "shelter": "owner's suite",
-    "mood": "imperious",
-    "timestamp": "2026-06-06T23:15:08.569247"
-  },
-  {
-    "day": 1,
-    "cycle": "evening",
-    "character": "putin",
-    "action": "Stands on the frozen open deck, shirtless in the arctic wind, watching the yacht lights flicker.",
-    "thought": "Let him play captain. The ice doesn't care.",
-    "location": {
-      "waypoint": "deck_rail",
-      "x": 80,
-      "y": 40
-    },
-    "shelter": "the open deck",
-    "mood": "impassive",
-    "timestamp": "2026-06-06T23:15:08.569247"
-  },
-  {
-    "day": 1,
-    "cycle": "evening",
-    "character": "xi",
-    "action": "Sits in the lounge on a cushioned bench, nursing a cup of warm water, observing the evening quietly.",
-    "thought": "Order emerges only when necessity demands it.",
-    "location": {
-      "waypoint": "lounge_couch",
-      "x": 35,
-      "y": 48
-    },
-    "shelter": "stateroom",
-    "mood": "inscrutable",
-    "timestamp": "2026-06-06T23:15:08.569247"
-  },
-  {
-    "day": 1,
-    "cycle": "evening",
-    "character": "netanyahu",
-    "action": "Ladles chowder in the galley, managing portions with meticulous care, the peacemaker's work never done.",
-    "thought": "If they eat together, maybe they'll listen.",
-    "location": {
-      "waypoint": "galley",
-      "x": 65,
-      "y": 40
-    },
-    "shelter": "stateroom",
-    "mood": "calculating",
-    "timestamp": "2026-06-06T23:15:08.569247"
-  },
-  {
-    "day": 1,
-    "cycle": "evening",
-    "character": "conor",
-    "action": "Enters the galley soaked in ice water, shaking himself dry, eyes fixed on the stove and the food.",
-    "thought": "Six o'clock means nothing. Work never stops.",
-    "location": {
-      "waypoint": "galley",
-      "x": 20,
-      "y": 62
-    },
-    "shelter": "crew quarters",
-    "mood": "frustrated",
-    "timestamp": "2026-06-06T23:15:08.569247"
-  },
-  {
-    "day": 1,
-    "cycle": "evening",
-    "type": "interaction",
-    "characters": [
-      "trump",
-      "netanyahu",
-      "conor"
-    ],
-    "description": "Evening in the galley around the stove. Donald tries to impose dinner protocol while McGregor, fresh from the ice, demands immediate food. Bibi mediates between them.",
-    "dialogue": [
-      {
-        "speaker": "trump",
-        "line": "We're establishing protocols. Dinner at six p.m., everyone at the table. Non-negotiable."
-      },
-      {
-        "speaker": "conor",
-        "line": "Protocols? I've been breaking ice for hours. I need food now, not a schedule."
-      },
-      {
-        "speaker": "netanyahu",
-        "line": "Let's get McGregor warmed up first, Donald. He can listen while we eat."
-      },
-      {
-        "speaker": "trump",
-        "line": "The point is order. Everyone gathers at six, every day. This is discipline."
-      },
-      {
-        "speaker": "conor",
-        "line": "Discipline? You're sitting here warm while I'm freezing out there actually working."
-      },
-      {
-        "speaker": "trump",
-        "line": "Someone has to think strategically. Leadership means planning ahead."
-      },
-      {
-        "speaker": "netanyahu",
-        "line": "He's right about that, McGregor. Routine does help people feel stable."
-      },
-      {
-        "speaker": "conor",
-        "line": "I'm stable. I don't need his schedule for that."
-      },
-      {
-        "speaker": "trump",
-        "line": "You need more than that. You need structure, purpose, the knowledge we're still civilized."
-      },
-      {
-        "speaker": "netanyahu",
-        "line": "Is that what dinner at six is about, Donald?"
-      },
-      {
-        "speaker": "trump",
-        "line": "It's about saying we haven't given up. That even in this cold, we maintain our humanity."
-      },
-      {
-        "speaker": "conor",
-        "line": "Is he serious right now?"
-      },
-      {
-        "speaker": "netanyahu",
-        "line": "He might be. And... he's not entirely wrong. Dinner at six does sound kind of nice."
-      },
-      {
-        "speaker": "conor",
-        "line": "Fine. I'll come at six. But I'm not dressing it up."
-      },
-      {
-        "speaker": "trump",
-        "line": "That's all I ask. Tomorrow we establish watch schedules, sleeping arrangements, everything."
-      },
-      {
-        "speaker": "netanyahu",
-        "line": "One thing at a time, Donald. Tonight, everyone needs rest."
-      },
-      {
-        "speaker": "conor",
-        "line": "Yeah. I need rest more than I need schedules."
-      },
-      {
-        "speaker": "trump",
-        "line": "Rest is good. But tomorrow, things change. We become disciplined. Organized."
-      },
-      {
-        "speaker": "netanyahu",
-        "line": "Tomorrow's fine. Tonight we have warmth, food, and each other. That's enough."
-      },
-      {
-        "speaker": "conor",
-        "line": "That's all that matters. That's all we really need."
-      },
-      {
-        "speaker": "trump",
-        "line": "Six p.m., everyone together. That's the start of real order."
-      },
-      {
-        "speaker": "netanyahu",
-        "line": "Let's all sleep. Tomorrow comes fast in the cold."
-      },
-      {
-        "speaker": "conor",
-        "line": "I'm with Bibi. Sleep sounds perfect right now."
-      }
-    ],
-    "timestamp": "2026-06-06T23:15:08.569247"
-  },
-  {
-    "day": 1,
-    "cycle": "night",
-    "character": "trump",
-    "action": "Donald settled into the captain's chair on the bridge, savoring the moment of authority he'd seized at dinner.",
-    "thought": "I proved it. My protocol took hold.",
-    "location": {
-      "waypoint": "captains_chair",
-      "x": 50,
-      "y": 30
-    },
-    "shelter": "owner's suite",
-    "mood": "triumphant",
-    "timestamp": "2026-06-06T23:18:04.438187"
-  },
-  {
-    "day": 1,
-    "cycle": "night",
-    "character": "putin",
-    "action": "Vladimir moved silently through the galley in the dark, counting the fuel cans and assessing how long they had.",
-    "thought": "Let him play captain. The ice decides.",
-    "location": {
-      "waypoint": "galley",
-      "x": 80,
-      "y": 40
-    },
-    "shelter": "the open deck",
-    "mood": "impassive",
-    "timestamp": "2026-06-06T23:18:04.438187"
-  },
-  {
-    "day": 1,
-    "cycle": "night",
-    "character": "xi",
-    "action": "Jinping lay in his bunk, watching the shadows on the cabin walls and thinking about what order really meant.",
-    "thought": "The cold will teach them all something.",
-    "location": {
-      "waypoint": "lounge_couch",
-      "x": 35,
-      "y": 48
-    },
-    "shelter": "stateroom",
-    "mood": "contemplative",
-    "timestamp": "2026-06-06T23:18:04.438187"
-  },
-  {
-    "day": 1,
-    "cycle": "night",
-    "character": "netanyahu",
-    "action": "Bibi moved through the sleeping quarters, checking on people, worried that his carefully held mediation was already fracturing.",
-    "thought": "It held for one day. How much longer?",
-    "location": {
-      "waypoint": "lounge",
-      "x": 65,
-      "y": 40
-    },
-    "shelter": "stateroom",
-    "mood": "anxious",
-    "timestamp": "2026-06-06T23:18:04.438187"
-  },
-  {
-    "day": 1,
-    "cycle": "night",
-    "character": "conor",
-    "action": "McGregor came into the galley for warmth and found Vladimir doing the one thing nobody else was: thinking practically.",
-    "thought": "Finally, someone who actually understands survival.",
-    "location": {
-      "waypoint": "galley",
-      "x": 20,
-      "y": 62
-    },
-    "shelter": "crew quarters",
-    "mood": "satisfied",
-    "timestamp": "2026-06-06T23:18:04.438187"
-  },
-  {
-    "day": 1,
-    "cycle": "night",
-    "type": "interaction",
-    "characters": [
-      "putin",
-      "conor"
-    ],
-    "description": "In the galley after dark, Vladimir checks the fuel while McGregor comes in from the cold, and between them the real power on the ship forms — quietly, practically, with no speeches.",
-    "dialogue": [
-      {
-        "speaker": "conor",
-        "line": "Checking the stove, or just brooding in the dark?"
-      },
-      {
-        "speaker": "putin",
-        "line": "Both. The fuel won't last five days at this rate."
-      },
-      {
-        "speaker": "conor",
-        "line": "Five days? Christ. And Donald's worried about dinner schedules."
-      },
-      {
-        "speaker": "putin",
-        "line": "He believes order creates safety."
-      },
-      {
-        "speaker": "conor",
-        "line": "Does it?"
-      },
-      {
-        "speaker": "putin",
-        "line": "No. Work does. You understand this."
-      },
-      {
-        "speaker": "conor",
-        "line": "Someone has to. Bibi's trying, at least. But Jinping and Donald are useless."
-      },
-      {
-        "speaker": "putin",
-        "line": "They will learn when the cold teaches them."
-      },
-      {
-        "speaker": "conor",
-        "line": "And what happens then?"
-      },
-      {
-        "speaker": "putin",
-        "line": "We will see who remembers how to survive."
-      },
-      {
-        "speaker": "conor",
-        "line": "You talk like you've done this before."
-      },
-      {
-        "speaker": "putin",
-        "line": "The cold respects those who respect it."
-      },
-      {
-        "speaker": "conor",
-        "line": "That's almost poetic, mate."
-      },
-      {
-        "speaker": "putin",
-        "line": "It is practical. There is no poetry in freezing."
-      },
-      {
-        "speaker": "conor",
-        "line": "Fair. So what's your actual plan, then? Beyond counting fuel?"
-      },
-      {
-        "speaker": "putin",
-        "line": "To stay alive. To make sure this ship stays alive. Everything else is secondary."
-      },
-      {
-        "speaker": "conor",
-        "line": "Finally, someone talking sense. I've been saying—"
-      },
-      {
-        "speaker": "putin",
-        "line": "—that you are the only one working. Yes."
-      },
-      {
-        "speaker": "conor",
-        "line": "Christ, you were listening. Even when you look like you're not."
-      },
-      {
-        "speaker": "putin",
-        "line": "I listen to what matters. The west hold seal is failing. We should check it."
-      },
-      {
-        "speaker": "conor",
-        "line": "Tonight? Now?"
-      },
-      {
-        "speaker": "putin",
-        "line": "The ice will not wait. Neither should we."
-      },
-      {
-        "speaker": "conor",
-        "line": "You're right. Let me grab my coat."
-      }
-    ],
-    "timestamp": "2026-06-06T23:18:04.438187"
-  },
-  {
-    "day": 2,
-    "cycle": "morning",
-    "character": "trump",
-    "action": "Wakes in the owner's suite and strides toward the galley, determined to cement yesterday's dinner victory with a formal breakfast protocol.",
-    "thought": "They accepted it. The authority is taking root.",
-    "location": {
-      "waypoint": "galley",
-      "x": 50,
-      "y": 30
-    },
-    "shelter": "owner's suite",
-    "mood": "triumphant",
-    "timestamp": "2026-06-07T07:02:41.792358"
-  },
-  {
-    "day": 2,
-    "cycle": "morning",
-    "character": "putin",
-    "action": "Stands silently by the stove at first light, assessing the fuel level and the night's consumption, listening to nothing and everything.",
-    "thought": "Forty-three units. He will test himself against it.",
-    "location": {
-      "waypoint": "galley",
-      "x": 80,
-      "y": 40
-    },
-    "shelter": "the open deck",
-    "mood": "impassive",
-    "timestamp": "2026-06-07T07:02:41.792358"
-  },
-  {
-    "day": 2,
-    "cycle": "morning",
-    "character": "xi",
-    "action": "Remains in his stateroom, listening to the distant voices from the galley with closed eyes and a slight, knowing expression.",
-    "thought": "The cold will decide this, not the breakfast hour.",
-    "location": {
-      "waypoint": "stateroom",
-      "x": 35,
-      "y": 48
-    },
-    "shelter": "stateroom",
-    "mood": "contemplative",
-    "timestamp": "2026-06-07T07:02:41.792358"
-  },
-  {
-    "day": 2,
-    "cycle": "morning",
-    "character": "netanyahu",
-    "action": "Rises anxiously and moves quickly to the galley, sensing conflict brewing and determined to smooth it before breakfast becomes a battleground.",
-    "thought": "One day the peace lasted. One day.",
-    "location": {
-      "waypoint": "galley",
-      "x": 65,
-      "y": 40
-    },
-    "shelter": "stateroom",
-    "mood": "anxious",
-    "timestamp": "2026-06-07T07:02:41.792358"
-  },
-  {
-    "day": 2,
-    "cycle": "morning",
-    "character": "conor",
-    "action": "Emerges from crew quarters and heads toward the galley, impatient to check on the fishing gear and get to work before the suits waste the morning.",
-    "thought": "They talk while the ice doesn't care.",
-    "location": {
-      "waypoint": "galley",
-      "x": 20,
-      "y": 62
-    },
-    "shelter": "crew quarters",
-    "mood": "focused",
-    "timestamp": "2026-06-07T07:02:41.792358"
-  },
-  {
-    "day": 2,
     "cycle": "morning",
     "type": "interaction",
     "characters": [
-      "trump",
-      "putin",
-      "netanyahu",
-      "conor"
+      "diddy",
+      "kanye",
+      "taylor",
+      "selena",
+      "justin"
     ],
-    "description": "Over breakfast protocol, Donald squares off against Vladimir and McGregor in the galley—ceremony versus survival. Bibi arrives desperate to mediate.",
+    "description": "In the galley at dawn, all five converged—Diddy commanding, Kanye ranting, Taylor laying down logistics, Selena keeping everyone fed, Justin barely conscious. The first power struggle of survival began over cold oatmeal and terrible coffee.",
     "dialogue": [
       {
-        "speaker": "putin",
-        "line": "We have forty-three units. The stove burns four, maybe five a day."
+        "speaker": "diddy",
+        "line": "Listen up, everybody. The stove is burning—I just engineered a successful rescue operation. This is a movement, baby."
       },
       {
-        "speaker": "conor",
-        "line": "So we burn less, or we fish more. What's the problem?"
+        "speaker": "kanye",
+        "line": "Movement? I'm the visionary here. I've been redesigning this entire yacht since dawn. It's not a boat, it's a canvas."
       },
       {
-        "speaker": "putin",
-        "line": "No problem. Yet. But choices must be made."
+        "speaker": "taylor",
+        "line": "The stove needs fuel every six hours. We have wood for about a week at this rate. Rationing starts now."
       },
       {
-        "speaker": "trump",
-        "line": "Gentlemen. Breakfast at eight. Civilized, orderly—maintains morale."
+        "speaker": "justin",
+        "line": "Is anyone else freezing? I just need to know—are we actually getting off this ice floe, or is this it?"
       },
       {
-        "speaker": "conor",
-        "line": "Morale? We're rationing fuel in the Arctic."
+        "speaker": "diddy",
+        "line": "Getting off? Justin, we are BRANDING this. P. Diddy's Frozen Yacht Experience. Limited edition merch incoming."
       },
       {
-        "speaker": "trump",
-        "line": "Exactly. Structure keeps minds steady."
+        "speaker": "kanye",
+        "line": "No, no, no. It's not a product, it's ART. I'm redesigning the crew quarters into a meditation space."
       },
       {
-        "speaker": "putin",
-        "line": "A hot meal uses fuel. A hot meal also steadies minds."
+        "speaker": "selena",
+        "line": "Or we could focus on not freezing to death before lunch? I made coffee. It's terrible, but it's hot."
       },
       {
-        "speaker": "conor",
-        "line": "So which is it—breakfast for morale, or breakfast to avoid breaking?"
+        "speaker": "taylor",
+        "line": "Fuel chart is ready. Food inventory complete. Water schedule locked in. We need fishing gear ready by tomorrow."
       },
       {
-        "speaker": "netanyahu",
-        "line": "Gentlemen—can we have breakfast AND manage the fuel responsibly?"
+        "speaker": "kanye",
+        "line": "Fishing gear doesn't have a vision, Taylor."
       },
       {
-        "speaker": "trump",
-        "line": "Bibi understands statesmanship. I will not have chaos."
+        "speaker": "taylor",
+        "line": "No, but it has fish."
       },
       {
-        "speaker": "conor",
-        "line": "We're not chaos. We're survival."
+        "speaker": "justin",
+        "line": "I'll fish. Beats listening to this."
       },
       {
-        "speaker": "netanyahu",
-        "line": "Right. So breakfast at eight is both morale and efficient. One meal, one fire."
+        "speaker": "diddy",
+        "line": "You're not fishing alone, B. This is Team Diddy now. We move together, we win together."
       },
       {
-        "speaker": "putin",
-        "line": "Efficient is good. But only if the stove has fuel."
+        "speaker": "kanye",
+        "line": "Team Kanye. I'm the captain. Actually, I'm the visionary captain."
       },
       {
-        "speaker": "trump",
-        "line": "Which is why I'm establishing breakfast at eight. Predictability. Order."
+        "speaker": "selena",
+        "line": "Nobody's the captain yet. Let's just not kill each other before we eat, okay?"
       },
       {
-        "speaker": "conor",
-        "line": "I'll be fishing at seven anyway. I'll eat whenever."
+        "speaker": "taylor",
+        "line": "Here's the deal—Diddy, you keep morale up. Kanye, we need your brain for rigging problems. Justin handles fishing. Selena manages food. I run supplies."
       },
       {
-        "speaker": "putin",
-        "line": "Eight or eight-thirty changes nothing for the ice."
+        "speaker": "diddy",
+        "line": "Hold on. I'm running this show, Taylor. That's the whole point of me being here."
       },
       {
-        "speaker": "trump",
-        "line": "Dismiss the ice, Vladimir. I'm speaking of human dignity."
+        "speaker": "kanye",
+        "line": "I'M running this show. I have the vision."
       },
       {
-        "speaker": "conor",
-        "line": "Dignity doesn't catch fish, mate. Work does."
+        "speaker": "justin",
+        "line": "Can I just go back to bed?"
       },
       {
-        "speaker": "netanyahu",
-        "line": "But having a time—a shared meal—that's something we control. That matters."
+        "speaker": "selena",
+        "line": "No. Eat first. You're all cranky because you're starving."
       },
       {
-        "speaker": "putin",
-        "line": "What matters is forty-three units of fuel and zero fish caught yet."
+        "speaker": "taylor",
+        "line": "The supplies won't stretch themselves. Someone has to make the hard calls. That someone is me."
       },
       {
-        "speaker": "trump",
-        "line": "I have run businesses with thousands of men. This is elementary."
+        "speaker": "kanye",
+        "line": "You always do this—reduce everything to logistics and spreadsheets. Where's the soul in that?"
       },
       {
-        "speaker": "conor",
-        "line": "This isn't business. This is staying alive."
+        "speaker": "taylor",
+        "line": "The soul is in not dying. We can have art after we survive."
       },
       {
-        "speaker": "netanyahu",
-        "line": "Can we agree on eight o'clock for breakfast?"
+        "speaker": "diddy",
+        "line": "I like the vision here, but let me be crystal clear—I'm the captain. At least figuratively."
       },
       {
-        "speaker": "trump",
-        "line": "Yes. Eight. I'll announce it formally."
+        "speaker": "selena",
+        "line": "You're the captain. But Taylor's right—supplies are the spine. Eat, stay warm, or everything falls apart."
       },
       {
-        "speaker": "conor",
-        "line": "Announce it how you announced captain? The stove doesn't vote, mate."
+        "speaker": "kanye",
+        "line": "Fine. I'll redesign the rigging and be visionary about it. But I'm also the captain."
       },
       {
-        "speaker": "putin",
-        "line": "The stove speaks only through heat. We'll hear it soon enough."
+        "speaker": "taylor",
+        "line": "You can both be co-captains. As long as I'm running the food and fuel."
       },
       {
-        "speaker": "trump",
-        "line": "The ice bows to strength and vision."
+        "speaker": "justin",
+        "line": "What do I get? Official yacht fisherman?"
       },
       {
-        "speaker": "conor",
-        "line": "The stove is the only vision that matters here."
+        "speaker": "selena",
+        "line": "You get first pick of breakfast. And a warm place to sit when you're done freezing."
       },
       {
-        "speaker": "netanyahu",
-        "line": "Let's just... have breakfast at eight. Fresh start."
+        "speaker": "justin",
+        "line": "...Okay, I can work with that."
       },
       {
-        "speaker": "putin",
-        "line": "Fresh starts freeze quickly in this cold. But eight is fine."
+        "speaker": "diddy",
+        "line": "This yacht is officially under new management—the Diddy-Kanye Joint Command with Taylor Logistics Division."
       },
       {
-        "speaker": "trump",
-        "line": "Eight o'clock. Sharp. This ship will run on my schedule."
+        "speaker": "kanye",
+        "line": "I'm not a division. I'm the visionary director of structural redesign."
       },
       {
-        "speaker": "conor",
-        "line": "This ship will run on ice and fuel, mate. But I'll be there at eight."
+        "speaker": "taylor",
+        "line": "You're the visionary director of structural things. That actually matters. I mean it."
       },
       {
-        "speaker": "netanyahu",
-        "line": "Good. We're agreed then."
+        "speaker": "kanye",
+        "line": "[pauses] Okay. The sun deck is my studio then. Nobody else goes there."
       },
       {
-        "speaker": "putin",
-        "line": "For now."
+        "speaker": "selena",
+        "line": "It's all yours. Nobody wants it anyway—it's freezing and you're insane."
       },
       {
-        "speaker": "trump",
-        "line": "For always."
+        "speaker": "diddy",
+        "line": "So we're locked in on roles? Because I need everyone clear on who's doing what."
+      },
+      {
+        "speaker": "taylor",
+        "line": "Crystal clear. Now eat before the food gets colder."
+      },
+      {
+        "speaker": "justin",
+        "line": "What if I fish all day and catch nothing?"
+      },
+      {
+        "speaker": "selena",
+        "line": "Then we eat oatmeal and be grateful. That's survival, baby."
+      },
+      {
+        "speaker": "kanye",
+        "line": "Oatmeal is the blank canvas of breakfast."
+      },
+      {
+        "speaker": "diddy",
+        "line": "And THAT, Kanye, is why you're my favorite person here right now."
+      },
+      {
+        "speaker": "taylor",
+        "line": "[rolls eyes] Can everyone just eat their oatmeal?"
+      },
+      {
+        "speaker": "selena",
+        "line": "Yes. Eat. Hot food is literally one of the five reasons we're all still sane."
       }
     ],
-    "timestamp": "2026-06-07T07:02:41.792358"
+    "timestamp": "2026-06-07T09:02:31.749149"
   }
 ]
