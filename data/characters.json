@@ -7,13 +7,13 @@
     "color": "#f59e0b",
     "scores": {
       "trust": 30,
-      "openness": 65,
-      "ambition": 98,
-      "loneliness": 20,
-      "resilience": 75,
-      "hunger": 53,
-      "thirst": 53,
-      "energy": 70,
+      "openness": 66,
+      "ambition": 97,
+      "loneliness": 18,
+      "resilience": 76,
+      "hunger": 50,
+      "thirst": 45,
+      "energy": 64,
       "health": 100
     },
     "mood": "agitated",
@@ -36,12 +36,12 @@
         "attraction": 0
       },
       "taylor": {
-        "closeness": 31,
-        "tension": 23,
+        "closeness": 32,
+        "tension": 22,
         "attraction": 0
       },
       "selena": {
-        "closeness": 32,
+        "closeness": 33,
         "tension": 15,
         "attraction": 0
       }
@@ -66,6 +66,11 @@
         "day": 2,
         "text": "She's running my galley without asking. I hate that she's right.",
         "weight": 2
+      },
+      {
+        "day": 2,
+        "text": "I don't have to control everything to matter here. Selena showed me that.",
+        "weight": 2
       }
     ],
     "appearance": {
@@ -88,11 +93,11 @@
       "trust": 48,
       "openness": 58,
       "ambition": 59,
-      "loneliness": 40,
+      "loneliness": 43,
       "resilience": 68,
-      "hunger": 53,
-      "thirst": 53,
-      "energy": 70,
+      "hunger": 50,
+      "thirst": 45,
+      "energy": 64,
       "health": 100
     },
     "mood": "weary",
@@ -126,10 +131,7 @@
       }
     },
     "bio": "Hoodie up, AirPods in, perpetually over it — swings between checked-out and surprisingly capable. Misses comfort more than fame; chill in a crisis.",
-    "interaction": {
-      "with": "selena",
-      "state": "comforting"
-    },
+    "interaction": null,
     "memories": [
       {
         "day": 1,
@@ -162,11 +164,11 @@
       "trust": 21,
       "openness": 91,
       "ambition": 100,
-      "loneliness": 43,
+      "loneliness": 46,
       "resilience": 69,
-      "hunger": 53,
-      "thirst": 53,
-      "energy": 70,
+      "hunger": 50,
+      "thirst": 45,
+      "energy": 64,
       "health": 100
     },
     "mood": "grandiose",
@@ -222,25 +224,25 @@
       "trust": 55,
       "openness": 59,
       "ambition": 93,
-      "loneliness": 33,
-      "resilience": 92,
-      "hunger": 53,
-      "thirst": 53,
-      "energy": 70,
+      "loneliness": 31,
+      "resilience": 93,
+      "hunger": 50,
+      "thirst": 45,
+      "energy": 64,
       "health": 100
     },
     "mood": "composed",
     "condition": "healthy",
     "shelter": "stateroom",
     "location": {
-      "waypoint": "lounge",
+      "waypoint": "galley",
       "x": 35,
       "y": 48
     },
     "relationships": {
       "diddy": {
-        "closeness": 31,
-        "tension": 23,
+        "closeness": 32,
+        "tension": 22,
         "attraction": 0
       },
       "justin": {
@@ -254,13 +256,16 @@
         "attraction": 0
       },
       "selena": {
-        "closeness": 75,
+        "closeness": 76,
         "tension": 8,
         "attraction": 0
       }
     },
     "bio": "Sharp, organized, secretly running everything; keeps receipts, handles logistics, already writing a song about it. An old feud with Kanye simmers under the politeness.",
-    "interaction": null,
+    "interaction": {
+      "with": "selena",
+      "state": "talking"
+    },
     "memories": [
       {
         "day": 1,
@@ -271,6 +276,11 @@
         "day": 1,
         "text": "Diddy finally conceded—quietly, but he knows. That will echo.",
         "weight": 2
+      },
+      {
+        "day": 2,
+        "text": "Rationed the fuel for a hot meal; watched Diddy accept leadership without a fight.",
+        "weight": 1
       }
     ],
     "appearance": {
@@ -291,13 +301,13 @@
     "color": "#22d3ee",
     "scores": {
       "trust": 60,
-      "openness": 73,
+      "openness": 74,
       "ambition": 71,
-      "loneliness": 20,
-      "resilience": 90,
-      "hunger": 53,
-      "thirst": 53,
-      "energy": 70,
+      "loneliness": 18,
+      "resilience": 91,
+      "hunger": 50,
+      "thirst": 45,
+      "energy": 64,
       "health": 100
     },
     "mood": "grounded",
@@ -310,7 +320,7 @@
     },
     "relationships": {
       "diddy": {
-        "closeness": 32,
+        "closeness": 33,
         "tension": 15,
         "attraction": 0
       },
@@ -325,15 +335,15 @@
         "attraction": 0
       },
       "taylor": {
-        "closeness": 75,
+        "closeness": 76,
         "tension": 8,
         "attraction": 0
       }
     },
     "bio": "Emotionally intelligent, dry-humored, unbothered — the one who actually copes and quietly mediates. Businesswoman calm.",
     "interaction": {
-      "with": "justin",
-      "state": "comforting"
+      "with": "diddy",
+      "state": "talking"
     },
     "memories": [
       {
@@ -349,6 +359,11 @@
       {
         "day": 2,
         "text": "Justin needs the heat more than the food. I see that now.",
+        "weight": 2
+      },
+      {
+        "day": 2,
+        "text": "Fed them real food and reminded them what survival actually means.",
         "weight": 2
       }
     ],

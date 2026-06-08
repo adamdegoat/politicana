@@ -1,10 +1,10 @@
 {
   "day": 2,
-  "cycle": "morning",
-  "weather": "clear",
+  "cycle": "midday",
+  "weather": "clear, cold",
   "pending_events": [],
   "started": true,
-  "pulse": "Selena's tending the stove; Diddy wants credit; Kanye's communing with ice; Taylor's calculating survival.",
+  "pulse": "Diddy stopped fighting Taylor's control; Selena fed and grounded them; Kanye monologued alone on the ice.",
   "structures": [
     {
       "id": "ship_stove",
@@ -16,29 +16,29 @@
       "builder": "",
       "day": 1,
       "label": "Ship's Stove",
-      "condition": 85
+      "condition": 82
     }
   ],
   "resources": {
+    "food": 0,
+    "water": 76,
+    "wood": 42,
+    "medicine": 20
+  },
+  "resources_prev": {
     "food": 4,
     "water": 66,
     "wood": 43,
     "medicine": 20
   },
-  "resources_prev": {
-    "food": 13,
-    "water": 70,
-    "wood": 45,
-    "medicine": 20
-  },
   "discoveries": [],
-  "last_cycle_key": "2026-06-08:morning",
+  "last_cycle_key": "2026-06-08:midday",
   "camp_climate": "steady",
   "fire": {
     "lit": true,
-    "fuel": 8
+    "fuel": 14
   },
-  "scene": "Selena keeps the stove alive through the night. Justin seeks warmth; Diddy seeks control. Kanye preaches to the ice from the sun deck; Taylor checks fuel in the shadows.",
+  "scene": "In the galley, Selena cooked butternut squash soup; Diddy tried to 'host' it, but Taylor held the rations and Diddy accepted it. By midday, warmth replaced posturing.",
   "day_summaries": {
     "1": "Day 1: Diddy seized the captain's chair at midday, but Taylor quietly moved the food supplies and controlled the rationing—by evening he felt the shift. Kanye declared himself a visionary while Justin, exhausted and hollow, found unexpected human warmth with Selena in the galley. The stove still burned, but the real battle was over who would actually lead. By night, an uneasy balance held, and everyone pretended they weren't freezing."
   },

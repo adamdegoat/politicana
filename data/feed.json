@@ -1148,5 +1148,218 @@
       }
     ],
     "timestamp": "2026-06-08T07:03:08.218404"
+  },
+  {
+    "day": 2,
+    "cycle": "midday",
+    "character": "diddy",
+    "action": "Stalks into the galley following the smell of hot food, immediately trying to commandeer the moment as a 'hosting opportunity.'",
+    "thought": "I built empires. Why can't I control this?",
+    "location": {
+      "waypoint": "galley",
+      "x": 50,
+      "y": 30
+    },
+    "shelter": "owner's suite",
+    "mood": "agitated",
+    "timestamp": "2026-06-08T12:32:26.842462"
+  },
+  {
+    "day": 2,
+    "cycle": "midday",
+    "character": "justin",
+    "action": "Drifts silently into the galley, drawn by warmth and the smell of food, hovering near the stove without demanding anything.",
+    "thought": "Heat. Please let it stay burning.",
+    "location": {
+      "waypoint": "galley",
+      "x": 60,
+      "y": 40
+    },
+    "shelter": "crew quarters",
+    "mood": "weary",
+    "timestamp": "2026-06-08T12:32:26.842462"
+  },
+  {
+    "day": 2,
+    "cycle": "midday",
+    "character": "kanye",
+    "action": "Stands on the exposed sun deck, arms spread wide, monologuing about the 'architectural sublime' of frozen desolation to the empty ice.",
+    "thought": "Only I perceive this landscape's truth.",
+    "location": {
+      "waypoint": "sundeck_aft",
+      "x": 40,
+      "y": 35
+    },
+    "shelter": "stateroom",
+    "mood": "grandiose",
+    "timestamp": "2026-06-08T12:32:26.842462"
+  },
+  {
+    "day": 2,
+    "cycle": "midday",
+    "character": "taylor",
+    "action": "Arrives at the galley with the supply manifest, quietly reviewing portions while Selena cooks, her mind doing the fuel-burn math.",
+    "thought": "Four days of food. Keep the numbers straight.",
+    "location": {
+      "waypoint": "galley",
+      "x": 35,
+      "y": 48
+    },
+    "shelter": "stateroom",
+    "mood": "composed",
+    "timestamp": "2026-06-08T12:32:26.842462"
+  },
+  {
+    "day": 2,
+    "cycle": "midday",
+    "character": "selena",
+    "action": "Tends the stove with practiced calm, coaxing heat and scent from butternut squash and pasta, feeding the fire and the people equally.",
+    "thought": "Keep the stove alive. Keep them alive. Breathe.",
+    "location": {
+      "waypoint": "galley",
+      "x": 30,
+      "y": 48
+    },
+    "shelter": "stateroom",
+    "mood": "grounded",
+    "timestamp": "2026-06-08T12:32:26.842462"
+  },
+  {
+    "day": 2,
+    "cycle": "midday",
+    "type": "interaction",
+    "characters": [
+      "selena",
+      "diddy",
+      "taylor"
+    ],
+    "description": "In the galley, Selena tends the stove while Diddy arrives wanting to commandeer the meal moment, and Taylor arrives with the rations math.",
+    "dialogue": [
+      {
+        "speaker": "selena",
+        "line": "We've got butternut squash soup and pasta. Real heat for a change."
+      },
+      {
+        "speaker": "diddy",
+        "line": "This is it. We gather the family, share warmth—this is a movement, baby."
+      },
+      {
+        "speaker": "taylor",
+        "line": "We've got maybe four days of food left at this rate. Portions matter."
+      },
+      {
+        "speaker": "selena",
+        "line": "Then let's eat it while it's hot. Morale costs something too, you know."
+      },
+      {
+        "speaker": "diddy",
+        "line": "Exactly. Taylor, you're thinking like a spreadsheet. I'm thinking like a visionary."
+      },
+      {
+        "speaker": "taylor",
+        "line": "Visionaries starve. Spreadsheets survive another week."
+      },
+      {
+        "speaker": "selena",
+        "line": "Both of you, just sit. The soup's ready. You can philosophize with full stomachs."
+      },
+      {
+        "speaker": "diddy",
+        "line": "I'm not philosophizing. I'm creating culture. I brought people together for a living."
+      },
+      {
+        "speaker": "taylor",
+        "line": "In hotels with staff. You're on frozen water with me rationing the stove fuel."
+      },
+      {
+        "speaker": "selena",
+        "line": "And that stove right now? That's the most powerful thing on this entire yacht."
+      },
+      {
+        "speaker": "diddy",
+        "line": "So you're saying I should listen to you?"
+      },
+      {
+        "speaker": "selena",
+        "line": "I'm saying the stove doesn't care about your ego. Neither do I."
+      },
+      {
+        "speaker": "taylor",
+        "line": "That's the healthiest thing I've heard today."
+      },
+      {
+        "speaker": "diddy",
+        "line": "Alright, alright. I'm sitting. I'm eating. But I'm hosting. There's a difference, right?"
+      },
+      {
+        "speaker": "taylor",
+        "line": "There really, genuinely is not."
+      },
+      {
+        "speaker": "selena",
+        "line": "He can 'host' if it keeps him grounded. I just need everyone alive by morning."
+      },
+      {
+        "speaker": "diddy",
+        "line": "You're the realest one here, you know that? It's unsettling."
+      },
+      {
+        "speaker": "taylor",
+        "line": "That's because she's not performing. Revolutionary concept."
+      },
+      {
+        "speaker": "selena",
+        "line": "I'm performing for the stove. It's a more honest audience."
+      },
+      {
+        "speaker": "diddy",
+        "line": "Can I ask you something? Is the soup actually good or are we making do?"
+      },
+      {
+        "speaker": "taylor",
+        "line": "Both. That's the metaphor you wanted, isn't it."
+      },
+      {
+        "speaker": "selena",
+        "line": "It's good soup. Taste it without apologizing."
+      },
+      {
+        "speaker": "diddy",
+        "line": "I needed that. Not just the soup—the permission to stop performing."
+      },
+      {
+        "speaker": "taylor",
+        "line": "Enjoy it. By tomorrow we're back to melted ice and terrible rations."
+      },
+      {
+        "speaker": "selena",
+        "line": "Probably. But today we have butternut squash. That's something real."
+      },
+      {
+        "speaker": "diddy",
+        "line": "That's everything. In the industry, that's what 'hospitality' means. I forgot that part."
+      },
+      {
+        "speaker": "taylor",
+        "line": "You're welcome for not burning all the fuel last night like Kanye wanted."
+      },
+      {
+        "speaker": "selena",
+        "line": "And you're welcome for keeping the fire alive so we could have this conversation."
+      },
+      {
+        "speaker": "diddy",
+        "line": "This whole thing—you two, this moment—it's not what I imagined but it's real."
+      },
+      {
+        "speaker": "taylor",
+        "line": "Reality is underrated in your world."
+      },
+      {
+        "speaker": "selena",
+        "line": "Tomorrow we do it again. Alive, fed, together. That's the only metric that matters."
+      }
+    ],
+    "timestamp": "2026-06-08T12:32:26.842462"
   }
 ]
